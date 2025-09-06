@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.42-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.43-0ubuntu0.22.04.1 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -28,7 +28,7 @@ CREATE TABLE IF NOT EXISTS `areatrigger_teleport` (
   FULLTEXT KEY `name` (`Name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Trigger System';
 
--- Дамп данных таблицы world3.3.5_beta.areatrigger_teleport: ~276 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.areatrigger_teleport: ~275 rows (приблизительно)
 INSERT INTO `areatrigger_teleport` (`ID`, `Name`, `target_map`, `target_position_x`, `target_position_y`, `target_position_z`, `target_orientation`, `VerifiedBuild`) VALUES
 	(45, 'Scarlet Monastery - Graveyard (Entrance)', 189, 1687.27, 1050.09, 18.6773, 1.5708, 15882),
 	(78, 'DeadMines Entrance', 36, -14.5732, -385.475, 62.4561, 1.5708, 11159),
@@ -190,7 +190,6 @@ INSERT INTO `areatrigger_teleport` (`ID`, `Name`, `target_map`, `target_position
 	(4470, 'The Eye (Entrance)', 550, -0.9436, -0.817774, -2.42833, 0, 15882),
 	(4487, 'Battle Of Mount Hyjal (Exit)', 1, -8176.99, -4176.92, -166.463, 3.92699, 15882),
 	(4520, 'Karazhan, Service (Exit)', 0, -11036.7, -2001.6, 92.971, 5.41052, 15882),
-	(4523, 'Socrethar\'s Seat To Mainland', 530, 4773.76, 3451.27, 105.15, 3.84, 0),
 	(4534, 'Gruul\'s Lair (Exit)', 530, 3540.17, 5092.14, 3.73097, 2.35619, 15882),
 	(4535, 'Gruul\'s Lair (Entrance)', 565, 64.063, 45.1714, -4.86252, 1.5708, 15882),
 	(4561, 'Invasion Point, Cataclysm (Return Point)', 530, -3278.63, 2831.31, 123.01, 1.56, 0),

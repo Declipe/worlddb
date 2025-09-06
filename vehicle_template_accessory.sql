@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.42-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.43-0ubuntu0.22.04.1 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS `vehicle_template_accessory` (
   PRIMARY KEY (`entry`,`seat_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.vehicle_template_accessory: ~199 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.vehicle_template_accessory: ~202 rows (приблизительно)
 INSERT INTO `vehicle_template_accessory` (`entry`, `accessory_entry`, `seat_id`, `minion`, `description`, `summontype`, `summontimer`) VALUES
 	(24083, 24849, 0, 0, 'Proto Drake Rider mounted to Enslaved Proto Drake', 6, 30000),
 	(24750, 24751, 0, 1, 'Excelsior rides Hidalgo the Master Falconer', 6, 30000),

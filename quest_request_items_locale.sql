@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.42-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.43-0ubuntu0.22.04.1 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `quest_request_items_locale` (
   PRIMARY KEY (`ID`,`locale`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.quest_request_items_locale: ~29 609 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.quest_request_items_locale: ~30 069 rows (приблизительно)
 INSERT INTO `quest_request_items_locale` (`ID`, `locale`, `CompletionText`, `VerifiedBuild`) VALUES
 	(2, 'deDE', 'Ja, $C, ich habe Eure Ankunft bereits gespürt. Habt Ihr weitere Neuigkeiten von Eurer Jagd zu berichten?', 0),
 	(2, 'esES', 'Sí, $gpoderoso:poderosa; $c, he presentido tu llegada. Confío que tienes más noticias que darme sobre tu caza.', 0),

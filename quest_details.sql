@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.42-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.43-0ubuntu0.22.04.1 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS `quest_details` (
   PRIMARY KEY (`ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.quest_details: ~3 162 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.quest_details: ~3 328 rows (приблизительно)
 INSERT INTO `quest_details` (`ID`, `Emote1`, `Emote2`, `Emote3`, `Emote4`, `EmoteDelay1`, `EmoteDelay2`, `EmoteDelay3`, `EmoteDelay4`, `VerifiedBuild`) VALUES
 	(5, 5, 1, 0, 0, 0, 0, 0, 0, 0),
 	(6, 1, 1, 0, 0, 0, 0, 0, 0, 12340),

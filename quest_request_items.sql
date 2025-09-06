@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.42-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.43-0ubuntu0.22.04.1 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS `quest_request_items` (
   PRIMARY KEY (`ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.quest_request_items: ~7 572 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.quest_request_items: ~7 748 rows (приблизительно)
 INSERT INTO `quest_request_items` (`ID`, `EmoteOnComplete`, `EmoteOnIncomplete`, `CompletionText`, `VerifiedBuild`) VALUES
 	(2, 1, 0, 'Yes, mighty $C, I sensed your arrival. I trust you have more news to report to me about your hunt?', 12340),
 	(5, 1, 0, 'Oh, a shipment from my brother? Splendid! Fortune truly shines on me today!', 12340),

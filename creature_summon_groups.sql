@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.42-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.43-0ubuntu0.22.04.1 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS `creature_summon_groups` (
   `Comment` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT ''
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.creature_summon_groups: ~1 101 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.creature_summon_groups: ~1 156 rows (приблизительно)
 INSERT INTO `creature_summon_groups` (`summonerId`, `summonerType`, `groupId`, `entry`, `position_x`, `position_y`, `position_z`, `orientation`, `summonType`, `summonTime`, `Comment`) VALUES
 	(28952, 0, 1, 28988, 6810.89, -4592.67, 440.678, 1.29927, 3, 100000, 'Akali - Group 1 - Akali Subduer'),
 	(28952, 0, 1, 28988, 6806.19, -4595.94, 440.678, 1.25002, 3, 100000, 'Akali - Group 1 - Akali Subduer'),
@@ -1134,7 +1134,59 @@ INSERT INTO `creature_summon_groups` (`summonerId`, `summonerType`, `groupId`, `
 	(16808, 0, 1, 17695, 287.038, -88.1788, 2.06635, 2.44346, 7, 300000, 'Warchief Kargath Bladefist - Group 1 - Shattered Hand Assassin'),
 	(16808, 0, 1, 17695, 167.829, -86.5578, 1.99496, 0.890118, 7, 300000, 'Warchief Kargath Bladefist - Group 1 - Shattered Hand Assassin'),
 	(16808, 0, 1, 17695, 292.149, -82.2527, 1.99739, 2.93215, 7, 300000, 'Warchief Kargath Bladefist - Group 1 - Shattered Hand Assassin'),
-	(16808, 0, 1, 17695, 172.682, -80.6569, 2.08346, 5.42797, 7, 300000, 'Warchief Kargath Bladefist - Group 1 - Shattered Hand Assassin');
+	(16808, 0, 1, 17695, 172.682, -80.6569, 2.08346, 5.42797, 7, 300000, 'Warchief Kargath Bladefist - Group 1 - Shattered Hand Assassin'),
+	(3439, 0, 0, 3282, 1075.12, -2983.98, 92.9072, 5.81195, 4, 60000, 'Wizzlecrank\'s Shredder - Group 0 - Venture Co. Mercenary'),
+	(3439, 0, 0, 3282, 1119.69, -2970.87, 97.1581, 4.01426, 4, 60000, 'Wizzlecrank\'s Shredder - Group 0 - Venture Co. Mercenary'),
+	(3439, 0, 1, 3451, 1014.92, -2945.61, 94.5029, 2.11416, 8, 0, 'Wizzlecrank\'s Shredder - Group 1 - Pilot Wizzlecrank'),
+	(10813, 0, 0, 10391, 3460.36, -3070.57, 135.086, 0.331613, 8, 0, 'Balnazzar - Group 0 - Skeletal Berserker'),
+	(10813, 0, 0, 10391, 3465.29, -3069.99, 135.086, 5.48033, 8, 0, 'Balnazzar - Group 0 - Skeletal Berserker'),
+	(10813, 0, 0, 10391, 3463.62, -3074.91, 135.086, 5.00909, 8, 0, 'Balnazzar - Group 0 - Skeletal Berserker'),
+	(10813, 0, 0, 10390, 3460.01, -3076.04, 135.086, 1.18682, 8, 0, 'Balnazzar - Group 0 - Skeletal Guardian'),
+	(10813, 0, 0, 10390, 3467.91, -3076.4, 135.086, 3.76991, 8, 0, 'Balnazzar - Group 0 - Skeletal Guardian'),
+	(10813, 0, 0, 10391, 3509.27, -3066.47, 135.08, 4.81711, 8, 0, 'Balnazzar - Group 0 - Skeletal Berserker'),
+	(10813, 0, 0, 10391, 3510.97, -3069.01, 135.08, 3.49066, 8, 0, 'Balnazzar - Group 0 - Skeletal Berserker'),
+	(10813, 0, 0, 10391, 3516.04, -3066.87, 135.08, 3.9968, 8, 0, 'Balnazzar - Group 0 - Skeletal Berserker'),
+	(10813, 0, 0, 10390, 3513.56, -3063.03, 135.08, 2.35619, 8, 0, 'Balnazzar - Group 0 - Skeletal Guardian'),
+	(10813, 0, 0, 10390, 3518.83, -3060.93, 135.08, 3.94444, 8, 0, 'Balnazzar - Group 0 - Skeletal Guardian'),
+	(10439, 0, 0, 10394, 4032.51, -3375.84, 119.834, 4.69494, 8, 0, 'Ramstein the Gorger - Group 0 - Black Guard Sentry'),
+	(10439, 0, 0, 10394, 4035.1, -3376.08, 119.834, 4.38078, 8, 0, 'Ramstein the Gorger - Group 0 - Black Guard Sentry'),
+	(10439, 0, 0, 10394, 4036.68, -3377.73, 119.834, 4.43314, 8, 0, 'Ramstein the Gorger - Group 0 - Black Guard Sentry'),
+	(10439, 0, 0, 10394, 4029.89, -3377.63, 119.834, 4.66003, 8, 0, 'Ramstein the Gorger - Group 0 - Black Guard Sentry'),
+	(10439, 0, 0, 10394, 4033.25, -3377.56, 119.834, 4.38078, 8, 0, 'Ramstein the Gorger - Group 0 - Black Guard Sentry'),
+	(10439, 0, 1, 11030, 3931.29, -3381.27, 119.764, 4.86947, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
+	(10439, 0, 1, 11030, 3929.65, -3386.86, 119.78, 5.39307, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
+	(10439, 0, 1, 11030, 3933.63, -3388.09, 119.783, 5.3058, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
+	(10439, 0, 1, 11030, 3931.75, -3383.36, 119.77, 4.88692, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
+	(10439, 0, 1, 11030, 3930.01, -3383.3, 119.77, 5.13127, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
+	(10439, 0, 1, 11030, 3929.09, -3388.22, 119.783, 5.44543, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
+	(10439, 0, 1, 11030, 3930.92, -3382.41, 119.767, 4.97419, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
+	(10439, 0, 1, 11030, 3933.64, -3385.12, 119.776, 4.81711, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
+	(10439, 0, 1, 11030, 3933.12, -3381.53, 119.764, 4.64258, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
+	(10439, 0, 1, 11030, 3930.13, -3384.76, 119.774, 5.20108, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
+	(10439, 0, 1, 11030, 3930.72, -3387.16, 119.782, 5.3058, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
+	(10439, 0, 1, 11030, 3932.75, -3383.36, 119.77, 4.72984, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
+	(10439, 0, 1, 11030, 3930.82, -3383.27, 119.77, 5.02655, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
+	(10439, 0, 1, 11030, 3932.28, -3381.41, 119.764, 4.76475, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
+	(10439, 0, 1, 11030, 3933.46, -3387.33, 119.783, 4.88692, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
+	(10439, 0, 1, 11030, 3933.56, -3381.56, 119.764, 4.59022, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
+	(10439, 0, 1, 11030, 3932.07, -3384.96, 119.775, 5.00909, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
+	(10439, 0, 1, 11030, 3932.38, -3387.28, 119.782, 5.07891, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
+	(10439, 0, 1, 11030, 3933.69, -3383.3, 119.77, 4.55531, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
+	(10439, 0, 1, 11030, 3933.5, -3392.62, 119.7, 5.64903, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
+	(10439, 0, 1, 11030, 3933.5, -3389.22, 119.687, 5.61743, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
+	(10439, 0, 1, 11030, 3945.83, -3393.92, 119.699, 6.25023, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
+	(10439, 0, 1, 11030, 3931.5, -3391.09, 119.689, 6.04409, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
+	(10439, 0, 1, 11030, 3959.79, -3396.44, 119.698, 6.07864, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
+	(10439, 0, 1, 11030, 3958.39, -3396.56, 119.698, 6.1757, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
+	(10439, 0, 1, 11030, 3931.83, -3390.53, 119.688, 4.8824, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
+	(10439, 0, 1, 11030, 3957.71, -3396.38, 119.698, 6.15393, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
+	(10439, 0, 1, 11030, 3959.05, -3396.49, 119.698, 6.13446, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
+	(10439, 0, 1, 11030, 3929.69, -3393.99, 119.696, 5.02886, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
+	(10439, 0, 1, 11030, 3931.53, -3391.62, 119.69, 4.97529, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
+	(10439, 0, 1, 11030, 3929.47, -3392.32, 119.692, 4.99415, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
+	(10439, 0, 1, 11030, 3970.81, -3399.49, 119.056, 5.8925, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
+	(10439, 0, 1, 11030, 3968.68, -3398.61, 119.145, 5.89242, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
+	(10439, 0, 1, 11030, 3944.25, -3393.56, 119.699, 6.09674, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

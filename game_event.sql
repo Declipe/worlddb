@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.42-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.43-0ubuntu0.22.04.1 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -16,7 +16,7 @@
 
 -- Дамп структуры для таблица world3.3.5_beta.game_event
 CREATE TABLE IF NOT EXISTS `game_event` (
-  `eventEntry` tinyint unsigned NOT NULL COMMENT 'Entry of the game event',
+  `eventEntry` smallint unsigned NOT NULL COMMENT 'Entry of the game event',
   `start_time` timestamp NULL DEFAULT NULL COMMENT 'Absolute start date, the event will never start before',
   `end_time` timestamp NULL DEFAULT NULL COMMENT 'Absolute end date, the event will never start after',
   `occurence` bigint unsigned NOT NULL DEFAULT '5184000' COMMENT 'Delay in minutes between occurences of the event',

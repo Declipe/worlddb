@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.42-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.43-0ubuntu0.22.04.1 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `areatrigger_tavern` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Trigger System';
 
--- Дамп данных таблицы world3.3.5_beta.areatrigger_tavern: ~114 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.areatrigger_tavern: ~115 rows (приблизительно)
 INSERT INTO `areatrigger_tavern` (`id`, `name`) VALUES
 	(71, 'Westfall - Sentinel Hill Inn'),
 	(98, 'Nesingwary\'s Expedition'),

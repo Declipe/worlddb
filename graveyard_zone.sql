@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.42-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.43-0ubuntu0.22.04.1 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `graveyard_zone` (
   PRIMARY KEY (`ID`,`GhostZone`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Trigger System';
 
--- Дамп данных таблицы world3.3.5_beta.graveyard_zone: ~701 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.graveyard_zone: ~707 rows (приблизительно)
 INSERT INTO `graveyard_zone` (`ID`, `GhostZone`, `Faction`, `Comment`) VALUES
 	(2, 44, 469, 'Redridge Mountains - Redridge Mountains'),
 	(3, 10, 469, 'Duskwood, Darkshire - Duskwood'),
@@ -42,7 +42,7 @@ INSERT INTO `graveyard_zone` (`ID`, `GhostZone`, `Faction`, `Comment`) VALUES
 	(32, 14, 0, 'Durotar, Razor Hill GY'),
 	(32, 1637, 469, 'Durotar, Razor Hill GY'),
 	(34, 215, 67, 'Mulgore, Red Cloud Mesa GY - Mulgore'),
-	(35, 148, 469, 'Darkshore, New Auberdine GY - Darkshore'),
+	(35, 148, 0, 'Darkshore, New Auberdine GY - Darkshore'),
 	(36, 41, 0, 'Deadwind Pass, Morgan\'s Plot'),
 	(36, 3457, 0, 'Deadwind Pass, Morgan\'s Plot'),
 	(39, 400, 0, NULL),
@@ -110,14 +110,13 @@ INSERT INTO `graveyard_zone` (`ID`, `GhostZone`, `Faction`, `Comment`) VALUES
 	(429, 2057, 0, NULL),
 	(449, 361, 0, 'Felwood, Morlos\'Aran - Felwood'),
 	(450, 490, 0, 'Un\'Goro Crater, The Marshlands - Un\'Goro Crater'),
-	(469, 148, 469, 'Darkshore, Twilight Vale GY'),
+	(469, 148, 0, 'Darkshore, Twilight Vale GY'),
 	(469, 719, 0, 'Darkshore, Twilight Vale GY'),
 	(489, 11, 0, 'Wetlands, Baradin Bay GY - Wetlands'),
 	(509, 28, 469, 'Western Plaguelands, Chillwind Camp - Western Plaguelands'),
 	(510, 139, 0, 'Eastern Plaguelands, Pestilent Scar - Eastern Plaguelands'),
 	(511, 618, 0, 'Winterspring, Everlook GY - Winterspring'),
 	(512, 17, 469, 'Ashenvale, Kargathia GY'),
-	(512, 148, 67, 'Ashenvale, Kargathia GY'),
 	(512, 331, 0, 'Ashenvale, Kargathia GY'),
 	(529, 22, 0, 'Programmer Isle - Programmer Isle'),
 	(569, 28, 67, 'Western Plaguelands, Bulwark'),
@@ -726,7 +725,13 @@ INSERT INTO `graveyard_zone` (`ID`, `GhostZone`, `Faction`, `Comment`) VALUES
 	(1682, 4812, 0, 'Icecrown Glacier, Citadel GY'),
 	(1682, 4813, 0, 'Icecrown Glacier, Citadel GY'),
 	(1682, 4820, 0, 'Icecrown Glacier, Citadel GY'),
-	(1742, 1519, 469, NULL);
+	(1742, 1519, 469, NULL),
+	(1743, 616, 0, NULL),
+	(1744, 616, 0, NULL),
+	(1745, 616, 0, NULL),
+	(1746, 616, 0, NULL),
+	(1747, 616, 0, NULL),
+	(1748, 616, 0, NULL);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

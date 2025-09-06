@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.42-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.43-0ubuntu0.22.04.1 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `areatrigger_scripts` (
   PRIMARY KEY (`entry`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.areatrigger_scripts: ~208 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.areatrigger_scripts: ~212 rows (приблизительно)
 INSERT INTO `areatrigger_scripts` (`entry`, `ScriptName`) VALUES
 	(171, 'SmartTrigger'),
 	(302, 'at_sentry_point'),
@@ -203,12 +203,14 @@ INSERT INTO `areatrigger_scripts` (`entry`, `ScriptName`) VALUES
 	(5616, 'at_icc_start_frostwing_gauntlet'),
 	(5617, 'at_icc_start_frostwing_gauntlet'),
 	(5618, 'at_icc_start_frostwing_gauntlet'),
+	(5623, 'at_icc_gauntlet_event'),
 	(5628, 'SmartTrigger'),
 	(5629, 'SmartTrigger'),
 	(5630, 'SmartTrigger'),
 	(5631, 'SmartTrigger'),
 	(5632, 'at_hor_intro_start'),
 	(5633, 'at_tyrannus_event_starter'),
+	(5647, 'at_icc_start_putricide_pre_event'),
 	(5649, 'at_icc_shutdown_traps'),
 	(5650, 'SmartTrigger'),
 	(5660, 'at_hor_uther_quel_delar_start'),

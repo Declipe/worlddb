@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.42-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.43-0ubuntu0.22.04.1 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -16,7 +16,7 @@
 
 -- Дамп структуры для таблица world3.3.5_beta.game_event_battleground_holiday
 CREATE TABLE IF NOT EXISTS `game_event_battleground_holiday` (
-  `EventEntry` tinyint unsigned NOT NULL COMMENT 'game_event EventEntry identifier',
+  `EventEntry` smallint unsigned NOT NULL COMMENT 'game_event EventEntry identifier',
   `BattlegroundID` int unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`EventEntry`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

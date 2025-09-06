@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.42-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.43-0ubuntu0.22.04.1 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `player_xp_for_level` (
   PRIMARY KEY (`Level`) USING BTREE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ROW_FORMAT=DYNAMIC;
 
--- Дамп данных таблицы world3.3.5_beta.player_xp_for_level: ~237 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.player_xp_for_level: ~254 rows (приблизительно)
 INSERT INTO `player_xp_for_level` (`Level`, `Experience`) VALUES
 	(1, 400),
 	(2, 900),

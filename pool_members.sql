@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.42-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.43-0ubuntu0.22.04.1 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS `pool_members` (
   PRIMARY KEY (`type`,`spawnId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.pool_members: ~29 636 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.pool_members: ~30 583 rows (приблизительно)
 INSERT INTO `pool_members` (`type`, `spawnId`, `poolSpawnId`, `chance`, `description`) VALUES
 	(0, 910, 1020, 0, 'High Priestess Hai\'watna (11383) - Spawn 1'),
 	(0, 1577, 1025, 0, 'Scale Belly (1552) - Spawn 1'),

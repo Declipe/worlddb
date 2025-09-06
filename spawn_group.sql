@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.42-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.43-0ubuntu0.22.04.1 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS `spawn_group` (
   PRIMARY KEY (`groupId`,`spawnType`,`spawnId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.spawn_group: ~131 925 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.spawn_group: ~131 877 rows (приблизительно)
 INSERT INTO `spawn_group` (`groupId`, `spawnType`, `spawnId`) VALUES
 	(1, 1, 150),
 	(1, 1, 289),
@@ -131912,7 +131912,8 @@ INSERT INTO `spawn_group` (`groupId`, `spawnType`, `spawnId`) VALUES
 	(323, 1, 5517),
 	(324, 0, 133933),
 	(325, 0, 126863),
-	(325, 0, 126864);
+	(325, 0, 126864),
+	(327, 0, 39690);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

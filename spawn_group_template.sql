@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.42-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.43-0ubuntu0.22.04.1 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS `spawn_group_template` (
   PRIMARY KEY (`groupId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.spawn_group_template: ~260 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.spawn_group_template: ~261 rows (приблизительно)
 INSERT INTO `spawn_group_template` (`groupId`, `groupName`, `groupFlags`) VALUES
 	(0, 'Default Group', 1),
 	(1, 'Legacy Group', 3),
@@ -283,7 +283,8 @@ INSERT INTO `spawn_group_template` (`groupId`, `groupName`, `groupFlags`) VALUES
 	(322, 'Trial of the Crusader - Anub\'arak', 4),
 	(323, 'Naxxramas - Sapphiron', 4),
 	(324, 'Naxxramas - Kel\'Thuzad', 4),
-	(325, 'Halls of Lightning - General Bjarngrim - Stormforged Lieutenants', 4);
+	(325, 'Halls of Lightning - General Bjarngrim - Stormforged Lieutenants', 4),
+	(327, 'Stratholme - Timmy the Cruel', 4);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.42-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.43-0ubuntu0.22.04.1 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS `creature_equip_template` (
   PRIMARY KEY (`CreatureID`,`ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.creature_equip_template: ~10 863 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.creature_equip_template: ~10 873 rows (приблизительно)
 INSERT INTO `creature_equip_template` (`CreatureID`, `ID`, `ItemID1`, `ItemID2`, `ItemID3`, `VerifiedBuild`) VALUES
 	(6, 1, 5276, 0, 0, 18019),
 	(38, 1, 1896, 0, 0, 18019),
@@ -5438,6 +5438,7 @@ INSERT INTO `creature_equip_template` (`CreatureID`, `ID`, `ItemID1`, `ItemID2`,
 	(16803, 1, 2180, 23356, 0, 15354),
 	(16807, 1, 12902, 0, 0, 18019),
 	(16809, 1, 29484, 0, 0, 18019),
+	(16809, 2, 29479, 0, 0, 61967),
 	(16810, 1, 12959, 0, 0, 18019),
 	(16816, 1, 28067, 0, 0, 18019),
 	(16823, 1, 1903, 0, 0, 18019),
@@ -10025,9 +10026,9 @@ INSERT INTO `creature_equip_template` (`CreatureID`, `ID`, `ItemID1`, `ItemID2`,
 	(32901, 1, 42389, 0, 0, 18019),
 	(32907, 1, 43175, 18826, 0, 18019),
 	(32908, 1, 21573, 21572, 0, 18019),
-	(32941, 1, 42389, 0, 0, 18019),
-	(32946, 1, 42345, 42524, 0, 18019);
+	(32941, 1, 42389, 0, 0, 18019);
 INSERT INTO `creature_equip_template` (`CreatureID`, `ID`, `ItemID1`, `ItemID2`, `ItemID3`, `VerifiedBuild`) VALUES
+	(32946, 1, 42345, 42524, 0, 18019),
 	(32948, 1, 44418, 0, 0, 18019),
 	(32950, 1, 42351, 42569, 0, 18019),
 	(33018, 1, 2827, 13406, 0, 18019),

@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.42-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.43-0ubuntu0.22.04.1 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `page_text_locale` (
   PRIMARY KEY (`ID`,`locale`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.page_text_locale: ~12 601 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.page_text_locale: ~12 949 rows (приблизительно)
 INSERT INTO `page_text_locale` (`ID`, `locale`, `Text`, `VerifiedBuild`) VALUES
 	(15, 'deDE', 'Mein lieber Morgan,$B$Bdie Geschäfte hier in Goldhain gehen gut - so gut, dass ich bislang noch nicht einmal dazugekommen bin, dir eine Lieferung zu schicken!$B$BDie Person, die dir diese Notiz übergibt, hat gleichzeitig auch den Auftrag von mir, dir ein großes Paket Wachskerzen zu übergeben - du weißt schon, diese Dinger, wie sie Kobolde gern auf dem Kopf tragen.$B$BBitte zeig dich dankbar und entlohn die Person angemessen.', 0),
 	(15, 'esES', 'Hola, Morgan,$B$BLos negocios en Villadorada van muy bien, tan bien que no he tenido tiempo de hacerte ningún envío.$B$BHe encargado al portador de esta nota que entregue un paquete de velas de cera grandes (sabes a cuáles me refiero, ¿no?, las que los kóbolds suelen llevar en sus cabezas).$B$BTe ruego que se lo agradezcas a esta persona de nuestra parte y le pagues lo que sea justo.', 0),

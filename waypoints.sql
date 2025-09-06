@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.42-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.43-0ubuntu0.22.04.1 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS `waypoints` (
   PRIMARY KEY (`entry`,`pointid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Creature waypoints';
 
--- Дамп данных таблицы world3.3.5_beta.waypoints: ~11 136 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.waypoints: ~11 332 rows (приблизительно)
 INSERT INTO `waypoints` (`entry`, `pointid`, `position_x`, `position_y`, `position_z`, `orientation`, `delay`, `point_comment`) VALUES
 	(225, 1, -10616.7, -1150.73, 28.0361, NULL, 0, 'Gavin Gnarltree'),
 	(225, 2, -10609.4, -1154.94, 28.2175, NULL, 0, 'Gavin Gnarltree'),
@@ -8633,6 +8633,40 @@ INSERT INTO `waypoints` (`entry`, `pointid`, `position_x`, `position_y`, `positi
 	(341023, 6, 8515.98, 853.224, 558.505, NULL, 0, 'Argent Confessor Paletress'),
 	(341023, 7, 8515.74, 854.507, 558.137, NULL, 0, 'Argent Confessor Paletress'),
 	(341023, 8, 8515.47, 865.224, 558.156, NULL, 0, 'Argent Confessor Paletress'),
+	(343900, 1, 1107.56, -3102.92, 82.8109, NULL, 0, 'Wizzlecrank\'s Shredder'),
+	(343900, 2, 1106.31, -3105.42, 83.0609, NULL, 0, 'Wizzlecrank\'s Shredder'),
+	(343900, 3, 1109.06, -3106.92, 82.8109, NULL, 0, 'Wizzlecrank\'s Shredder'),
+	(343900, 4, 1110.81, -3104.67, 82.5609, NULL, 0, 'Wizzlecrank\'s Shredder'),
+	(343900, 5, 1108.46, -3101.74, 82.211, NULL, 0, 'Wizzlecrank\'s Shredder'),
+	(343900, 6, 1111.06, -3104.99, 82.5232, NULL, 0, 'Wizzlecrank\'s Shredder'),
+	(343900, 7, 1108.81, -3101.74, 82.5232, NULL, 0, 'Wizzlecrank\'s Shredder'),
+	(343900, 8, 1105.06, -3102.99, 83.0232, NULL, 0, 'Wizzlecrank\'s Shredder'),
+	(343900, 9, 1104.56, -3103.24, 83.0232, NULL, 0, 'Wizzlecrank\'s Shredder'),
+	(343900, 10, 1109.31, -3103.74, 82.5232, NULL, 0, 'Wizzlecrank\'s Shredder'),
+	(343900, 11, 1113.43, -3104.05, 82.461, NULL, 0, 'Wizzlecrank\'s Shredder'),
+	(343900, 12, 1104.97, -3103.02, 83.2239, NULL, 0, 'Wizzlecrank\'s Shredder'),
+	(343900, 13, 1104.47, -3103.27, 83.2239, NULL, 0, 'Wizzlecrank\'s Shredder'),
+	(343900, 14, 1109.22, -3103.77, 82.7239, NULL, 0, 'Wizzlecrank\'s Shredder'),
+	(343900, 15, 1113.47, -3104.02, 82.9739, NULL, 0, 'Wizzlecrank\'s Shredder'),
+	(343900, 16, 1113.47, -3107.02, 82.9739, NULL, 0, 'Wizzlecrank\'s Shredder'),
+	(343900, 17, 1106.72, -3108.27, 83.2239, NULL, 0, 'Wizzlecrank\'s Shredder'),
+	(343900, 18, 1106.25, -3108.63, 83.086, NULL, 0, 'Wizzlecrank\'s Shredder'),
+	(343900, 19, 1113.38, -3104.17, 82.8236, NULL, 0, 'Wizzlecrank\'s Shredder'),
+	(343900, 20, 1113.38, -3106.92, 82.8236, NULL, 0, 'Wizzlecrank\'s Shredder'),
+	(343900, 21, 1106.88, -3108.42, 83.3236, NULL, 0, 'Wizzlecrank\'s Shredder'),
+	(343900, 22, 1106.38, -3108.42, 83.3236, NULL, 0, 'Wizzlecrank\'s Shredder'),
+	(343900, 23, 1101.68, -3104.37, 83.211, NULL, 0, 'Wizzlecrank\'s Shredder'),
+	(343901, 1, 1101.35, -3096.98, 83.0092, NULL, 0, 'Wizzlecrank\'s Shredder'),
+	(343901, 2, 1098.44, -3060.21, 82.08, NULL, 0, 'Wizzlecrank\'s Shredder'),
+	(343901, 3, 1090.58, -3034.91, 82.705, NULL, 0, 'Wizzlecrank\'s Shredder'),
+	(343901, 4, 1103.08, -3013.28, 85.6529, NULL, 0, 'Wizzlecrank\'s Shredder'),
+	(343901, 5, 1100.85, -3002.51, 89.6529, NULL, 0, 'Wizzlecrank\'s Shredder'),
+	(343901, 6, 1093.6, -2977.83, 92.2158, NULL, 0, 'Wizzlecrank\'s Shredder'),
+	(343902, 1, 1068.51, -2980.49, 93.5908, NULL, 0, 'Wizzlecrank\'s Shredder'),
+	(343902, 2, 1070.04, -2957.53, 93.5417, NULL, 0, 'Wizzlecrank\'s Shredder'),
+	(343902, 3, 1042.04, -2964.45, 93.2917, NULL, 0, 'Wizzlecrank\'s Shredder'),
+	(343902, 4, 1037.12, -2938.57, 91.9167, NULL, 0, 'Wizzlecrank\'s Shredder'),
+	(343902, 5, 1014.91, -2943.96, 94.5475, NULL, 0, 'Wizzlecrank\'s Shredder'),
 	(355870, 1, 5652.66, 384.552, 773.61, NULL, 0, 'Argent Peacekeeper'),
 	(355870, 2, 5717.88, 458.806, 759.913, NULL, 0, 'Argent Peacekeeper'),
 	(355870, 3, 5793.84, 550.736, 684.33, NULL, 0, 'Argent Peacekeeper'),
@@ -9994,7 +10028,8 @@ INSERT INTO `waypoints` (`entry`, `pointid`, `position_x`, `position_y`, `positi
 	(2117000, 3, -1162.91, 2207.57, 140.908, NULL, 0, 'Honor Hold Gryphon Brigadier, South Path 1 WP 3'),
 	(2117000, 4, -1165.15, 2160.38, 126.13, NULL, 0, 'Honor Hold Gryphon Brigadier, South Path 1 WP 4'),
 	(2117000, 5, -1171.2, 2119.91, 110.074, NULL, 0, 'Honor Hold Gryphon Brigadier, South Path 1 WP 5'),
-	(2117000, 6, -1152.6, 2108.96, 101.907, NULL, 0, 'Honor Hold Gryphon Brigadier, South Path 1 WP 6'),
+	(2117000, 6, -1152.6, 2108.96, 101.907, NULL, 0, 'Honor Hold Gryphon Brigadier, South Path 1 WP 6');
+INSERT INTO `waypoints` (`entry`, `pointid`, `position_x`, `position_y`, `position_z`, `orientation`, `delay`, `point_comment`) VALUES
 	(2117000, 7, -1126.18, 2129.6, 118.657, NULL, 0, 'Honor Hold Gryphon Brigadier, South Path 1 WP 7'),
 	(2117000, 8, -1113.31, 2146.84, 135.13, NULL, 0, 'Honor Hold Gryphon Brigadier, South Path 1 WP 8'),
 	(2117000, 9, -1105.45, 2173.65, 171.018, NULL, 0, 'Honor Hold Gryphon Brigadier, South Path 1 WP 9'),
@@ -10028,8 +10063,7 @@ INSERT INTO `waypoints` (`entry`, `pointid`, `position_x`, `position_y`, `positi
 	(2117003, 6, -1151.15, 2107.6, 99.6803, NULL, 0, 'Honor Hold Gryphon Brigadier, South Path 4 WP 6'),
 	(2117003, 7, -1142.79, 2094.16, 103.541, NULL, 0, 'Honor Hold Gryphon Brigadier, South Path 4 WP 7'),
 	(2117003, 8, -1136.9, 2085.38, 109.125, NULL, 0, 'Honor Hold Gryphon Brigadier, South Path 4 WP 8'),
-	(2117003, 9, -1119.04, 2071.98, 118.875, NULL, 0, 'Honor Hold Gryphon Brigadier, South Path 4 WP 9');
-INSERT INTO `waypoints` (`entry`, `pointid`, `position_x`, `position_y`, `position_z`, `orientation`, `delay`, `point_comment`) VALUES
+	(2117003, 9, -1119.04, 2071.98, 118.875, NULL, 0, 'Honor Hold Gryphon Brigadier, South Path 4 WP 9'),
 	(2117003, 10, -1103.59, 2050.4, 128.208, NULL, 0, 'Honor Hold Gryphon Brigadier, South Path 4 WP 10'),
 	(2117003, 11, -1080.57, 2022.38, 137.514, NULL, 0, 'Honor Hold Gryphon Brigadier, South Path 4 WP 11'),
 	(2168500, 1, -3600.32, 1898.6, 47.3654, NULL, 0, 'Oronok Torn-heart (Path 2)'),
@@ -10737,6 +10771,35 @@ INSERT INTO `waypoints` (`entry`, `pointid`, `position_x`, `position_y`, `positi
 	(2849801, 4, 6142.25, -2011.58, 590.869, NULL, 0, 'The Lich King'),
 	(2853200, 1, 5203.56, -1318.11, 242.526, NULL, 0, 'Bloodrose Datura'),
 	(2853201, 1, 5203.73, -1313.08, 242.767, 0.418879, 1, 'Bloodrose Datura'),
+	(2878700, 1, 5916.65, 5377.12, -98.8919, NULL, 0, 'Engineer Helice'),
+	(2878700, 2, 5918.3, 5375.18, -98.8809, NULL, 0, 'Engineer Helice'),
+	(2878701, 1, 5925.64, 5371.76, -98.8789, NULL, 0, 'Engineer Helice'),
+	(2878701, 2, 5928.46, 5377.63, -99.0292, NULL, 0, 'Engineer Helice'),
+	(2878701, 3, 5923.45, 5380.13, -102.074, NULL, 0, 'Engineer Helice'),
+	(2878701, 4, 5917.19, 5382.81, -106.243, NULL, 0, 'Engineer Helice'),
+	(2878701, 5, 5910.85, 5386.84, -106.243, NULL, 0, 'Engineer Helice'),
+	(2878701, 6, 5905.12, 5393.08, -104.363, NULL, 0, 'Engineer Helice'),
+	(2878701, 7, 5904.21, 5399.01, -99.6183, NULL, 0, 'Engineer Helice'),
+	(2878701, 8, 5903.87, 5404, -97.1499, NULL, 0, 'Engineer Helice'),
+	(2878701, 9, 5899.65, 5408.92, -95.8081, NULL, 0, 'Engineer Helice'),
+	(2878701, 10, 5894.6, 5406.42, -95.7731, NULL, 0, 'Engineer Helice'),
+	(2878701, 11, 5890.02, 5398.6, -95.4541, NULL, 0, 'Engineer Helice'),
+	(2878701, 12, 5888.2, 5389.77, -95.3902, NULL, 0, 'Engineer Helice'),
+	(2878701, 13, 5887.84, 5385.63, -95.3472, NULL, 0, 'Engineer Helice'),
+	(2878702, 1, 5879.2, 5379.81, -94.224, NULL, 0, 'Engineer Helice'),
+	(2878702, 2, 5874.89, 5370.38, -95.9765, NULL, 0, 'Engineer Helice'),
+	(2878702, 3, 5872.09, 5363.6, -97.509, NULL, 0, 'Engineer Helice'),
+	(2878702, 4, 5865.12, 5357.97, -98.6039, NULL, 0, 'Engineer Helice'),
+	(2878702, 5, 5857.08, 5352.81, -98.9368, NULL, 0, 'Engineer Helice'),
+	(2878702, 6, 5849.2, 5344.6, -99.3542, NULL, 0, 'Engineer Helice'),
+	(2878702, 7, 5841.1, 5335.7, -100.475, NULL, 0, 'Engineer Helice'),
+	(2878702, 8, 5834.3, 5326.57, -99.1946, NULL, 0, 'Engineer Helice'),
+	(2878702, 9, 5826.35, 5317.33, -97.8503, NULL, 0, 'Engineer Helice'),
+	(2878702, 10, 5818.24, 5305.19, -97.4369, NULL, 0, 'Engineer Helice'),
+	(2878703, 1, 5801.79, 5296.65, -95.7529, NULL, 0, 'Engineer Helice'),
+	(2878703, 2, 5791.56, 5298.51, -96.165, NULL, 0, 'Engineer Helice'),
+	(2878703, 3, 5775.99, 5302.81, -98.4775, NULL, 0, 'Engineer Helice'),
+	(2878703, 4, 5758.46, 5306.96, -97.3685, NULL, 0, 'Engineer Helice'),
 	(2884100, 1, 2376.89, -5906.25, 108.515, NULL, 0, 'Scarlet Miner'),
 	(2884100, 2, 2354.76, -5905.35, 104.902, NULL, 0, 'Scarlet Miner'),
 	(2884100, 3, 2331.89, -5903.59, 100.016, NULL, 0, 'Scarlet Miner'),

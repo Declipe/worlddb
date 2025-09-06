@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.42-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.43-0ubuntu0.22.04.1 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS `creature_template_movement` (
   PRIMARY KEY (`CreatureId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.creature_template_movement: ~4 370 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.creature_template_movement: ~4 410 rows (приблизительно)
 INSERT INTO `creature_template_movement` (`CreatureId`, `Ground`, `Swim`, `Flight`, `Rooted`, `Chase`, `Random`, `InteractionPauseTimer`) VALUES
 	(1, 0, 0, 1, 0, 0, 0, NULL),
 	(30, 1, 0, 0, 0, 0, 0, NULL),
@@ -1944,6 +1944,7 @@ INSERT INTO `creature_template_movement` (`CreatureId`, `Ground`, `Swim`, `Fligh
 	(15505, 0, 1, 0, 0, 0, 0, NULL),
 	(15520, 1, 0, 0, 0, 0, 0, NULL),
 	(15526, 0, 1, 0, 0, 0, 0, NULL),
+	(15546, 1, 0, 1, 0, 0, 0, NULL),
 	(15554, 1, 0, 0, 0, 0, 0, NULL),
 	(15571, 0, 1, 0, 0, 0, 0, NULL),
 	(15590, 0, 0, 1, 0, 0, 0, NULL),
@@ -2212,6 +2213,8 @@ INSERT INTO `creature_template_movement` (`CreatureId`, `Ground`, `Swim`, `Fligh
 	(19483, 0, 0, 1, 0, 0, 0, NULL),
 	(19484, 0, 0, 1, 0, 0, 0, NULL),
 	(19514, 0, 1, 1, 0, 0, 0, NULL),
+	(19523, 1, 1, 1, 1, 0, 0, NULL),
+	(19524, 1, 1, 1, 1, 0, 0, NULL),
 	(19555, 0, 0, 1, 0, 0, 0, NULL),
 	(19568, 0, 1, 1, 0, 0, 0, NULL),
 	(19590, 0, 0, 1, 0, 0, 0, NULL),
@@ -2310,6 +2313,8 @@ INSERT INTO `creature_template_movement` (`CreatureId`, `Ground`, `Swim`, `Fligh
 	(20553, 0, 0, 1, 0, 0, 0, NULL),
 	(20561, 1, 1, 0, 0, 0, 0, NULL),
 	(20564, 0, 0, 1, 0, 0, 0, NULL),
+	(20572, 1, 1, 1, 1, 0, 0, NULL),
+	(20573, 1, 1, 1, 1, 0, 0, NULL),
 	(20574, 1, 0, 0, 0, 0, 0, NULL),
 	(20611, 1, 1, 1, 0, 0, 0, NULL),
 	(20617, 0, 0, 1, 0, 0, 0, NULL),
@@ -4260,6 +4265,7 @@ INSERT INTO `creature_template_movement` (`CreatureId`, `Ground`, `Swim`, `Fligh
 	(37704, 0, 0, 1, 0, 0, 0, NULL),
 	(37744, 0, 0, 1, 0, 0, 0, NULL),
 	(37746, 0, 0, 1, 0, 0, 0, NULL),
+	(37782, 1, 1, 0, 0, 2, 2, NULL),
 	(37799, 0, 1, 1, 0, 0, 0, NULL),
 	(37824, 0, 0, 1, 0, 0, 0, NULL),
 	(37827, 0, 0, 1, 0, 0, 0, NULL),

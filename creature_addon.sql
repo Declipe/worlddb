@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.42-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.43-0ubuntu0.22.04.1 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -31,7 +31,7 @@ CREATE TABLE IF NOT EXISTS `creature_addon` (
   PRIMARY KEY (`guid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.creature_addon: ~32 334 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.creature_addon: ~32 943 rows (приблизительно)
 INSERT INTO `creature_addon` (`guid`, `path_id`, `mount`, `MountCreatureID`, `StandState`, `AnimTier`, `VisFlags`, `SheathState`, `PvPFlags`, `emote`, `visibilityDistanceType`, `auras`) VALUES
 	(17, 170, 0, 0, 0, 0, 0, 1, 0, 0, 0, ''),
 	(46, 0, 0, 0, 0, 0, 0, 1, 17, 0, 0, ''),
@@ -9974,6 +9974,7 @@ INSERT INTO `creature_addon` (`guid`, `path_id`, `mount`, `MountCreatureID`, `St
 	(39680, 0, 0, 0, 0, 0, 0, 1, 16, 0, 0, '12380'),
 	(39685, 396850, 0, 0, 0, 0, 0, 0, 0, 0, 0, NULL),
 	(39687, 396870, 0, 0, 0, 0, 0, 1, 0, 0, 0, NULL),
+	(39690, 108080, 0, 0, 0, 0, 0, 1, 0, 0, 3, NULL),
 	(39720, 0, 0, 0, 0, 0, 0, 1, 16, 0, 0, NULL),
 	(39721, 397210, 0, 0, 0, 0, 0, 0, 0, 0, 0, NULL),
 	(39727, 0, 0, 0, 0, 0, 0, 1, 16, 0, 0, NULL),
@@ -10031,9 +10032,9 @@ INSERT INTO `creature_addon` (`guid`, `path_id`, `mount`, `MountCreatureID`, `St
 	(40109, 401090, 0, 0, 0, 0, 0, 0, 0, 0, 0, NULL),
 	(40124, 401240, 0, 0, 0, 0, 0, 1, 0, 0, 0, NULL),
 	(40125, 401250, 0, 0, 0, 0, 0, 1, 0, 0, 0, NULL),
-	(40126, 0, 0, 0, 0, 0, 0, 1, 16, 0, 0, NULL),
-	(40127, 0, 0, 0, 0, 0, 0, 1, 16, 0, 0, NULL);
+	(40126, 0, 0, 0, 0, 0, 0, 1, 16, 0, 0, NULL);
 INSERT INTO `creature_addon` (`guid`, `path_id`, `mount`, `MountCreatureID`, `StandState`, `AnimTier`, `VisFlags`, `SheathState`, `PvPFlags`, `emote`, `visibilityDistanceType`, `auras`) VALUES
+	(40127, 0, 0, 0, 0, 0, 0, 1, 16, 0, 0, NULL),
 	(40129, 401290, 0, 0, 0, 0, 0, 1, 0, 0, 0, NULL),
 	(40131, 0, 0, 0, 0, 0, 0, 1, 16, 0, 0, NULL),
 	(40135, 0, 0, 0, 0, 0, 0, 1, 16, 0, 0, NULL),
@@ -20032,9 +20033,9 @@ INSERT INTO `creature_addon` (`guid`, `path_id`, `mount`, `MountCreatureID`, `St
 	(92229, 922290, 0, 0, 0, 0, 0, 0, 0, 0, 0, NULL),
 	(92235, 0, 0, 0, 0, 0, 0, 1, 16, 0, 0, '8734'),
 	(92238, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, NULL),
-	(92239, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, NULL),
-	(92240, 0, 0, 0, 0, 0, 0, 1, 16, 0, 0, NULL);
+	(92239, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, NULL);
 INSERT INTO `creature_addon` (`guid`, `path_id`, `mount`, `MountCreatureID`, `StandState`, `AnimTier`, `VisFlags`, `SheathState`, `PvPFlags`, `emote`, `visibilityDistanceType`, `auras`) VALUES
+	(92240, 0, 0, 0, 0, 0, 0, 1, 16, 0, 0, NULL),
 	(92241, 0, 0, 0, 0, 0, 0, 1, 16, 0, 0, NULL),
 	(92242, 0, 0, 0, 0, 0, 0, 1, 16, 0, 0, NULL),
 	(92243, 0, 0, 0, 0, 0, 0, 1, 16, 0, 0, NULL),
@@ -30033,9 +30034,9 @@ INSERT INTO `creature_addon` (`guid`, `path_id`, `mount`, `MountCreatureID`, `St
 	(131485, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, NULL),
 	(131486, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, NULL),
 	(131487, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, NULL),
-	(131488, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, NULL),
-	(131489, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, NULL);
+	(131488, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, NULL);
 INSERT INTO `creature_addon` (`guid`, `path_id`, `mount`, `MountCreatureID`, `StandState`, `AnimTier`, `VisFlags`, `SheathState`, `PvPFlags`, `emote`, `visibilityDistanceType`, `auras`) VALUES
+	(131489, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, NULL),
 	(131490, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, NULL),
 	(131491, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, NULL),
 	(131492, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, NULL),

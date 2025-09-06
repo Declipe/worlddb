@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.42-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.43-0ubuntu0.22.04.1 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -16,13 +16,13 @@
 
 -- Дамп структуры для таблица world3.3.5_beta.game_event_creature_quest
 CREATE TABLE IF NOT EXISTS `game_event_creature_quest` (
-  `eventEntry` tinyint unsigned NOT NULL COMMENT 'Entry of the game event.',
+  `eventEntry` smallint unsigned NOT NULL COMMENT 'Entry of the game event.',
   `id` int unsigned NOT NULL DEFAULT '0',
   `quest` int unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`,`quest`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.game_event_creature_quest: ~228 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.game_event_creature_quest: ~222 rows (приблизительно)
 INSERT INTO `game_event_creature_quest` (`eventEntry`, `id`, `quest`) VALUES
 	(8, 279, 9025),
 	(8, 5204, 8980),

@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.42-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.43-0ubuntu0.22.04.1 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -16,12 +16,12 @@
 
 -- Дамп структуры для таблица world3.3.5_beta.game_event_creature
 CREATE TABLE IF NOT EXISTS `game_event_creature` (
-  `eventEntry` tinyint NOT NULL COMMENT 'Entry of the game event. Put negative entry to remove during event.',
+  `eventEntry` smallint NOT NULL COMMENT 'Entry of the game event. Put negative entry to remove during event.',
   `guid` int unsigned NOT NULL,
   PRIMARY KEY (`guid`,`eventEntry`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.game_event_creature: ~9 837 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.game_event_creature: ~10 066 rows (приблизительно)
 INSERT INTO `game_event_creature` (`eventEntry`, `guid`) VALUES
 	(22, 38),
 	(-72, 76),

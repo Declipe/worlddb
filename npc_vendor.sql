@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.42-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.43-0ubuntu0.22.04.1 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS `npc_vendor` (
   KEY `slot` (`slot`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Npc System';
 
--- Дамп данных таблицы world3.3.5_beta.npc_vendor: ~54 295 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.npc_vendor: ~56 427 rows (приблизительно)
 INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `VerifiedBuild`) VALUES
 	(54, 0, 2488, 0, 0, 2, 0),
 	(54, 0, 2489, 0, 0, 0, 0),
@@ -45826,6 +45826,7 @@ INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `Exte
 	(60807, 0, 8889, 0, 0, 0, NULL),
 	(60807, 0, 8898, 0, 0, 0, NULL),
 	(60807, 0, 23388, 0, 0, 0, NULL),
+	(60807, 0, 33817, 0, 0, 0, NULL),
 	(60900, 0, 4011, 0, 0, 2, 0),
 	(60900, 0, 20241, 0, 0, 2, 0),
 	(60900, 0, 20276, 0, 0, 2, 0),
@@ -50031,9 +50032,9 @@ INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `Exte
 	(500065, 0, 51798, 0, 0, 0, 0),
 	(500065, 0, 51875, 0, 0, 0, 0),
 	(500065, 0, 51893, 0, 0, 0, 0),
-	(500065, 0, 51937, 0, 0, 0, 0),
-	(500065, 0, 51944, 0, 0, 0, 0);
+	(500065, 0, 51937, 0, 0, 0, 0);
 INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `VerifiedBuild`) VALUES
+	(500065, 0, 51944, 0, 0, 0, 0),
 	(500066, 0, 37401, 0, 0, 0, 0),
 	(500066, 0, 39200, 0, 0, 0, 0),
 	(500066, 0, 39270, 0, 0, 0, 0),
