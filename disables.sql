@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS `disables` (
   PRIMARY KEY (`sourceType`,`entry`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.disables: ~851 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.disables: ~865 rows (приблизительно)
 INSERT INTO `disables` (`sourceType`, `entry`, `flags`, `params_0`, `params_1`, `comment`) VALUES
 	(0, 128, 8, '', '', 'Spell for deprecated item'),
 	(0, 698, 17, '30,489', '', 'Disable of Ritual of Summoning on Alterac Valley and Warsong Gulch'),

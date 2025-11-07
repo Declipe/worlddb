@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `gameobject_queststarter` (
   PRIMARY KEY (`id`,`quest`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.gameobject_queststarter: ~462 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.gameobject_queststarter: ~447 rows (приблизительно)
 INSERT INTO `gameobject_queststarter` (`id`, `quest`) VALUES
 	(31, 248),
 	(31, 249),

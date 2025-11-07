@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS `item_loot_template` (
   PRIMARY KEY (`Entry`,`Item`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Loot System';
 
--- Дамп данных таблицы world3.3.5_beta.item_loot_template: ~8 051 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.item_loot_template: ~8 016 rows (приблизительно)
 INSERT INTO `item_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES
 	(1492, 40415, 0, 6, 0, 1, 1, 1, 1, NULL),
 	(1492, 40416, 0, 6, 0, 1, 1, 1, 1, NULL),

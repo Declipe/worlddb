@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `creature_template2_difficulty` (
   PRIMARY KEY (`CreatureId`) USING BTREE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ROW_FORMAT=DYNAMIC;
 
--- Дамп данных таблицы world3.3.5_beta.creature_template2_difficulty: ~64 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.creature_template2_difficulty: ~63 rows (приблизительно)
 INSERT INTO `creature_template2_difficulty` (`CreatureId`, `DifficultyCreatureId1`, `DifficultyCreatureId2`, `DifficultyCreatureId3`) VALUES
 	(60799, 0, 0, 0),
 	(60800, 0, 0, 0),

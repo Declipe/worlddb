@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS `quest_greeting` (
   PRIMARY KEY (`ID`,`Type`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.quest_greeting: ~189 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.quest_greeting: ~178 rows (приблизительно)
 INSERT INTO `quest_greeting` (`ID`, `Type`, `GreetEmoteType`, `GreetEmoteDelay`, `Greeting`, `VerifiedBuild`) VALUES
 	(234, 0, 1, 0, 'A foul corruption has crept into Westfall.  While I was upholding my duty on the battlefields of Lordaeron these honest farms were overrun and made into hide-outs for thugs and murderers. The People\'s Militia needs your help.', 0),
 	(235, 0, 0, 0, 'Welcome to our humble abode! It\'s always nice to see a friendly face. And what strong arms you have. My husband and I are always looking for help around the farm. Now that most the good folk have left, it\'s hard to find an able body to help out.', 0),
@@ -179,7 +179,7 @@ INSERT INTO `quest_greeting` (`ID`, `Type`, `GreetEmoteType`, `GreetEmoteDelay`,
 	(6142, 0, 1, 0, 'The craft of the night elves ranges beyond the woods and its denizens.  We know much of the earth below, and of the metals within it.', 0),
 	(6171, 0, 1, 0, 'You will be tested many times by the darkness that surrounds our lands, $N. But to ensure you are always prepared, we will often ask tasks of you so you are at the height of your own power.$B$BGo with the Light, and remain virtuous.', 0),
 	(6179, 0, 1, 0, 'Many tests await a paladin of the Light, $N. Be assured, our paths will cross many times in the future if you remain passionate and hold to those virtues that we praise.', 0),
-	(6294, 0, 0, 0, 'Greetings, $n.', 12340),
+	(6294, 0, 0, 0, 'Greetings, $n.', 0),
 	(6569, 0, 0, 0, 'Where Troggs and Leper Gnomes roam stands our home - Gnomeregan.$B$BOur families lost, our homes displaced. Scattered.$B$BOh how I long for the days of carefree Gnomeregan life, but those days are no more. We must make our stand! We must save Gnomeregan!', 0),
 	(6579, 0, 0, 0, 'For Gnomeregan!', 0),
 	(6986, 0, 1, 0, 'My name is Dran Droffers, and this over here is my dummy son Malton.  If you need salvage, or are looking to sell salvage, then we\'re who you need to be talking to!', 0),
@@ -212,6 +212,7 @@ INSERT INTO `quest_greeting` (`ID`, `Type`, `GreetEmoteType`, `GreetEmoteDelay`,
 	(18891, 0, 0, 0, 'Greetings, $n.', 0),
 	(22292, 0, 396, 0, 'The Light does not yet shine on Skettis.', 0),
 	(23572, 0, 0, 0, '', 0),
+	(26245, 0, 0, 0, 'Greetings, $n.', 0),
 	(26664, 0, 0, 0, 'Thank you for freeing me, $C.\r\n\r\nI\'m still a bit woozy from the venom. I think I\'ll stay here until my strength returns.', 0),
 	(27337, 0, 0, 0, '', 0),
 	(32799, 0, 0, 0, 'Greetings, $n.', 0),

@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `areatrigger_scripts` (
   PRIMARY KEY (`entry`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.areatrigger_scripts: ~212 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.areatrigger_scripts: ~208 rows (приблизительно)
 INSERT INTO `areatrigger_scripts` (`entry`, `ScriptName`) VALUES
 	(171, 'SmartTrigger'),
 	(302, 'at_sentry_point'),
@@ -138,6 +138,7 @@ INSERT INTO `areatrigger_scripts` (`entry`, `ScriptName`) VALUES
 	(4829, 'at_brewfest'),
 	(4838, 'SmartTrigger'),
 	(4850, 'SmartTrigger'),
+	(4853, 'at_the_dead_scar'),
 	(4857, 'SmartTrigger'),
 	(4858, 'SmartTrigger'),
 	(4860, 'SmartTrigger'),
@@ -145,6 +146,7 @@ INSERT INTO `areatrigger_scripts` (`entry`, `ScriptName`) VALUES
 	(4872, 'SmartTrigger'),
 	(4873, 'SmartTrigger'),
 	(4894, 'SmartTrigger'),
+	(4937, 'at_witchs_sanctum'),
 	(4946, 'SmartTrigger'),
 	(4947, 'SmartTrigger'),
 	(4948, 'SmartTrigger'),

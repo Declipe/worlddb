@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS `pool_template` (
   PRIMARY KEY (`entry`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.pool_template: ~3 669 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.pool_template: ~3 544 rows (приблизительно)
 INSERT INTO `pool_template` (`entry`, `max_limit`, `description`) VALUES
 	(1, 1, ''),
 	(2, 1, ''),

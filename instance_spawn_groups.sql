@@ -233,6 +233,7 @@ INSERT INTO `instance_spawn_groups` (`instanceMapId`, `bossStateId`, `bossStates
 	(603, 16, 23, 315, 1),
 	(604, 0, 23, 32, 1),
 	(604, 1, 23, 33, 1),
+	(604, 1, 23, 328, 2),
 	(604, 2, 23, 34, 1),
 	(604, 3, 23, 35, 1),
 	(604, 4, 23, 36, 1),

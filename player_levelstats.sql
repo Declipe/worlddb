@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS `player_levelstats` (
   PRIMARY KEY (`race`,`class`,`level`) USING BTREE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ROW_FORMAT=DYNAMIC COMMENT='Stores levels stats.';
 
--- Дамп данных таблицы world3.3.5_beta.player_levelstats: ~15 810 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.player_levelstats: ~15 372 rows (приблизительно)
 INSERT INTO `player_levelstats` (`race`, `class`, `level`, `str`, `agi`, `sta`, `inte`, `spi`) VALUES
 	(1, 1, 1, 23, 20, 22, 20, 20),
 	(1, 1, 2, 24, 21, 23, 20, 20),

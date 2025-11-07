@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS `pickpocketing_loot_template` (
   PRIMARY KEY (`Entry`,`Item`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Loot System';
 
--- Дамп данных таблицы world3.3.5_beta.pickpocketing_loot_template: ~14 370 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.pickpocketing_loot_template: ~14 234 rows (приблизительно)
 INSERT INTO `pickpocketing_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES
 	(3, 929, 0, 2.449, 0, 1, 0, 1, 1, NULL),
 	(3, 1206, 0, 0.8163, 0, 1, 0, 1, 1, NULL),

@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `item_set_names_locale` (
   PRIMARY KEY (`ID`,`locale`) USING BTREE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.item_set_names_locale: ~14 850 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.item_set_names_locale: ~14 240 rows (приблизительно)
 INSERT INTO `item_set_names_locale` (`ID`, `locale`, `Name`, `VerifiedBuild`) VALUES
 	(6473, 'deDE', 'Rüstung des Giftzahns', 0),
 	(6473, 'esES', 'Armadura del Colmillo', 0),

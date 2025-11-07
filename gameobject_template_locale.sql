@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS `gameobject_template_locale` (
   PRIMARY KEY (`entry`,`locale`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.gameobject_template_locale: ~160 761 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.gameobject_template_locale: ~154 386 rows (приблизительно)
 INSERT INTO `gameobject_template_locale` (`entry`, `locale`, `name`, `castBarCaption`, `VerifiedBuild`) VALUES
 	(31, 'deDE', 'Alte Löwenstatue', '', 18019),
 	(31, 'esES', 'Estatua de león antigua', '', 18019),
@@ -11288,6 +11288,7 @@ INSERT INTO `gameobject_template_locale` (`entry`, `locale`, `name`, `castBarCap
 	(19576, 'ruRU', 'Степи', '', 18019),
 	(19576, 'zhCN', '贫瘠之地', '', 18019),
 	(19576, 'zhTW', '貧瘠之地', '', 18019),
+	(19577, 'ruRU', 'Обугленная долина', NULL, 0),
 	(19577, 'zhCN', '焦炭谷', '', 0),
 	(19577, 'zhTW', '焦炭谷', '', 0),
 	(19578, 'deDE', 'Scherwindklippe', '', 18019),
@@ -20025,9 +20026,9 @@ INSERT INTO `gameobject_template_locale` (`entry`, `locale`, `name`, `castBarCap
 	(29758, 'koKR', '나무 의자', '', 18019),
 	(29758, 'ruRU', 'Деревянный стул', '', 18019),
 	(29758, 'zhCN', '木椅', '', 18019),
-	(29758, 'zhTW', '木椅', '', 18019),
-	(29759, 'deDE', 'Holzstuhl', '', 18019);
+	(29758, 'zhTW', '木椅', '', 18019);
 INSERT INTO `gameobject_template_locale` (`entry`, `locale`, `name`, `castBarCaption`, `VerifiedBuild`) VALUES
+	(29759, 'deDE', 'Holzstuhl', '', 18019),
 	(29759, 'esES', 'Silla de madera', '', 18019),
 	(29759, 'esMX', 'Silla de madera', '', 18019),
 	(29759, 'frFR', 'Chaise en bois', '', 18019),
@@ -30026,9 +30027,9 @@ INSERT INTO `gameobject_template_locale` (`entry`, `locale`, `name`, `castBarCap
 	(111218, 'esES', 'Silla de madera', '', 18019),
 	(111218, 'esMX', 'Silla de madera', '', 18019),
 	(111218, 'frFR', 'Chaise en bois', '', 18019),
-	(111218, 'koKR', '나무 의자', '', 18019),
-	(111218, 'ruRU', 'Деревянный стул', '', 18019);
+	(111218, 'koKR', '나무 의자', '', 18019);
 INSERT INTO `gameobject_template_locale` (`entry`, `locale`, `name`, `castBarCaption`, `VerifiedBuild`) VALUES
+	(111218, 'ruRU', 'Деревянный стул', '', 18019),
 	(111218, 'zhCN', '木椅', '', 18019),
 	(111218, 'zhTW', '木椅', '', 18019),
 	(111219, 'deDE', 'Holzstuhl', '', 18019),
@@ -40027,9 +40028,9 @@ INSERT INTO `gameobject_template_locale` (`entry`, `locale`, `name`, `castBarCap
 	(150079, 'koKR', '미스릴 광맥', '', 18019),
 	(150079, 'ruRU', 'Мифриловые залежи', '', 18019),
 	(150079, 'zhCN', '秘银矿脉', '', 18019),
-	(150079, 'zhTW', '秘銀礦床', '', 18019),
-	(150080, 'deDE', 'Goldader', '', 18019);
+	(150079, 'zhTW', '秘銀礦床', '', 18019);
 INSERT INTO `gameobject_template_locale` (`entry`, `locale`, `name`, `castBarCaption`, `VerifiedBuild`) VALUES
+	(150080, 'deDE', 'Goldader', '', 18019),
 	(150080, 'esES', 'Filón de oro', '', 18019),
 	(150080, 'esMX', 'Filón de oro', '', 18019),
 	(150080, 'frFR', 'Filon d\'or', '', 18019),
@@ -50028,9 +50029,9 @@ INSERT INTO `gameobject_template_locale` (`entry`, `locale`, `name`, `castBarCap
 	(173222, 'ruRU', 'Оргриммар: аукционный дом', '', 18019),
 	(173222, 'zhCN', '奥格瑞玛拍卖行', '', 18019),
 	(173222, 'zhTW', '奧格瑪拍賣場', '', 18019),
-	(173223, 'deDE', 'Mächtige Lohe', '', 18019),
-	(173223, 'esES', 'Grandes llamaradas', '', 18019);
+	(173223, 'deDE', 'Mächtige Lohe', '', 18019);
 INSERT INTO `gameobject_template_locale` (`entry`, `locale`, `name`, `castBarCaption`, `VerifiedBuild`) VALUES
+	(173223, 'esES', 'Grandes llamaradas', '', 18019),
 	(173223, 'esMX', 'Grandes llamaradas', '', 18019),
 	(173223, 'frFR', 'Brasier puissant', '', 18019),
 	(173223, 'koKR', '활활타는 화롯불', '', 18019),
@@ -60029,9 +60030,9 @@ INSERT INTO `gameobject_template_locale` (`entry`, `locale`, `name`, `castBarCap
 	(176669, 'zhCN', '椅子', '', 18019),
 	(176669, 'zhTW', '椅子', '', 18019),
 	(176670, 'deDE', 'Stuhl', '', 18019),
-	(176670, 'esES', 'Silla', '', 18019),
-	(176670, 'esMX', 'Silla', '', 18019);
+	(176670, 'esES', 'Silla', '', 18019);
 INSERT INTO `gameobject_template_locale` (`entry`, `locale`, `name`, `castBarCaption`, `VerifiedBuild`) VALUES
+	(176670, 'esMX', 'Silla', '', 18019),
 	(176670, 'frFR', 'Chaise', '', 18019),
 	(176670, 'koKR', '의자', '', 18019),
 	(176670, 'ruRU', 'Стул', '', 18019),
@@ -70030,9 +70031,9 @@ INSERT INTO `gameobject_template_locale` (`entry`, `locale`, `name`, `castBarCap
 	(180052, 'zhTW', '死亡礦坑貨物箱', '', 18019),
 	(180053, 'deDE', 'Kohlenpfanne', '', 18019),
 	(180053, 'esES', 'Blandón', '', 18019),
-	(180053, 'esMX', 'Blandón', '', 18019),
-	(180053, 'frFR', 'Brasero', '', 18019);
+	(180053, 'esMX', 'Blandón', '', 18019);
 INSERT INTO `gameobject_template_locale` (`entry`, `locale`, `name`, `castBarCaption`, `VerifiedBuild`) VALUES
+	(180053, 'frFR', 'Brasero', '', 18019),
 	(180053, 'koKR', '화로', '', 18019),
 	(180053, 'ruRU', 'Жаровня', '', 18019),
 	(180053, 'zhCN', '火盆', '', 18019),
@@ -80031,9 +80032,9 @@ INSERT INTO `gameobject_template_locale` (`entry`, `locale`, `name`, `castBarCap
 	(181967, 'deDE', 'Der Sonnenturm', '', 18019),
 	(181967, 'esES', 'La Aguja del Sol', '', 18019),
 	(181967, 'esMX', 'La Aguja del Sol', '', 18019),
-	(181967, 'frFR', 'La Flèche solaire', '', 18019),
-	(181967, 'koKR', '태양 첨탑', '', 18019);
+	(181967, 'frFR', 'La Flèche solaire', '', 18019);
 INSERT INTO `gameobject_template_locale` (`entry`, `locale`, `name`, `castBarCaption`, `VerifiedBuild`) VALUES
+	(181967, 'koKR', '태양 첨탑', '', 18019),
 	(181967, 'ruRU', 'Солнечный Шпиль', '', 18019),
 	(181967, 'zhCN', '太阳之塔', '', 18019),
 	(181967, 'zhTW', '日尖塔', '', 18019),
@@ -90032,9 +90033,9 @@ INSERT INTO `gameobject_template_locale` (`entry`, `locale`, `name`, `castBarCap
 	(183525, 'deDE', 'Stuhl', '', 18019),
 	(183525, 'esES', 'Silla', '', 18019),
 	(183525, 'esMX', 'Silla', '', 18019),
-	(183525, 'frFR', 'Chaise', '', 18019),
-	(183525, 'koKR', '의자', '', 18019);
+	(183525, 'frFR', 'Chaise', '', 18019);
 INSERT INTO `gameobject_template_locale` (`entry`, `locale`, `name`, `castBarCaption`, `VerifiedBuild`) VALUES
+	(183525, 'koKR', '의자', '', 18019),
 	(183525, 'ruRU', 'Стул', '', 18019),
 	(183525, 'zhCN', '椅子', '', 18019),
 	(183525, 'zhTW', '椅子', '', 18019),
@@ -100033,9 +100034,9 @@ INSERT INTO `gameobject_template_locale` (`entry`, `locale`, `name`, `castBarCap
 	(185028, 'deDE', 'Lagerfeuer', '', 18019),
 	(185028, 'esES', 'Hoguera', '', 18019),
 	(185028, 'esMX', 'Hoguera', '', 18019),
-	(185028, 'frFR', 'Feu de camp', '', 18019),
-	(185028, 'koKR', '모닥불', '', 18019);
+	(185028, 'frFR', 'Feu de camp', '', 18019);
 INSERT INTO `gameobject_template_locale` (`entry`, `locale`, `name`, `castBarCaption`, `VerifiedBuild`) VALUES
+	(185028, 'koKR', '모닥불', '', 18019),
 	(185028, 'ruRU', 'Костер', '', 18019),
 	(185028, 'zhCN', '篝火', '', 18019),
 	(185028, 'zhTW', '篝火', '', 18019),
@@ -110034,9 +110035,9 @@ INSERT INTO `gameobject_template_locale` (`entry`, `locale`, `name`, `castBarCap
 	(186502, 'frFR', 'Cage de Gjalerbron', '', 18019),
 	(186502, 'koKR', '샬레르브론 철창', '', 18019),
 	(186502, 'ruRU', 'Клетка Гьялерброна', '', 18019),
-	(186502, 'zhCN', '亚勒伯龙牢笼', '', 18019),
-	(186502, 'zhTW', '夏勒布隆鐵籠', '', 18019);
+	(186502, 'zhCN', '亚勒伯龙牢笼', '', 18019);
 INSERT INTO `gameobject_template_locale` (`entry`, `locale`, `name`, `castBarCaption`, `VerifiedBuild`) VALUES
+	(186502, 'zhTW', '夏勒布隆鐵籠', '', 18019),
 	(186503, 'deDE', 'Gjalerbronkäfig', '', 18019),
 	(186503, 'esES', 'Jaula de Gjalerbron', '', 18019),
 	(186503, 'esMX', 'Jaula de Gjalerbron', '', 18019),
@@ -120035,9 +120036,9 @@ INSERT INTO `gameobject_template_locale` (`entry`, `locale`, `name`, `castBarCap
 	(188307, 'zhTW', '西荒兵團駐營', '', 18019),
 	(188308, 'deDE', 'Holzfällerposten Blauhimmel', '', 18019),
 	(188308, 'esES', 'Aserradero Cielo Azul', '', 18019),
-	(188308, 'esMX', 'Aserradero Cielo Azul', '', 18019),
-	(188308, 'frFR', 'Chantier d’abattage du Ciel bleu', '', 18019);
+	(188308, 'esMX', 'Aserradero Cielo Azul', '', 18019);
 INSERT INTO `gameobject_template_locale` (`entry`, `locale`, `name`, `castBarCaption`, `VerifiedBuild`) VALUES
+	(188308, 'frFR', 'Chantier d’abattage du Ciel bleu', '', 18019),
 	(188308, 'koKR', '푸른 하늘 벌목장', '', 18019),
 	(188308, 'ruRU', 'Лесозаготовки Синего Неба', '', 18019),
 	(188308, 'zhCN', '蓝天伐木场', '', 18019),
@@ -130036,9 +130037,9 @@ INSERT INTO `gameobject_template_locale` (`entry`, `locale`, `name`, `castBarCap
 	(190214, 'zhTW', '巫毒頭骨堆', '', 18019),
 	(190215, 'deDE', 'Verseuchte Kohlenpfanne - Mensch', '', 18019),
 	(190215, 'esES', 'Blandón humano corrupto', '', 18019),
-	(190215, 'esMX', 'Blandón humano corrupto', '', 18019),
-	(190215, 'frFR', 'Brasero humain corrompu', '', 18019);
+	(190215, 'esMX', 'Blandón humano corrupto', '', 18019);
 INSERT INTO `gameobject_template_locale` (`entry`, `locale`, `name`, `castBarCaption`, `VerifiedBuild`) VALUES
+	(190215, 'frFR', 'Brasero humain corrompu', '', 18019),
 	(190215, 'koKR', '인간 화로 타락한 불길', '', 18019),
 	(190215, 'ruRU', 'Ржавая людская жаровня', '', 18019),
 	(190215, 'zhCN', '人类火盆', '', 18019),
@@ -140037,9 +140038,9 @@ INSERT INTO `gameobject_template_locale` (`entry`, `locale`, `name`, `castBarCap
 	(191989, 'deDE', 'Stuhl', '', 18019),
 	(191989, 'esES', 'Silla', '', 18019),
 	(191989, 'esMX', 'Silla', '', 18019),
-	(191989, 'frFR', 'Chaise', '', 18019),
-	(191989, 'koKR', '의자', '', 18019);
+	(191989, 'frFR', 'Chaise', '', 18019);
 INSERT INTO `gameobject_template_locale` (`entry`, `locale`, `name`, `castBarCaption`, `VerifiedBuild`) VALUES
+	(191989, 'koKR', '의자', '', 18019),
 	(191989, 'ruRU', 'Стул', '', 18019),
 	(191989, 'zhCN', '椅子', '', 18019),
 	(191989, 'zhTW', '椅子', '', 18019),
@@ -150038,9 +150039,9 @@ INSERT INTO `gameobject_template_locale` (`entry`, `locale`, `name`, `castBarCap
 	(193585, 'deDE', 'Vesperdosenwerkzeuge', '', 18019),
 	(193585, 'esES', 'Herramientas de fiambrera', '', 18019),
 	(193585, 'esMX', 'Herramientas de fiambrera', '', 18019),
-	(193585, 'frFR', 'Outils de Musette', '', 18019),
-	(193585, 'koKR', '도구 상자', '', 18019);
+	(193585, 'frFR', 'Outils de Musette', '', 18019);
 INSERT INTO `gameobject_template_locale` (`entry`, `locale`, `name`, `castBarCaption`, `VerifiedBuild`) VALUES
+	(193585, 'koKR', '도구 상자', '', 18019),
 	(193585, 'ruRU', 'Инструменты "Коробки с обедом"', '', 18019),
 	(193585, 'zhCN', '午餐盒工具', '', 18019),
 	(193585, 'zhTW', '午餐盒工具', '', 18019),
@@ -160039,9 +160040,9 @@ INSERT INTO `gameobject_template_locale` (`entry`, `locale`, `name`, `castBarCap
 	(202179, 'esMX', 'Arsenal de la nave de guerra', '', 18019),
 	(202179, 'frFR', 'Armurerie de la canonnière', '', 18019),
 	(202179, 'koKR', '비행포격선 장비함', '', 18019),
-	(202179, 'ruRU', 'Оружейная боевого корабля', '', 18019),
-	(202179, 'zhCN', '炮舰军械库', '', 18019);
+	(202179, 'ruRU', 'Оружейная боевого корабля', '', 18019);
 INSERT INTO `gameobject_template_locale` (`entry`, `locale`, `name`, `castBarCaption`, `VerifiedBuild`) VALUES
+	(202179, 'zhCN', '炮舰军械库', '', 18019),
 	(202179, 'zhTW', '砲艇軍械庫', '', 18019),
 	(202180, 'deDE', 'Truhe des Kanonenboots', '', 18019),
 	(202180, 'esES', 'Arsenal de la nave de guerra', '', 18019),

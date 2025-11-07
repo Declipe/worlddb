@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS `gameobject_addon` (
   PRIMARY KEY (`guid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.gameobject_addon: ~59 606 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.gameobject_addon: ~60 028 rows (приблизительно)
 INSERT INTO `gameobject_addon` (`guid`, `parent_rotation0`, `parent_rotation1`, `parent_rotation2`, `parent_rotation3`, `invisibilityType`, `invisibilityValue`) VALUES
 	(1, 0, 0, 0.968148, -0.25038, 0, 0),
 	(2, 0, 0, 0.55557, 0.83147, 0, 0),

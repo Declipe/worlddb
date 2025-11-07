@@ -31,7 +31,7 @@ CREATE TABLE IF NOT EXISTS `pet_levelstats` (
   PRIMARY KEY (`creature_entry`,`level`) USING BTREE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ROW_FORMAT=DYNAMIC COMMENT='Stores pet levels stats.';
 
--- Дамп данных таблицы world3.3.5_beta.pet_levelstats: ~8 160 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.pet_levelstats: ~7 429 rows (приблизительно)
 INSERT INTO `pet_levelstats` (`creature_entry`, `level`, `hp`, `mana`, `armor`, `str`, `agi`, `sta`, `inte`, `spi`, `min_dmg`, `max_dmg`) VALUES
 	(1, 1, 42, 1, 20, 22, 20, 22, 20, 20, 0, 0),
 	(1, 2, 55, 1, 21, 23, 21, 23, 20, 20, 0, 0),

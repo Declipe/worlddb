@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `creature_queststarter` (
   PRIMARY KEY (`id`,`quest`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Creature System';
 
--- Дамп данных таблицы world3.3.5_beta.creature_queststarter: ~7 538 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.creature_queststarter: ~7 438 rows (приблизительно)
 INSERT INTO `creature_queststarter` (`id`, `quest`) VALUES
 	(196, 33),
 	(197, 7),

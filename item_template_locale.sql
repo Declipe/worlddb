@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS `item_template_locale` (
   PRIMARY KEY (`ID`,`locale`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.item_template_locale: ~305 575 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.item_template_locale: ~314 618 rows (приблизительно)
 INSERT INTO `item_template_locale` (`ID`, `locale`, `Name`, `Description`, `VerifiedBuild`) VALUES
 	(17, 'deDE', 'Martinsfuror', '', 15050),
 	(17, 'esES', 'Martin Furia', '', 15050),

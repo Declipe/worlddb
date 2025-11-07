@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS `creature_summon_groups` (
   `Comment` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT ''
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.creature_summon_groups: ~1 156 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.creature_summon_groups: ~1 096 rows (приблизительно)
 INSERT INTO `creature_summon_groups` (`summonerId`, `summonerType`, `groupId`, `entry`, `position_x`, `position_y`, `position_z`, `orientation`, `summonType`, `summonTime`, `Comment`) VALUES
 	(28952, 0, 1, 28988, 6810.89, -4592.67, 440.678, 1.29927, 3, 100000, 'Akali - Group 1 - Akali Subduer'),
 	(28952, 0, 1, 28988, 6806.19, -4595.94, 440.678, 1.25002, 3, 100000, 'Akali - Group 1 - Akali Subduer'),
@@ -1186,7 +1186,15 @@ INSERT INTO `creature_summon_groups` (`summonerId`, `summonerType`, `groupId`, `
 	(10439, 0, 1, 11030, 3929.47, -3392.32, 119.692, 4.99415, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
 	(10439, 0, 1, 11030, 3970.81, -3399.49, 119.056, 5.8925, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
 	(10439, 0, 1, 11030, 3968.68, -3398.61, 119.145, 5.89242, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
-	(10439, 0, 1, 11030, 3944.25, -3393.56, 119.699, 6.09674, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead');
+	(10439, 0, 1, 11030, 3944.25, -3393.56, 119.699, 6.09674, 8, 0, 'Ramstein the Gorger - Group 1 - Mindless Undead'),
+	(4508, 0, 0, 4514, 2145.72, 1726.63, 51.937, 2.72118, 4, 60000, 'Willix the Importer - Group 0 - Raging Agam\'ar'),
+	(4508, 0, 0, 4514, 2148.47, 1732.58, 51.8974, 3.22886, 4, 60000, 'Willix the Importer - Group 0 - Raging Agam\'ar'),
+	(4508, 0, 1, 4514, 1967.01, 1598.43, 81.0585, 3.27341, 4, 60000, 'Willix the Importer - Group 1 - Raging Agam\'ar'),
+	(4508, 0, 1, 4514, 1969.72, 1601.24, 80.4318, 3.29867, 4, 60000, 'Willix the Importer - Group 1 - Raging Agam\'ar'),
+	(23953, 0, 0, 23970, 153.913, 260.999, 42.9539, 5.77704, 8, 0, 'Prince Keleseth - Group 0 - Vrykul Skeleton'),
+	(23953, 0, 0, 23970, 148.906, 260.219, 42.9539, 5.89921, 8, 0, 'Prince Keleseth - Group 0 - Vrykul Skeleton'),
+	(23953, 0, 0, 23970, 147.773, 266.235, 42.9539, 5.75959, 8, 0, 'Prince Keleseth - Group 0 - Vrykul Skeleton'),
+	(23953, 0, 0, 23970, 153.472, 266.161, 42.9539, 5.61996, 8, 0, 'Prince Keleseth - Group 0 - Vrykul Skeleton');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

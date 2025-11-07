@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `spell_ranks` (
   UNIQUE KEY `spell_id` (`spell_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Spell Rank Data';
 
--- Дамп данных таблицы world3.3.5_beta.spell_ranks: ~3 467 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.spell_ranks: ~3 465 rows (приблизительно)
 INSERT INTO `spell_ranks` (`first_spell_id`, `spell_id`, `rank`) VALUES
 	(10, 10, 1),
 	(17, 17, 1),

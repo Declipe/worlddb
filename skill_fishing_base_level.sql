@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `skill_fishing_base_level` (
   PRIMARY KEY (`entry`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Fishing system';
 
--- Дамп данных таблицы world3.3.5_beta.skill_fishing_base_level: ~115 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.skill_fishing_base_level: ~113 rows (приблизительно)
 INSERT INTO `skill_fishing_base_level` (`entry`, `skill`) VALUES
 	(1, 25),
 	(8, 225),

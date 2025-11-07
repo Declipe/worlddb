@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `quest_request_items_locale` (
   PRIMARY KEY (`ID`,`locale`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.quest_request_items_locale: ~30 069 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.quest_request_items_locale: ~29 609 rows (приблизительно)
 INSERT INTO `quest_request_items_locale` (`ID`, `locale`, `CompletionText`, `VerifiedBuild`) VALUES
 	(2, 'deDE', 'Ja, $C, ich habe Eure Ankunft bereits gespürt. Habt Ihr weitere Neuigkeiten von Eurer Jagd zu berichten?', 0),
 	(2, 'esES', 'Sí, $gpoderoso:poderosa; $c, he presentido tu llegada. Confío que tienes más noticias que darme sobre tu caza.', 0),
@@ -3338,7 +3338,7 @@ INSERT INTO `quest_request_items_locale` (`ID`, `locale`, `CompletionText`, `Ver
 	(747, 'deDE', 'Den Stamm mit Fleisch und Federn zu versorgen, das ist der erste Schritt, Euch dem Häuptling als Jäger zu beweisen.', 0),
 	(747, 'esES', 'Conseguir carne y plumas para la tribu es el primer paso para probar tu valor ante el Jefe.', 0),
 	(747, 'esMX', 'Conseguir carne y plumas para la tribu es el primer paso para probar tu valor ante el Jefe.', 0),
-	(747, 'ruRU', 'Providing meat and feathers for the tribe is the first step in proving yourself as a hunter before the Chief.', 0),
+	(747, 'ruRU', 'Добыча пищи и перьев для племени – первый шаг на пути к завоеванию расположения вождя.', 0),
 	(747, 'zhCN', '为部族带回肉和羽毛是你在酋长面前证明自己的第一步。', 0),
 	(747, 'zhTW', '爲部族帶回肉和羽毛是你在酋長面前證明自己的第一步。', 0),
 	(748, 'deDE', 'Habt Ihr die Tatzen und die Krallen, $N?', 0),
@@ -4151,7 +4151,7 @@ INSERT INTO `quest_request_items_locale` (`ID`, `locale`, `CompletionText`, `Ver
 	(931, 'deDE', 'Habt Ihr etwas für mich?', 0),
 	(931, 'esES', '¿Tienes algo para mí?', 0),
 	(931, 'esMX', '¿Tienes algo para mí?', 0),
-	(931, 'ruRU', 'Ты что-то мне принесла?', 0),
+	(931, 'ruRU', 'Ты что-то мне $gпринес:принесла;?', 0),
 	(931, 'zhCN', '你有东西要给我吗?', 0),
 	(931, 'zhTW', '你有東西要給我嗎?', 0),
 	(932, 'deDE', 'Habt Ihr Lord Melenas schon getötet? Es ist wichtig, dass man ihn schnell und stillschweigend beseitigt, $N. Solange er lebt, wird er uns allen Ungemach bereiten.', 0),
@@ -6012,7 +6012,7 @@ INSERT INTO `quest_request_items_locale` (`ID`, `locale`, `CompletionText`, `Ver
 	(1656, 'deDE', 'Ja, Kindchen? Was kann Kauth für Euch tun?$B$BDie Reise von der Mesa hierher kann für manche eine enorme Last, aber für andere eine willkommene Abwechslung sein. Was ist sie wohl für Euch, frage ich mich...', 0),
 	(1656, 'esES', 'Hola, ¿querías algo?$B$BEl viaje desde la Mesa puede ser terrible para algunos y delicioso para otros. ¿En qué grupo estás tú?', 0),
 	(1656, 'esMX', 'Hola, ¿querías algo?$B$BEl viaje desde la Mesa puede ser terrible para algunos y delicioso para otros. ¿En qué grupo estás tú?', 0),
-	(1656, 'ruRU', 'Yes, young one? What can Kauth do for you?$B$BThe journey here from the Mesa can be a tremendous burden for some, but a welcome sight for others. Which is it for you, I wonder?', 0),
+	(1656, 'ruRU', 'Приветствую! Чем Каут может вам помочь?$B$BПуть сюда от самого плато неблизок: кто-то всю дорогу думает об уставших мышцах и стертых ногах, а кто-то наслаждается великолепными пейзажами... А вы что скажете?', 0),
 	(1656, 'zhCN', '你好，年轻人，我能为你做点什么吗?$B$B从台地走到这里对某些人来说可实在是极大的负担，不过对另一些人则是开阔眼界的好机会。我想知道你是这两种人里的哪一种?', 0),
 	(1656, 'zhTW', '你好，年輕人，我能爲你做點什麼嗎?$B$B從臺地走到這裏對某些人來說可實在是極大的負擔，不過對另一些人則是開闊眼界的好機會。我想知道你是這兩種人裏的哪一種?', 0),
 	(1657, 'esES', '¿Has entregado nuestro "regalo" a la gente de Costasur?$B$B<La clamasombras Yanka se ríe con malicia.>', 0),
@@ -6190,9 +6190,9 @@ INSERT INTO `quest_request_items_locale` (`ID`, `locale`, `CompletionText`, `Ver
 	(1787, 'esES', '¿Henze está a salvo, $n? ¿Tuviste éxito?$B$BEntre tu habilidad con las armas y el poder de la Luz, creo que la Vigilia de los Héroes estará a salvo de cualquier amenaza de los Defias, pero eso deben decirlo el Rey y sus consejeros.', 0),
 	(1787, 'esMX', '¿Henze está a salvo, $n? ¿Tuviste éxito?$B$BEntre tu habilidad con las armas y el poder de la Luz, creo que la Vigilia de los Héroes estará a salvo de cualquier amenaza de los Defias, pero eso deben decirlo el Rey y sus consejeros.', 0),
 	(1787, 'ruRU', 'А, это ты, $N? С Хензом все в порядке? Тебе удалось добиться успеха?$B$BЯ вижу, острову Героев не страшно никакое братство, пока в твоих руках оружие, а с нами пребывает сила Света. Однако решение за королем и его советниками...', 0),
-	(1787, 'zhCN', '亨兹还好吗，$N?你成功了吗?$B$B以你的战斗技巧，再加上光明的力量，我想英雄岗哨不会再受到迪菲亚盗贼的威胁了，不过那是国王和他的顾问应该关心的事情。', 0),
-	(1787, 'zhTW', '亨茲還好嗎，$N?你成功了嗎?$B$B以你的戰鬥技巧，再加上光明的力量，我想英雄崗哨不會再受到迪菲亞盜賊的威脅了，不過那是國王和他的顧問應該關心的事情。', 0);
+	(1787, 'zhCN', '亨兹还好吗，$N?你成功了吗?$B$B以你的战斗技巧，再加上光明的力量，我想英雄岗哨不会再受到迪菲亚盗贼的威胁了，不过那是国王和他的顾问应该关心的事情。', 0);
 INSERT INTO `quest_request_items_locale` (`ID`, `locale`, `CompletionText`, `VerifiedBuild`) VALUES
+	(1787, 'zhTW', '亨茲還好嗎，$N?你成功了嗎?$B$B以你的戰鬥技巧，再加上光明的力量，我想英雄崗哨不會再受到迪菲亞盜賊的威脅了，不過那是國王和他的顧問應該關心的事情。', 0),
 	(1795, 'deDE', 'Jedem $C sollte ein Teufelsjäger zur Verfügung stehen. Obwohl er schwer zu bändigen ist, macht die Macht, die er seinem Herrn gibt, die Kosten bei weitem wett.', 0),
 	(1795, 'esES', 'Todo $c tiene un manáfago bajo su mando. Aunque cuesta mucho amaestrarlo, el poder que le otorga a su amo compensa en mucho el esfuerzo.', 0),
 	(1795, 'esMX', 'Todo $c tiene un manáfago bajo su mando. Aunque cuesta mucho amaestrarlo, el poder que le otorga a su amo compensa en mucho el esfuerzo.', 0),
@@ -11130,9 +11130,9 @@ INSERT INTO `quest_request_items_locale` (`ID`, `locale`, `CompletionText`, `Ver
 	(5844, 'deDE', 'Seid gegrüßt! Es ist mir eine Freude, Eure Bekanntschaft zu machen!$B$BWie ich sehe, habt Ihr da einen besonderen Gutschein. Gebt ihn mir, dann bekommt Ihr von mir etwas dafür.', 0),
 	(5844, 'esES', '¡Saludos! ¡Es un placer conocerte!$B$BVeo que tienes un vale especial. Dámelo y te ofreceré algo a cambio.', 0),
 	(5844, 'esMX', '¡Saludos! ¡Es un placer conocerte!$B$BVeo que tienes un vale especial. Dámelo y te ofreceré algo a cambio.', 0),
-	(5844, 'ruRU', 'Приветствую! Какое удовольствие встретить тебя!$B$BЯ вижу, у тебя есть специальный купон. Отдай его мне, и я предложу кое-что взамен.', 0),
-	(5844, 'zhCN', '您好!很高兴见到您!$B$B我看到您手里拿着一张特殊的礼品券，把它交给我，您就可以得到一件特殊的礼品!', 0);
+	(5844, 'ruRU', 'Приветствую! Какое удовольствие встретить тебя!$B$BЯ вижу, у тебя есть специальный купон. Отдай его мне, и я предложу кое-что взамен.', 0);
 INSERT INTO `quest_request_items_locale` (`ID`, `locale`, `CompletionText`, `VerifiedBuild`) VALUES
+	(5844, 'zhCN', '您好!很高兴见到您!$B$B我看到您手里拿着一张特殊的礼品券，把它交给我，您就可以得到一件特殊的礼品!', 0),
 	(5844, 'zhTW', '您好!很高興見到您!$B$B我看到您手裏拿着一張特殊的禮品券，把它交給我，您就可以得到一件特殊的禮品!', 0),
 	(5845, 'deDE', 'Mein Glaube wird Euch leiten, $N. Das Licht kennt keine Grenzen.', 0),
 	(5845, 'esES', 'Mi fe te guiará, $n. La Luz no tiene límites.', 0),
@@ -24995,7 +24995,7 @@ INSERT INTO `quest_request_items_locale` (`ID`, `locale`, `CompletionText`, `Ver
 	(11420, 'ruRU', 'Ты $Gнашел:нашла; руководство?', 0),
 	(11420, 'zhCN', '你找到手册了吗?', 0),
 	(11420, 'zhTW', '你找到手冊了嗎?', 0),
-	(11421, 'ruRU', 'Горит ли Драконий Череп?', 0),
+	(11421, 'ruRU', 'Надеюсь, ты пришёл сказать мне, что Деревня Драконьего Черепа охвачена пламенем?', 0),
 	(11421, 'zhCN', '龙颅村失火了吗?', 0),
 	(11421, 'zhTW', '龍顱村失火了嗎?', 0),
 	(11422, 'ruRU', '<Старый Ледоспин внимательно окидывает вас мутным взглядом. Очевидно, он ожидает увидеть в ваших руках трезубец его сына.>', 0),

@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS `spawn_group` (
   PRIMARY KEY (`groupId`,`spawnType`,`spawnId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.spawn_group: ~131 877 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.spawn_group: ~131 928 rows (приблизительно)
 INSERT INTO `spawn_group` (`groupId`, `spawnType`, `spawnId`) VALUES
 	(1, 1, 150),
 	(1, 1, 289),
@@ -95241,7 +95241,6 @@ INSERT INTO `spawn_group` (`groupId`, `spawnType`, `spawnId`) VALUES
 	(4, 1, 163409),
 	(4, 1, 163410),
 	(4, 1, 163411),
-	(4, 1, 163412),
 	(4, 1, 163413),
 	(4, 1, 163414),
 	(4, 1, 163415),
@@ -95476,7 +95475,6 @@ INSERT INTO `spawn_group` (`groupId`, `spawnType`, `spawnId`) VALUES
 	(4, 1, 163809),
 	(4, 1, 163810),
 	(4, 1, 163811),
-	(4, 1, 163812),
 	(4, 1, 163813),
 	(4, 1, 163814),
 	(4, 1, 163815),
@@ -95711,7 +95709,6 @@ INSERT INTO `spawn_group` (`groupId`, `spawnType`, `spawnId`) VALUES
 	(4, 1, 164209),
 	(4, 1, 164210),
 	(4, 1, 164211),
-	(4, 1, 164212),
 	(4, 1, 164213),
 	(4, 1, 164214),
 	(4, 1, 164215),
@@ -100032,11 +100029,11 @@ INSERT INTO `spawn_group` (`groupId`, `spawnType`, `spawnId`) VALUES
 	(4, 1, 2650312),
 	(4, 1, 2650313),
 	(4, 1, 2650314),
-	(4, 1, 2650315);
-INSERT INTO `spawn_group` (`groupId`, `spawnType`, `spawnId`) VALUES
+	(4, 1, 2650315),
 	(4, 1, 2650316),
 	(4, 1, 2650317),
-	(4, 1, 2650318),
+	(4, 1, 2650318);
+INSERT INTO `spawn_group` (`groupId`, `spawnType`, `spawnId`) VALUES
 	(4, 1, 2650319),
 	(4, 1, 2650320),
 	(4, 1, 2650321),
@@ -110033,11 +110030,11 @@ INSERT INTO `spawn_group` (`groupId`, `spawnType`, `spawnId`) VALUES
 	(4, 1, 2706706),
 	(4, 1, 2706707),
 	(4, 1, 2706708),
-	(4, 1, 2706709);
-INSERT INTO `spawn_group` (`groupId`, `spawnType`, `spawnId`) VALUES
+	(4, 1, 2706709),
 	(4, 1, 2706710),
 	(4, 1, 2706711),
-	(4, 1, 2706712),
+	(4, 1, 2706712);
+INSERT INTO `spawn_group` (`groupId`, `spawnType`, `spawnId`) VALUES
 	(4, 1, 2706713),
 	(4, 1, 2706714),
 	(4, 1, 2706715),
@@ -120034,11 +120031,11 @@ INSERT INTO `spawn_group` (`groupId`, `spawnType`, `spawnId`) VALUES
 	(4, 1, 2720042),
 	(4, 1, 2720043),
 	(4, 1, 2720044),
-	(4, 1, 2720045);
-INSERT INTO `spawn_group` (`groupId`, `spawnType`, `spawnId`) VALUES
+	(4, 1, 2720045),
 	(4, 1, 2720046),
 	(4, 1, 2720047),
-	(4, 1, 2720048),
+	(4, 1, 2720048);
+INSERT INTO `spawn_group` (`groupId`, `spawnType`, `spawnId`) VALUES
 	(4, 1, 2720049),
 	(4, 1, 2720050),
 	(4, 1, 2720051),
@@ -126049,11 +126046,6 @@ INSERT INTO `spawn_group` (`groupId`, `spawnType`, `spawnId`) VALUES
 	(32, 0, 127045),
 	(32, 0, 127058),
 	(33, 0, 127046),
-	(33, 0, 127071),
-	(33, 0, 127072),
-	(33, 0, 127073),
-	(33, 0, 127074),
-	(33, 0, 127075),
 	(33, 0, 127076),
 	(33, 0, 127077),
 	(33, 0, 127078),
@@ -130035,8 +130027,7 @@ INSERT INTO `spawn_group` (`groupId`, `spawnType`, `spawnId`) VALUES
 	(208, 0, 12752),
 	(208, 0, 12753),
 	(208, 0, 12754),
-	(208, 0, 12755);
-INSERT INTO `spawn_group` (`groupId`, `spawnType`, `spawnId`) VALUES
+	(208, 0, 12755),
 	(208, 0, 12756),
 	(208, 0, 12757),
 	(208, 0, 12758),
@@ -130044,7 +130035,8 @@ INSERT INTO `spawn_group` (`groupId`, `spawnType`, `spawnId`) VALUES
 	(208, 0, 12777),
 	(208, 0, 12778),
 	(208, 0, 12779),
-	(208, 0, 12780),
+	(208, 0, 12780);
+INSERT INTO `spawn_group` (`groupId`, `spawnType`, `spawnId`) VALUES
 	(208, 0, 12781),
 	(208, 0, 12782),
 	(208, 0, 12784),
@@ -131042,7 +131034,6 @@ INSERT INTO `spawn_group` (`groupId`, `spawnType`, `spawnId`) VALUES
 	(233, 0, 42644),
 	(233, 0, 42870),
 	(233, 0, 54811),
-	(233, 0, 54812),
 	(233, 0, 54827),
 	(233, 0, 54830),
 	(233, 0, 54999),
@@ -131913,7 +131904,12 @@ INSERT INTO `spawn_group` (`groupId`, `spawnType`, `spawnId`) VALUES
 	(324, 0, 133933),
 	(325, 0, 126863),
 	(325, 0, 126864),
-	(327, 0, 39690);
+	(327, 0, 39690),
+	(328, 0, 127071),
+	(328, 0, 127072),
+	(328, 0, 127073),
+	(328, 0, 127074),
+	(328, 0, 127075);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

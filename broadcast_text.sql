@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS `broadcast_text` (
   PRIMARY KEY (`ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.broadcast_text: ~73 038 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.broadcast_text: ~74 750 rows (приблизительно)
 INSERT INTO `broadcast_text` (`ID`, `LanguageID`, `Text`, `Text1`, `EmoteID1`, `EmoteID2`, `EmoteID3`, `EmoteDelay1`, `EmoteDelay2`, `EmoteDelay3`, `SoundEntriesID`, `EmotesID`, `Flags`, `VerifiedBuild`) VALUES
 	(1, 0, 'Help help!  I\'m being repressed!', '', 0, 0, 0, 0, 0, 0, 0, 0, 6, 18019),
 	(3, 0, 'Company.. HALT!  ... Fall IN!', '', 0, 0, 0, 0, 0, 0, 0, 0, 1, 18019),

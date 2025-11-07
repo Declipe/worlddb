@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `command` (
   PRIMARY KEY (`name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Chat System';
 
--- Дамп данных таблицы world3.3.5_beta.command: ~643 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.command: ~634 rows (приблизительно)
 INSERT INTO `command` (`name`, `help`) VALUES
 	('additem', 'Syntax: .additem #itemid/[#itemname]/#shift-click-item-link #itemcount\r\n\r\nAdds the specified number of items of id #itemid (or exact (!) name $itemname in brackets, or link created by shift-click at item in inventory or recipe) to your or selected character inventory. If #itemcount is omitted, only one item will be added.\r\n.'),
 	('additem set', 'Syntax: .additemset #itemsetid\r\n\r\nAdd items from itemset of id #itemsetid to your or selected character inventory. Will add by one example each item from itemset.'),
@@ -81,6 +81,7 @@ INSERT INTO `command` (`name`, `help`) VALUES
 	('bf switch', 'Syntax: .bf switch $battleid'),
 	('bf timer', 'Syntax: .bf timer $battleid $timer'),
 	('bindsight', 'Syntax: .bindsight\r\n\r\nBinds vision to the selected unit indefinitely. Cannot be used while currently possessing a target.'),
+	('bm', 'Syntax: .bm [on/off]\nEnable or Disable in game Beastmaster mode or show current state if on/off not provided.'),
 	('cast', 'Syntax: .cast #spellid [triggered]\r\n  Cast #spellid to selected target. If no target selected cast to self. If \'triggered\' or part provided then spell casted with triggered flag.'),
 	('cast back', 'Syntax: .cast back #spellid [triggered]\r\n  Selected target will cast #spellid to your character. If \'triggered\' or part provided then spell casted with triggered flag.'),
 	('cast dest', 'Syntax: .cast dest #spellid #x #y #z [triggered]\r\n  Selected target will cast #spellid at provided destination. If \'triggered\' or part provided then spell casted with triggered flag.'),

@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS `creature_formations` (
   PRIMARY KEY (`memberGUID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.creature_formations: ~2 104 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.creature_formations: ~2 101 rows (приблизительно)
 INSERT INTO `creature_formations` (`leaderGUID`, `memberGUID`, `dist`, `angle`, `groupAI`, `point_1`, `point_2`) VALUES
 	(3453, 2090, 0, 0, 3, 0, 0),
 	(3453, 2093, 0, 0, 3, 0, 0),
@@ -583,6 +583,8 @@ INSERT INTO `creature_formations` (`leaderGUID`, `memberGUID`, `dist`, `angle`, 
 	(52850, 53057, 3, 270, 515, 0, 0),
 	(52854, 53058, 3, 270, 515, 0, 0),
 	(52855, 53059, 3, 270, 515, 0, 0),
+	(53687, 53668, 0, 0, 3, 0, 0),
+	(53687, 53687, 0, 0, 3, 0, 0),
 	(53796, 53796, 0, 0, 515, 0, 0),
 	(53796, 53797, 5, 270, 515, 0, 0),
 	(53798, 53798, 0, 0, 515, 0, 0),

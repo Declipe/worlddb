@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS `quest_poi` (
   KEY `idx` (`QuestID`,`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.quest_poi: ~18 769 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.quest_poi: ~18 837 rows (приблизительно)
 INSERT INTO `quest_poi` (`QuestID`, `id`, `ObjectiveIndex`, `MapID`, `WorldMapAreaId`, `Floor`, `Priority`, `Flags`, `VerifiedBuild`) VALUES
 	(1, 0, -1, 0, 23, 0, 0, 1, 0),
 	(2, 0, 4, 1, 43, 0, 0, 1, 0),

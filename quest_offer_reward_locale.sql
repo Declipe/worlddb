@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `quest_offer_reward_locale` (
   PRIMARY KEY (`ID`,`locale`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.quest_offer_reward_locale: ~41 559 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.quest_offer_reward_locale: ~39 565 rows (приблизительно)
 INSERT INTO `quest_offer_reward_locale` (`ID`, `locale`, `RewardText`, `VerifiedBuild`) VALUES
 	(2, 'esES', 'De lo más impresionante, $n... ¡no puede haber sido un paseo conseguir la garra de Garrafilada! ¡La Caza de Vallefresno te está yendo bien!$B$BGarrafilada lleva muchos años aterrorizando a los peones de los aserraderos cuando se trasladan a Puesto del Hachazo y se cruzan en su ruta. No lo dudes, cuando se corra la voz de que doblegaste a ese monstruo, ¡se escucharán muchas canciones alabando tu valor en los campamentos y aserraderos de todo Vallefresno!', 0),
 	(2, 'esMX', 'De lo más impresionante, $n... ¡no puede haber sido un paseo conseguir la garra de Garrafilada! ¡La Caza de Vallefresno te está yendo bien!$B$BGarrafilada lleva muchos años aterrorizando a los peones de los aserraderos cuando se trasladan a Puesto del Hachazo y se cruzan en su ruta. No lo dudes, cuando se corra la voz de que doblegaste a ese monstruo, ¡se escucharán muchas canciones alabando tu valor en los campamentos y aserraderos de todo Vallefresno!', 0),
@@ -680,7 +680,7 @@ INSERT INTO `quest_offer_reward_locale` (`ID`, `locale`, `RewardText`, `Verified
 	(125, 'zhTW', '做得太好了，$N!我還以為我再也看不見這些工具了呢。', 0),
 	(126, 'esES', 'Gracias de nuevo. El ejército de Ventormenta está tan ocupado con los orcos que no hay tropas para proteger Crestagrana de otras amenazas, como los gnolls.', 0),
 	(126, 'esMX', 'Gracias de nuevo. El ejército de Ventormenta está tan ocupado con los orcos que no hay tropas para proteger Crestagrana de otras amenazas, como los gnolls.', 0),
-	(126, 'ruRU', 'И снова благодарю тебя за помощь. Штормград еле-еле справляется с орками, у них не хватает солдат, чтобы защищать Красные горы от напастей вроде гноллов.', 0),
+	(126, 'ruRU', 'И снова благодарю тебя за помощь. Штормград еле-еле справляется с орками, у них не хватает солдат, чтобы защищать Красногорье от напастей вроде гноллов.', 0),
 	(126, 'zhCN', '再次感谢你的帮忙。暴风城的军队正忙着对付兽人，他们根本派不出人到赤脊山来维持治安和清剿豺狼人。', 0),
 	(126, 'zhTW', '再次感謝你的幫忙。暴風城的軍隊正忙著對付獸人，他們根本派不出人到赤脊山來維持治安和清剿豺狼人。', 0),
 	(127, 'deDE', 'Schön, mit Euch Geschäfte zu machen, $GKumpel:Mädel;!', 18019),
@@ -759,7 +759,7 @@ INSERT INTO `quest_offer_reward_locale` (`ID`, `locale`, `RewardText`, `Verified
 	(140, 'zhTW', '儘管這個箱子上的鉸鏈已經鏽了，但它仍然還有作用。你暴力的打開箱子，拿到了裡面的東西。$B$B恭禧!', 0),
 	(141, 'esES', 'Edwin VanCleef... conozco muy bien ese nombre. Me desconcierta pensar que un hombre con tanto talento y tan trabajador pudiera convertirse en tal escoria. Necesitaré más pruebas antes de creerlo.', 0),
 	(141, 'esMX', 'Edwin VanCleef... conozco muy bien ese nombre. Me desconcierta pensar que un hombre con tanto talento y tan trabajador pudiera convertirse en tal escoria. Necesitaré más pruebas antes de creerlo.', 0),
-	(141, 'ruRU', 'Эдвин ван Клиф... Мне хорошо известно это имя. Обидно думать, что этот трудолюбивый и талантливый $r<человек> мог превратиться в такого мерзавца. Мне понадобятся дополнительные доказательства, чтобы я поверил в это.', 0),
+	(141, 'ruRU', 'Эдвин ван Клиф... Мне хорошо известно это имя. Обидно думать, что этот трудолюбивый и талантливый человек мог превратиться в такого мерзавца. Мне понадобятся дополнительные доказательства, чтобы я поверил в это.', 0),
 	(141, 'zhCN', '艾德温.范克里夫……我对这个名字很熟。想到这么一位技术绝佳的天才工匠竟然变成了一群恶棍的头子，实在是令我感到气馁。我需要更多的证据才能相信这件事。', 0),
 	(141, 'zhTW', '艾德溫.範克裡夫……我對這個名字很熟。想到這麼一位技術絕佳的天才工匠竟然變成了一群惡棍的頭子，實在是令我感到氣餒。我需要更多的證據才能相信這件事。', 0),
 	(142, 'esES', 'Esto es sin duda alguna una prueba clara de que VanCleef está al mando. Ahora todo lo que tenemos que saber es dónde se oculta la banda Defias.$B$BTuvimos un golpe de suerte mientras estabas fuera. Capturamos a un ladrón que intentaba robar el carro de Saldean. Ha prometido guiarnos hasta la ladronera a cambio de su vida. Quiero que defiendas al traidor para que pueda enseñarnos la ladronera. Vuelve a verme cuando hayas descubierto su localización.', 0),
@@ -3513,7 +3513,7 @@ INSERT INTO `quest_offer_reward_locale` (`ID`, `locale`, `RewardText`, `Verified
 	(634, 'deDE', 'Langzopf und seine mutigen Soldaten haben mein ehrliches Mitgefühl und Beileid. Die Nachricht von der Tragödie am Thandolübergang und der Fall von Dun Modr lastet schwer auf meinem Herzen.$B$BAber Stromgarde ist gefallen! Darum befinden wir uns hier bei der Zuflucht. Wir müssen uns der Wiedereroberung unserer eigenen großen Stadt stellen.$B$BEhre und Pflicht verlangen von uns, dass wir das Hochland nicht verlassen, bis erneut das mächtige Banner des Königs über Stromgarde weht. Ich werde Langzopf Nachricht geben, dass er auf sich allein gestellt ist...', 0),
 	(634, 'esES', 'Todas mis condolencias para Largatrenza y sus valientes soldados. Las noticias del Puente Thandol y de la caída de Dun Modr son un duro golpe.$B$BPero Stromgarde ha caído, de ahí nuestra presencia aquí, en el Refugio de la Zaga. Nos enfrentamos a la reconquista de nuestra propia ciudad.$B$BEl honor y el sentido del deber nos impiden abandonar las Tierras altas hasta que en Stromgarde vuelva a ondear el estandarte del Rey. Enviaré un mensaje a Largatrenza advirtiéndole de que está solo...', 0),
 	(634, 'esMX', 'Todas mis condolencias para Largatrenza y sus valientes soldados. Las noticias del Puente Thandol y de la caída de Dun Modr son un duro golpe.$B$BPero Stromgarde ha caído, de ahí nuestra presencia aquí, en el Refugio de la Zaga. Nos enfrentamos a la reconquista de nuestra propia ciudad.$B$BEl honor y el sentido del deber nos impiden abandonar las Tierras altas hasta que en Stromgarde vuelva a ondear el estandarte del Rey. Enviaré un mensaje a Largatrenza advirtiéndole de que está solo...', 0),
-	(634, 'ruRU', 'Передай мои соболезнования Длинной Косе и его солдатам. Я искренне опечален вестью о трагедии на мосту Тандола и падении Дун Модра...$B$BНо знайте, что и Стромгард пал! Именно поэтому мы сейчас стоим у Опорного пункта. Впереди – битва за наш великий город.$B$BДолг и честь не позволяют мне покинуть нагорье до тех пор, пока над Стромгардом не взовьется гордое знамя нашего короля! Придется Длинной Косе обходиться своими силами...', 0),
+	(634, 'ruRU', 'Передай мои соболезнования Длинной Косе и его солдатам. Я искренне опечалена вестью о трагедии на мосту Тандола и падении Дун Модра...$B$BНо знайте, что и Стромгард пал! Именно поэтому мы сейчас стоим у Опорного пункта. Впереди – битва за наш великий город.$B$BДолг и честь не позволяют мне покинуть нагорье до тех пор, пока над Стромгардом не взовьется гордое знамя нашего короля! Придется Длинной Косе обходиться своими силами...', 0),
 	(634, 'zhCN', '请先允许我为长须和他手下英勇无畏的士兵们表示敬意并对他们同伴的死表示哀悼。在听到萨多尔大桥惨剧与丹莫德陷落的消息时，我的内心感到十分沉痛。$B$B但是，激流堡也被攻陷了!因此我们才会被迫退到避难谷地这里来。我们必须夺回由我们的祖先亲手建造出的伟大城市。$B$B因此，无论是从荣誉还是责任的角度来看，在国王陛下的旌旗重新飘扬于激流堡之前，我们都不能离开这片高地。我会给长须写一封信说明他只能靠自己了……', 0),
 	(634, 'zhTW', '請先允許我為長須和他手下英勇無畏的士兵們表示敬意並對他們同伴的死表示哀悼。在聽到薩多爾大橋慘劇與丹莫德陷落的消息時，我的內心感到十分沉痛。$B$B但是，激流堡也被攻陷了!因此我們才會被迫退到避難谷地這裡來。我們必須奪回由我們的祖先親手建造出的偉大城市。$B$B因此，無論是從榮譽還是責任的角度來看，在國王陛下的旌旗重新飄揚於激流堡之前，我們都不能離開這片高地。我會給長須寫一封信說明他只能靠自己了……', 0),
 	(635, 'deDE', 'Dieser Kristall pulsiert, als ob in ihm eine lebende Kraft gefangen ist.', 0),
@@ -5135,7 +5135,7 @@ INSERT INTO `quest_offer_reward_locale` (`ID`, `locale`, `RewardText`, `Verified
 	(931, 'deDE', 'Wo habt Ihr das her? So eine Pflanze habe ich seit meiner Exkursion in die Sümpfe des Elends nicht mehr gesehen... das ist Jahrzehnte her! Wie erstaunlich, dass ein Exemplar es bis nach Teldrassil geschafft hat. Und wie hochgewachsen sie ist!$B$BDanke, $N. Vergebt mir, dass ich so kurz angebunden bin, aber ich würde zu gern etwas mit diesem Wedel testen...', 0),
 	(931, 'esES', '¿De dónde has sacado esto? No veía una planta como esta desde aquella vez que estuve en el Pantano de las Penas... ¡hace décadas! Es increíble que haya llegado hasta Teldrassil, ¡y que haya alcanzado este tamaño!$B$BGracias, $n. Perdona la brevedad de mis palabras pero me gustaría someter a esta hoja a una prueba...', 0),
 	(931, 'esMX', '¿De dónde has sacado esto? No veía una planta como esta desde aquella vez que estuve en el Pantano de las Penas... ¡hace décadas! Es increíble que haya llegado hasta Teldrassil, ¡y que haya alcanzado este tamaño!$B$BGracias, $n. Perdona la brevedad de mis palabras pero me gustaría someter a esta hoja a una prueba...', 0),
-	(931, 'ruRU', 'Где ты это нашла? Я не видел таких растений с тех пор, как жил на Болоте Печали. А это было много десятилетий назад! Удивительно, как он попал в Тельдрассил. Да еще вырос до такой величины!\n\nСпасибо тебе, $N Прости мою немногословность, но мне не терпится провести кое-какие опыты с этим ростком...', 0),
+	(931, 'ruRU', 'Где ты это $gнашел:нашла;? Я не видел таких растений с тех пор, как жил на Болоте Печали. А это было много десятилетий назад! Удивительно, как он попал в Тельдрассил. Да еще вырос до такой величины!$B$BСпасибо тебе, $N. Прости мою немногословность, но мне не терпится провести кое-какие опыты с этим ростком...', 0),
 	(931, 'zhCN', '你从哪儿弄到这个的?几十年前我去悲伤沼泽的时候曾看见过这样的植物，能在泰达希尔看到它真是令人惊异!而且你看，它居然长得如此之大!$B$B感谢你，$N。请原谅我只能说这么多，我得抓紧时间研究研究了……', 0),
 	(931, 'zhTW', '你從哪兒弄到這個的?幾十年前我去悲傷沼澤的時候曾看見過這樣的植物，能在泰達希爾看到它真是令人驚異!而且你看，它居然長得如此之大!$B$B感謝你，$N。請原諒我只能說這麼多，我得抓緊時間研究研究了……', 0),
 	(932, 'deDE', 'Da Lord Melenas jetzt endlich zur Strecke gebracht ist, kann ich mich anderen Dingen zuwenden. Danke, $N.', 0),
@@ -11541,7 +11541,7 @@ INSERT INTO `quest_offer_reward_locale` (`ID`, `locale`, `RewardText`, `Verified
 	(3904, 'deDE', 'Oh, danke, $N! Ihr habt meine Ernte gerettet! Und ich hoffe, Ihr habt einigen von diesen Defias gezeigt, dass sie hier nicht so einfach Ärger machen können.$B$BWir sind zurzeit zwar knapp an Wachen, aber glücklicherweise haben wir $GHelden:Heldinnen; wie Euch, die uns beschützen!', 18019),
 	(3904, 'esES', '¡Gracias, $n! ¡Has salvado mi cosecha! Espero que hayas dada una lección a unos cuantos Defias.$B$B¡Aunque tengamos pocas tropas, tenemos la suerte de contar con valientes como tú!', 0),
 	(3904, 'esMX', '¡Gracias, $n! ¡Has salvado mi cosecha! Espero que hayas dada una lección a unos cuantos Defias.$B$B¡Aunque tengamos pocas tropas, tenemos la suerte de contar con valientes como tú!', 0),
-	(3904, 'ruRU', 'Ох, спасибо тебе, $N Ты $gспас:спасла; мой урожай! И, надеюсь, ты $gпоказал:показала; этим бандитам, что тут им хозяйничать не позволят!\n\nМожет, стражи нам тут нынче и не достает, но зато у нас есть такие герои, как ты!!!', 0),
+	(3904, 'ruRU', 'Ох, спасибо тебе, $N. Ты $gспас:спасла; мой урожай! И, надеюсь, ты $gпоказал:показала; этим бандитам, что тут им хозяйничать не позволят!$B$BМожет, стражи нам тут нынче и не достает, но зато у нас есть такие герои, как ты!!!', 0),
 	(3904, 'zhCN', '哦，谢谢你，$N!你保全了我的劳动成果!我希望你让那些迪菲亚盗贼吃了苦头，让他们明白在这儿闹事的下场。$B$B这些日子以来，我们的卫兵可能有些人手短缺，但是有你这样的英雄保护着我们可真是幸运!', 0),
 	(3904, 'zhTW', '哦，謝謝你，$N!你保全了我的勞動成果!我希望你讓那些迪菲亞盜賊吃了苦頭，讓他們明白在這兒鬧事的下場。$B$B這些日子以來，我們的衛兵可能有些人手短缺，但是有你這樣的英雄保護着我們可真是幸運!', 0),
 	(3905, 'deDE', 'Dann zeigt mal her...$B$BMeine Güte! Millys Trauben sind gerettet! Als sie mir erzählte, dass Briganten ihren Weinberg überfallen haben, wäre ich fast verzweifelt, doch ich habe den Glauben an das Licht nicht verloren!$B$BUnd dank Eures Heldenmutes haben wir jetzt Trauben, um neuen Wein herstellen zu können! Möge das Licht Euch segnen und über Euch wachen, $N!', 18019),
@@ -33438,7 +33438,7 @@ INSERT INTO `quest_offer_reward_locale` (`ID`, `locale`, `RewardText`, `Verified
 	(11420, 'ruRU', '<Зорек листает руководство.>$B$BХм, как интересно...$B$BСудя по этим записям, у врайкулов есть специальное приспособление, с помощью которого они могут нацеливать гарпунные пушки с убийственной точностью. Оно слегка напоминает штурвал наших кораблей. Оказывается, его можно переносить с одной пушки на другую. Мы должны раздобыть такое устройство!', 0),
 	(11420, 'zhCN', '<索芮克迅速翻阅着手册。>$B$B嗯，有意思…$B$B根据这本手册，维库人有一种特殊工具让他们可以精准地控制鱼叉猎枪。那个东西看起来有点像是我们船上的轮子。而且，这个东西是可携带的，可以像把钥匙一样插在鱼叉猎枪上。我们需要得到这个东西!', 0),
 	(11420, 'zhTW', '<索芮克迅速翻閱着手冊。>$B$B嗯，有意思…$B$B根據這本手冊，維庫人有一種特殊工具讓他們可以精準地控制魚叉獵槍。那個東西看起來有點像是我們船上的輪子。而且，這個東西是可攜帶的，可以像把鑰匙一樣插在魚叉獵槍上。我們需要得到這個東西!', 0),
-	(11421, 'ruRU', 'Прекрасно, $N! Ты $Gубил:убила; множество драконьих наездников и серьезно разозлила их предводителей.$B$B$GГотов:Готова; вернуться в Валгард и сообщить хорошие новости Зореку? А то у меня появилась совершенно безумная идея!', 0),
+	(11421, 'ruRU', 'Прекрасно, $N! Ты $Gубил:убила; множество драконьих наездников и серьезно $Gразозлил:разозлила; их предводителей.$B$B$GГотов:Готова; вернуться в Валгард и сообщить хорошие новости Зореку? А то у меня появилась совершенно безумная идея!', 0),
 	(11421, 'zhCN', '干得漂亮，$N!你可是狠狠打击了那些龙骑兵，他们的首领一定气炸了。$B$B你愿意回到瓦尔加德把这个好消息告诉索芮克吗?如果是的话，我倒是有个疯狂的主意!', 0),
 	(11421, 'zhTW', '幹得漂亮，$N!你可是狠狠打擊了那些龍騎兵，他們的首領一定氣炸了。$B$B你願意回到瓦爾加德把這個好消息告訴索芮克嗎?如果是的話，我倒是有個瘋狂的主意!', 0),
 	(11422, 'ruRU', '<Старый Ледоспин протягивает руку за трезубцем своего сына, и вы замечаете, что его пальцы слегка дрожат. Неужели этот дряхлый мурлок способен испытывать скорбь?>\n\n<Неужели вы видите скупые слезы в уголках его глаз – или это просто вода?>', 0),
@@ -36613,9 +36613,9 @@ INSERT INTO `quest_offer_reward_locale` (`ID`, `locale`, `RewardText`, `Verified
 	(12392, 'esMX', 'Hay cubos de caramelos como este en tabernas por los reinos. No te cortes, ¡coge!', 0),
 	(12392, 'ruRU', 'Кульки с конфетами можно найти в любой таверне. Ну – чего стоишь? Хватай конфетку!', 0),
 	(12392, 'zhCN', '这种糖果桶在各地的旅店都有。来吧…拿点糖果!', 0),
-	(12392, 'zhTW', '這種糖果桶在各地的旅店都有。來吧…拿點糖果!', 0),
-	(12393, 'deDE', 'Süßigkeiteneimer wie diesen hier gibt es in jeder Gaststätte zu finden. Na los... greift zu!', 26972);
+	(12392, 'zhTW', '這種糖果桶在各地的旅店都有。來吧…拿點糖果!', 0);
 INSERT INTO `quest_offer_reward_locale` (`ID`, `locale`, `RewardText`, `VerifiedBuild`) VALUES
+	(12393, 'deDE', 'Süßigkeiteneimer wie diesen hier gibt es in jeder Gaststätte zu finden. Na los... greift zu!', 26972),
 	(12393, 'esES', 'Hay cubos de caramelos como este en tabernas por los reinos. No te cortes, ¡coge!', 0),
 	(12393, 'esMX', 'Hay cubos de caramelos como este en tabernas por los reinos. No te cortes, ¡coge!', 0),
 	(12393, 'ruRU', 'Кульки с конфетами можно найти в любой таверне. Ну – чего стоишь? Хватай конфетку!', 0),
@@ -40980,9 +40980,9 @@ INSERT INTO `quest_offer_reward_locale` (`ID`, `locale`, `RewardText`, `Verified
 	(13959, 'zhCN', '听起来小阿若过了一周的快乐时光。他在孤儿院时是极度的孤单并渴望交到一些新朋友。非常感谢你愿意看顾他。', 0),
 	(13959, 'zhTW', '聽起來小阿若過了一週的快樂時光。他在孤兒院時是極度的孤單並渴望交到一些新朋友。非常感謝你願意看顧他。', 0),
 	(13960, 'ruRU', 'Спасибо, что ты $Gсогласился:согласилась; присмотреть за Кекеком. Знаю, он может доставить много хлопот, но все, что надо этому малышу, – это немного внимания и новые друзья. Не сомневаюсь, он еще долгое время будет рассказывать истории о ваших приключениях.', 0),
-	(13960, 'zhCN', '感谢你这周愿意照顾恰嘎。我知道他很麻烦，但我认为多一点的个别照料及多一点朋友，他会改善很多。无疑的，他这几周内会一直念着那些和你一起经历的冒险故事。', 0),
-	(13960, 'zhTW', '感謝你這周願意照顧恰嘎。我知道他很麻煩，但我認爲多一點的個別照料及多一點朋友，他會改善很多。無疑的，他這幾周內會一直念着那些和你一起經歷的冒險故事。', 0);
+	(13960, 'zhCN', '感谢你这周愿意照顾恰嘎。我知道他很麻烦，但我认为多一点的个别照料及多一点朋友，他会改善很多。无疑的，他这几周内会一直念着那些和你一起经历的冒险故事。', 0);
 INSERT INTO `quest_offer_reward_locale` (`ID`, `locale`, `RewardText`, `VerifiedBuild`) VALUES
+	(13960, 'zhTW', '感謝你這周願意照顧恰嘎。我知道他很麻煩，但我認爲多一點的個別照料及多一點朋友，他會改善很多。無疑的，他這幾周內會一直念着那些和你一起經歷的冒險故事。', 0),
 	(13986, 'ruRU', 'О мой щит! Я не собираюсь использовать его в ближайшее время, но спасибо. Я ненавижу, что бесполезно сижу здесь, когда я мог бы помогать на передовой, но с такой рукой...$B$BБереги себя там, хорошо?', 0),
 	(13986, 'zhCN', '喔，我的盾!我想我暂时没办法用它了，但还是谢谢你。我讨厌只能没用的坐在这里而不能去前线出力，但我这条手臂就算上战场也帮不了任何人。$B$B请自己多保重。', 0),
 	(13986, 'zhTW', '喔，我的盾!我想我暫時沒辦法用它了，但還是謝謝你。我討厭只能沒用的坐在這裏而不能去前線出力，但我這條手臂就算上戰場也幫不了任何人。$B$B請自己多保重。', 0),

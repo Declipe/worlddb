@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS `game_tele` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Tele Command';
 
--- Дамп данных таблицы world3.3.5_beta.game_tele: ~1 497 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.game_tele: ~1 493 rows (приблизительно)
 INSERT INTO `game_tele` (`id`, `position_x`, `position_y`, `position_z`, `orientation`, `map`, `name`) VALUES
 	(1, 1054.94, 1055.23, -48.2358, 0.313367, 529, 'AB'),
 	(2, -2068.19, 7463.77, -18.9908, 5.21755, 530, 'AbandonedArmory'),

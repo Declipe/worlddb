@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `npc_spellclick_spells` (
   PRIMARY KEY (`npc_entry`,`spell_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.npc_spellclick_spells: ~327 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.npc_spellclick_spells: ~325 rows (приблизительно)
 INSERT INTO `npc_spellclick_spells` (`npc_entry`, `spell_id`, `cast_flags`, `user_type`) VALUES
 	(24083, 55074, 1, 0),
 	(24418, 43768, 1, 0),
@@ -240,7 +240,7 @@ INSERT INTO `npc_spellclick_spells` (`npc_entry`, `spell_id`, `cast_flags`, `use
 	(33324, 63151, 1, 0),
 	(33357, 75648, 1, 0),
 	(33432, 46598, 1, 1),
-	(33498, 63126, 2, 0),
+	(33498, 63125, 1, 0),
 	(33519, 63163, 1, 0),
 	(33651, 46598, 1, 1),
 	(33669, 46598, 1, 0),

@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS `creature_template_movement` (
   PRIMARY KEY (`CreatureId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.creature_template_movement: ~4 410 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.creature_template_movement: ~4 370 rows (приблизительно)
 INSERT INTO `creature_template_movement` (`CreatureId`, `Ground`, `Swim`, `Flight`, `Rooted`, `Chase`, `Random`, `InteractionPauseTimer`) VALUES
 	(1, 0, 0, 1, 0, 0, 0, NULL),
 	(30, 1, 0, 0, 0, 0, 0, NULL),
@@ -2619,6 +2619,8 @@ INSERT INTO `creature_template_movement` (`CreatureId`, `Ground`, `Swim`, `Fligh
 	(22980, 1, 1, 1, 0, 0, 0, NULL),
 	(22984, 0, 0, 1, 0, 0, 0, NULL),
 	(22991, 0, 0, 1, 0, 0, 0, NULL),
+	(23002, 1, 1, 0, 0, 0, 0, 0),
+	(23025, 1, 1, 0, 0, 0, 0, 0),
 	(23030, 1, 1, 1, 0, 0, 0, NULL),
 	(23033, 0, 0, 1, 0, 0, 0, NULL),
 	(23035, 1, 1, 0, 0, 0, 0, NULL),
@@ -2853,7 +2855,7 @@ INSERT INTO `creature_template_movement` (`CreatureId`, `Ground`, `Swim`, `Fligh
 	(24891, 1, 1, 0, 0, 0, 0, NULL),
 	(24892, 1, 1, 0, 0, 0, 0, NULL),
 	(24893, 0, 0, 1, 0, 0, 0, NULL),
-	(24895, 1, 1, 0, 0, 0, 0, NULL),
+	(24895, 1, 1, 1, 0, 0, 0, NULL),
 	(24899, 0, 1, 0, 0, 0, 0, NULL),
 	(24903, 1, 0, 0, 0, 0, 0, NULL),
 	(24904, 1, 0, 0, 0, 0, 0, NULL),
@@ -3167,7 +3169,7 @@ INSERT INTO `creature_template_movement` (`CreatureId`, `Ground`, `Swim`, `Fligh
 	(25733, 0, 0, 1, 0, 0, 0, NULL),
 	(25735, 1, 0, 0, 0, 0, 0, NULL),
 	(25740, 1, 0, 0, 0, 0, 0, NULL),
-	(25741, 1, 0, 0, 0, 0, 0, NULL),
+	(25741, 1, 0, 0, 1, 0, 0, NULL),
 	(25744, 1, 0, 0, 0, 0, 0, NULL),
 	(25745, 1, 0, 0, 0, 0, 0, NULL),
 	(25746, 1, 0, 0, 0, 0, 0, NULL),

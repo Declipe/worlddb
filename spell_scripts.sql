@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS `spell_scripts` (
   `Comment` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT ''
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.spell_scripts: ~35 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.spell_scripts: ~38 rows (приблизительно)
 INSERT INTO `spell_scripts` (`id`, `effIndex`, `delay`, `command`, `datalong`, `datalong2`, `dataint`, `x`, `y`, `z`, `o`, `Comment`) VALUES
 	(49625, 0, 0, 15, 43106, 1, 1, 0, 0, 0, 0, ''),
 	(49634, 0, 0, 15, 43068, 1, 1, 0, 0, 0, 0, ''),

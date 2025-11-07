@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS `pool_members` (
   PRIMARY KEY (`type`,`spawnId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.pool_members: ~30 583 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.pool_members: ~29 636 rows (приблизительно)
 INSERT INTO `pool_members` (`type`, `spawnId`, `poolSpawnId`, `chance`, `description`) VALUES
 	(0, 910, 1020, 0, 'High Priestess Hai\'watna (11383) - Spawn 1'),
 	(0, 1577, 1025, 0, 'Scale Belly (1552) - Spawn 1'),
@@ -27528,7 +27528,6 @@ INSERT INTO `pool_members` (`type`, `spawnId`, `poolSpawnId`, `chance`, `descrip
 	(1, 163409, 11609, 75, 'Icecrown Ore Spawnpoint 210 Saronite'),
 	(1, 163410, 11610, 75, 'Icecrown Ore Spawnpoint 211 Saronite'),
 	(1, 163411, 11611, 75, 'Icecrown Ore Spawnpoint 212 Saronite'),
-	(1, 163412, 11612, 75, 'Icecrown Ore Spawnpoint 213 Saronite'),
 	(1, 163413, 11613, 75, 'Icecrown Ore Spawnpoint 214 Saronite'),
 	(1, 163414, 11614, 75, 'Icecrown Ore Spawnpoint 215 Saronite'),
 	(1, 163415, 11615, 75, 'Icecrown Ore Spawnpoint 216 Saronite'),
@@ -27763,7 +27762,6 @@ INSERT INTO `pool_members` (`type`, `spawnId`, `poolSpawnId`, `chance`, `descrip
 	(1, 163809, 11609, 15, 'Icecrown Ore Spawnpoint 210 Rich Saronite'),
 	(1, 163810, 11610, 15, 'Icecrown Ore Spawnpoint 211 Rich Saronite'),
 	(1, 163811, 11611, 15, 'Icecrown Ore Spawnpoint 212 Rich Saronite'),
-	(1, 163812, 11612, 15, 'Icecrown Ore Spawnpoint 213 Rich Saronite'),
 	(1, 163813, 11613, 15, 'Icecrown Ore Spawnpoint 214 Rich Saronite'),
 	(1, 163814, 11614, 15, 'Icecrown Ore Spawnpoint 215 Rich Saronite'),
 	(1, 163815, 11615, 15, 'Icecrown Ore Spawnpoint 216 Rich Saronite'),
@@ -27998,7 +27996,6 @@ INSERT INTO `pool_members` (`type`, `spawnId`, `poolSpawnId`, `chance`, `descrip
 	(1, 164209, 11609, 10, 'Icecrown Ore Spawnpoint 210 Titanium'),
 	(1, 164210, 11610, 10, 'Icecrown Ore Spawnpoint 211 Titanium'),
 	(1, 164211, 11611, 10, 'Icecrown Ore Spawnpoint 212 Titanium'),
-	(1, 164212, 11612, 10, 'Icecrown Ore Spawnpoint 213 Titanium'),
 	(1, 164213, 11613, 10, 'Icecrown Ore Spawnpoint 214 Titanium'),
 	(1, 164214, 11614, 10, 'Icecrown Ore Spawnpoint 215 Titanium'),
 	(1, 164215, 11615, 10, 'Icecrown Ore Spawnpoint 216 Titanium'),
@@ -30027,11 +30024,11 @@ INSERT INTO `pool_members` (`type`, `spawnId`, `poolSpawnId`, `chance`, `descrip
 	(2, 10326, 9902, 0, 'Grizzly Hills Ore Spawnpoint 27'),
 	(2, 10327, 9902, 0, 'Grizzly Hills Ore Spawnpoint 28'),
 	(2, 10328, 9902, 0, 'Grizzly Hills Ore Spawnpoint 29'),
-	(2, 10329, 9902, 0, 'Grizzly Hills Ore Spawnpoint 30');
-INSERT INTO `pool_members` (`type`, `spawnId`, `poolSpawnId`, `chance`, `description`) VALUES
+	(2, 10329, 9902, 0, 'Grizzly Hills Ore Spawnpoint 30'),
 	(2, 10330, 9902, 0, 'Grizzly Hills Ore Spawnpoint 31'),
 	(2, 10331, 9902, 0, 'Grizzly Hills Ore Spawnpoint 32'),
-	(2, 10332, 9902, 0, 'Grizzly Hills Ore Spawnpoint 33'),
+	(2, 10332, 9902, 0, 'Grizzly Hills Ore Spawnpoint 33');
+INSERT INTO `pool_members` (`type`, `spawnId`, `poolSpawnId`, `chance`, `description`) VALUES
 	(2, 10333, 9902, 0, 'Grizzly Hills Ore Spawnpoint 34'),
 	(2, 10334, 9902, 0, 'Grizzly Hills Ore Spawnpoint 35'),
 	(2, 10335, 9902, 0, 'Grizzly Hills Ore Spawnpoint 36'),
@@ -30587,7 +30584,6 @@ INSERT INTO `pool_members` (`type`, `spawnId`, `poolSpawnId`, `chance`, `descrip
 	(2, 11609, 9908, 0, 'Icecrown Ore Spawnpoint 210'),
 	(2, 11610, 9908, 0, 'Icecrown Ore Spawnpoint 211'),
 	(2, 11611, 9908, 0, 'Icecrown Ore Spawnpoint 212'),
-	(2, 11612, 9908, 0, 'Icecrown Ore Spawnpoint 213'),
 	(2, 11613, 9908, 0, 'Icecrown Ore Spawnpoint 214'),
 	(2, 11614, 9908, 0, 'Icecrown Ore Spawnpoint 215'),
 	(2, 11615, 9908, 0, 'Icecrown Ore Spawnpoint 216'),

@@ -37,7 +37,7 @@ CREATE TABLE IF NOT EXISTS `quest_template_addon` (
   PRIMARY KEY (`ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.quest_template_addon: ~7 515 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.quest_template_addon: ~7 166 rows (приблизительно)
 INSERT INTO `quest_template_addon` (`ID`, `MaxLevel`, `AllowableClasses`, `SourceSpellID`, `PrevQuestID`, `NextQuestID`, `ExclusiveGroup`, `BreadcrumbForQuestId`, `RewardMailTemplateID`, `RewardMailDelay`, `RequiredSkillID`, `RequiredSkillPoints`, `RequiredMinRepFaction`, `RequiredMaxRepFaction`, `RequiredMinRepValue`, `RequiredMaxRepValue`, `ProvidedItemCount`, `SpecialFlags`) VALUES
 	(2, 0, 0, 0, 6383, 247, -2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0),
 	(6, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4),
@@ -853,6 +853,7 @@ INSERT INTO `quest_template_addon` (`ID`, `MaxLevel`, `AllowableClasses`, `Sourc
 	(1140, 0, 0, 0, 973, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
 	(1141, 0, 0, 0, 0, 0, 0, 0, 87, 0, 0, 0, 0, 0, 0, 0, 0, 0),
 	(1143, 0, 0, 0, 1167, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
+	(1144, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2),
 	(1145, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0),
 	(1146, 0, 0, 0, 1145, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0),
 	(1147, 0, 0, 0, 1146, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
@@ -6404,6 +6405,7 @@ INSERT INTO `quest_template_addon` (`ID`, `MaxLevel`, `AllowableClasses`, `Sourc
 	(12862, 0, 0, 0, 12824, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
 	(12863, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0),
 	(12864, 0, 0, 0, 12863, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2),
+	(12865, 0, 0, 0, 12863, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
 	(12866, 0, 0, 0, 12864, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
 	(12867, 0, 0, 0, 12865, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
 	(12868, 0, 0, 0, 12866, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
@@ -6413,6 +6415,7 @@ INSERT INTO `quest_template_addon` (`ID`, `MaxLevel`, `AllowableClasses`, `Sourc
 	(12873, 0, 0, 0, 12871, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
 	(12874, 0, 0, 0, 12873, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
 	(12875, 0, 0, 0, 12874, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
+	(12876, 0, 0, 0, 12874, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
 	(12877, 0, 0, 0, 12875, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
 	(12878, 0, 0, 0, 12986, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
 	(12879, 0, 0, 0, 12878, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0),

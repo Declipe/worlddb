@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `graveyard_zone` (
   PRIMARY KEY (`ID`,`GhostZone`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Trigger System';
 
--- Дамп данных таблицы world3.3.5_beta.graveyard_zone: ~707 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.graveyard_zone: ~702 rows (приблизительно)
 INSERT INTO `graveyard_zone` (`ID`, `GhostZone`, `Faction`, `Comment`) VALUES
 	(2, 44, 469, 'Redridge Mountains - Redridge Mountains'),
 	(3, 10, 469, 'Duskwood, Darkshire - Duskwood'),
@@ -597,6 +597,7 @@ INSERT INTO `graveyard_zone` (`ID`, `GhostZone`, `Faction`, `Comment`) VALUES
 	(1333, 4197, 0, 'Wintergrasp, Siege Factory (SE) - Wintergrasp'),
 	(1334, 4197, 0, 'Wintergrasp, Siege Factory (SW) - Wintergrasp'),
 	(1336, 3711, 0, 'Sholazar Basin, South GY - Sholazar Basin'),
+	(1337, 495, 0, 'Howling Fjord, Utgarde GY - Howling Fjord'),
 	(1337, 1196, 0, 'Howling Fjord, Utgarde GY - Utgarde Pinnacle'),
 	(1341, 3711, 0, 'Sholazar Basin, Nesingwary GY - Sholazar Basin'),
 	(1342, 3711, 0, 'Sholazar Basin, Central GY - Sholazar Basin'),
@@ -620,6 +621,7 @@ INSERT INTO `graveyard_zone` (`ID`, `GhostZone`, `Faction`, `Comment`) VALUES
 	(1371, 4298, 0, 'Ebon Hold GY - Chapter IV - Plaguelands: The Scarlet Enclave'),
 	(1372, 490, 0, 'Un\'Goro Crater, Shaper\'s Terrace GY - Un\'Goro Crater'),
 	(1376, 206, 0, 'Howling Fjord, Utgarde 2 GY - Utgarde Keep'),
+	(1376, 495, 0, 'Howling Fjord, Utgarde 2 GY - Howling Fjord'),
 	(1379, 3711, 0, 'Sholazar Basin, Stormwright GY - Sholazar Basin'),
 	(1380, 2817, 469, 'Crystalsong Forest, Alliance GY - Crystalsong Forest'),
 	(1381, 210, 0, 'Icecrown, Argent Vanguard - Icecrown'),

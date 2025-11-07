@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS `item_enchantment_template` (
   PRIMARY KEY (`entry`,`ench`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Item Random Enchantment System';
 
--- Дамп данных таблицы world3.3.5_beta.item_enchantment_template: ~28 607 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.item_enchantment_template: ~28 884 rows (приблизительно)
 INSERT INTO `item_enchantment_template` (`entry`, `ench`, `chance`) VALUES
 	(61, 6, 7.73),
 	(61, 8, 7.31),

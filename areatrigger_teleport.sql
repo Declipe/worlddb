@@ -28,7 +28,7 @@ CREATE TABLE IF NOT EXISTS `areatrigger_teleport` (
   FULLTEXT KEY `name` (`Name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Trigger System';
 
--- Дамп данных таблицы world3.3.5_beta.areatrigger_teleport: ~275 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.areatrigger_teleport: ~276 rows (приблизительно)
 INSERT INTO `areatrigger_teleport` (`ID`, `Name`, `target_map`, `target_position_x`, `target_position_y`, `target_position_z`, `target_orientation`, `VerifiedBuild`) VALUES
 	(45, 'Scarlet Monastery - Graveyard (Entrance)', 189, 1687.27, 1050.09, 18.6773, 1.5708, 15882),
 	(78, 'DeadMines Entrance', 36, -14.5732, -385.475, 62.4561, 1.5708, 11159),

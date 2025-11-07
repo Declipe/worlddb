@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS `spell_proc` (
   PRIMARY KEY (`SpellId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.spell_proc: ~851 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.spell_proc: ~849 rows (приблизительно)
 INSERT INTO `spell_proc` (`SpellId`, `SchoolMask`, `SpellFamilyName`, `SpellFamilyMask0`, `SpellFamilyMask1`, `SpellFamilyMask2`, `ProcFlags`, `SpellTypeMask`, `SpellPhaseMask`, `HitMask`, `AttributesMask`, `DisableEffectsMask`, `ProcsPerMinute`, `Chance`, `Cooldown`, `Charges`) VALUES
 	(-66799, 0, 15, 4194304, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0),
 	(-65661, 0, 15, 4194321, 537001988, 0, 16, 1, 2, 0, 0, 0, 0, 100, 0, 0),

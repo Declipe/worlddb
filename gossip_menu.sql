@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS `gossip_menu` (
   PRIMARY KEY (`MenuID`,`TextID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.gossip_menu: ~6 142 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.gossip_menu: ~6 103 rows (приблизительно)
 INSERT INTO `gossip_menu` (`MenuID`, `TextID`, `VerifiedBuild`) VALUES
 	(21, 518, 0),
 	(21, 519, 0),
@@ -4863,7 +4863,7 @@ INSERT INTO `gossip_menu` (`MenuID`, `TextID`, `VerifiedBuild`) VALUES
 	(9795, 13485, 0),
 	(9797, 13501, 0),
 	(9798, 13502, 26365),
-	(9798, 13503, 0),
+	(9798, 13503, 63305),
 	(9799, 13504, 0),
 	(9800, 580, 0),
 	(9801, 13506, 0),
@@ -6142,6 +6142,7 @@ INSERT INTO `gossip_menu` (`MenuID`, `TextID`, `VerifiedBuild`) VALUES
 	(57022, 1656, 0),
 	(57023, 7640, 0),
 	(57024, 7645, 0),
+	(57025, 1, 0),
 	(57031, 8441, 0),
 	(57031, 8442, 0),
 	(57031, 8650, 0),
