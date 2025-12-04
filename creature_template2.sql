@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.43-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.44-0ubuntu0.22.04.1 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -79,7 +79,7 @@ CREATE TABLE IF NOT EXISTS `creature_template2` (
   KEY `idx_name` (`name`) USING BTREE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci ROW_FORMAT=DYNAMIC COMMENT='Creature System';
 
--- Дамп данных таблицы world3.3.5_beta.creature_template2: ~138 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.creature_template2: ~137 rows (приблизительно)
 INSERT INTO `creature_template2` (`entry`, `difficulty_entry_1`, `difficulty_entry_2`, `difficulty_entry_3`, `KillCredit1`, `KillCredit2`, `modelid1`, `modelid2`, `modelid3`, `modelid4`, `name`, `subname`, `IconName`, `gossip_menu_id`, `minlevel`, `maxlevel`, `exp`, `faction`, `npcflag`, `speed_walk`, `speed_run`, `scale`, `rank`, `dmgschool`, `BaseAttackTime`, `RangeAttackTime`, `BaseVariance`, `RangeVariance`, `unit_class`, `unit_flags`, `unit_flags2`, `dynamicflags`, `family`, `type`, `type_flags`, `lootid`, `pickpocketloot`, `skinloot`, `PetSpellDataId`, `VehicleId`, `mingold`, `maxgold`, `AIName`, `MovementType`, `HoverHeight`, `HealthModifier`, `ManaModifier`, `ArmorModifier`, `DamageModifier`, `ExperienceModifier`, `RacialLeader`, `movementId`, `RegenHealth`, `mechanic_immune_mask`, `spell_school_immune_mask`, `flags_extra`, `ScriptName`, `StringId`, `VerifiedBuild`) VALUES
 	(60799, 0, 0, 0, 0, 0, 22918, 0, 22918, 0, 'Engineer', 'Trade Goods', '', 0, 85, 85, 2, 35, 4224, 2, 2, 1, 2, 0, 2000, 2000, 1, 1, 2, 64, 2048, 0, 0, 4, 12, 0, 0, 0, 0, 0, 1000, 1000, '', 0, 1, 600, 300, 10, 1, 1, 0, 0, 1, 0, 0, 2, '', NULL, 12340),
 	(60800, 0, 0, 0, 0, 0, 22918, 0, 22918, 0, 'тупос', '', '', 0, 85, 85, 2, 35, 4224, 2, 2, 1, 2, 0, 2000, 2000, 1, 1, 2, 64, 2048, 0, 0, 4, 12, 0, 0, 0, 0, 0, 1000, 1000, '', 0, 1, 600, 300, 10, 1, 1, 0, 0, 1, 0, 0, 2, '', NULL, 12340),
@@ -230,6 +230,7 @@ INSERT INTO `creature_template2` (`entry`, `difficulty_entry_1`, `difficulty_ent
 	(90138, 0, 0, 0, 0, 0, 27358, 0, 0, 0, 'Скверний', 'Истинный Хаос Хиджала', '', 0, 85, 85, 2, 7, 0, 1, 1.14286, 1, 3, 0, 2000, 2000, 1, 1, 2, 512, 2048, 0, 16, 4, 256, 25709, 0, 80007, 0, 0, 0, 0, '', 0, 1, 7000, 800, 1, 50, 1, 0, 0, 1, 0, 0, 536870912, 'anna', NULL, 12340),
 	(90139, 0, 0, 0, 0, 0, 22918, 0, 22918, 0, 'Боньк', '', '', 0, 85, 85, 2, 35, 4224, 2, 2, 1, 2, 0, 2000, 2000, 1, 1, 2, 64, 2048, 0, 0, 4, 12, 0, 0, 0, 0, 0, 1000, 1000, '', 0, 1, 600, 300, 10, 1, 1, 0, 0, 1, 0, 0, 2, '', NULL, 12340),
 	(90140, 0, 0, 0, 0, 0, 22918, 0, 22918, 0, 'Боньк', '', '', 0, 85, 85, 2, 35, 4224, 2, 2, 1, 2, 0, 2000, 2000, 1, 1, 2, 64, 2048, 0, 0, 4, 12, 0, 0, 0, 0, 0, 1000, 1000, '', 0, 1, 600, 300, 10, 1, 1, 0, 0, 1, 0, 0, 2, '', NULL, 12340),
+	(90141, 0, 0, 0, 0, 0, 27189, 0, 0, 0, 'злобный гном', '', '', 0, 85, 85, 2, 35, 4224, 2, 2, 1, 2, 0, 2000, 2000, 1, 1, 2, 64, 2048, 0, 0, 4, 12, 0, 0, 0, 0, 0, 1000, 1000, '', 0, 1, 600, 300, 10, 1, 1, 0, 0, 1, 0, 0, 2, '', NULL, 12340),
 	(133701, 0, 0, 0, 0, 0, 28977, 0, 0, 0, 'Hercules', 'Battle Royal Guide', NULL, 0, 85, 85, 2, 35, 1, 1, 1.14286, 0.3, 0, 0, 2000, 2000, 1, 1, 2, 0, 2048, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, '', 1, 1, 6, 6, 1, 6, 1, 0, 0, 1, 0, 0, 66, 'npc_battle_royal_teleporter', NULL, 12340),
 	(133702, 0, 0, 0, 0, 0, 21262, 0, 0, 0, 'Alexander', 'The Great', NULL, 0, 85, 85, 2, 35, 2, 1, 1.14286, 1, 0, 0, 2000, 2000, 1, 1, 2, 0, 2048, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, '', 1, 1, 6, 6, 1, 6, 1, 0, 0, 1, 0, 0, 66, '', NULL, 12340),
 	(133703, 0, 0, 0, 0, 0, 28977, 0, 0, 0, 'Hercules', 'Battle Royal Guide', NULL, 0, 85, 85, 2, 35, 1, 1, 1.14286, 0.3, 0, 0, 2000, 2000, 1, 1, 2, 0, 2048, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, '', 1, 1, 6, 6, 1, 6, 1, 0, 0, 1, 0, 0, 66, 'npc_battle_royal_gamemaster', NULL, 12340),

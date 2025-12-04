@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.43-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.44-0ubuntu0.22.04.1 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS `version` (
 
 -- Дамп данных таблицы world3.3.5_beta.version: ~1 rows (приблизительно)
 INSERT INTO `version` (`core_version`, `core_revision`, `db_version`, `cache_id`) VALUES
-	('Ctulhunet.ru rev. 55096e1fc134 2025-10-22 21:45:12 +0300 (3.3.5 branch) (Linux, x86_64, Release, Dynamic)', '55096e1fc134', 'TDB 335.25101', 25101);
+	('Ctulhunet.ru rev. 431a106d3c0f 2025-12-04 21:10:58 +0300 (3.3.5 branch) (Linux, x86_64, Release, Dynamic)', '431a106d3c0f', 'TDB 335.25101', 25101);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

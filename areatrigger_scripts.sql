@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.43-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.44-0ubuntu0.22.04.1 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -90,6 +90,7 @@ INSERT INTO `areatrigger_scripts` (`entry`, `ScriptName`) VALUES
 	(4115, 'at_faerlina_entrance'),
 	(4119, 'at_anubrekhan_entrance'),
 	(4339, 'SmartTrigger'),
+	(4347, 'at_the_sewer'),
 	(4356, 'at_bring_your_orphan_to'),
 	(4368, 'SmartTrigger'),
 	(4369, 'SmartTrigger'),

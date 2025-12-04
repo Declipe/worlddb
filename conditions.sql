@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.43-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.44-0ubuntu0.22.04.1 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -34,7 +34,7 @@ CREATE TABLE IF NOT EXISTS `conditions` (
   PRIMARY KEY (`SourceTypeOrReferenceId`,`SourceGroup`,`SourceEntry`,`SourceId`,`ElseGroup`,`ConditionTypeOrReference`,`ConditionTarget`,`ConditionValue1`,`ConditionValue2`,`ConditionValue3`) USING BTREE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Condition System';
 
--- Дамп данных таблицы world3.3.5_beta.conditions: ~15 753 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.conditions: ~15 744 rows (приблизительно)
 INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `SourceId`, `ElseGroup`, `ConditionTypeOrReference`, `ConditionTarget`, `ConditionValue1`, `ConditionValue2`, `ConditionValue3`, `NegativeCondition`, `ErrorType`, `ErrorTextId`, `ScriptName`, `Comment`) VALUES
 	(-32906, 0, 0, 0, 0, 31, 0, 3, 32918, 0, 0, 0, 0, '', 'Freya - Allies of Nature'),
 	(-32906, 0, 0, 0, 1, 31, 0, 3, 33202, 0, 0, 0, 0, '', 'Freya - Allies of Nature'),
@@ -5355,9 +5355,23 @@ INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry
 	(13, 1, 9976, 0, 0, 31, 0, 3, 7167, 0, 0, 0, 0, '', NULL),
 	(13, 1, 10113, 0, 0, 31, 0, 3, 7233, 0, 0, 0, 0, '', NULL),
 	(13, 1, 10137, 0, 0, 31, 0, 3, 7233, 0, 0, 0, 0, '', NULL),
-	(13, 1, 10260, 0, 0, 31, 0, 3, 2748, 0, 0, 0, 0, '', NULL),
+	(13, 1, 10252, 0, 0, 31, 0, 3, 7076, 0, 0, 0, 0, '', 'Group 0: Spell \'Awaken Earthen Guardians\' (Effect 0) targets creature \'Earthen Guardian\''),
+	(13, 1, 10258, 0, 0, 31, 0, 3, 10120, 0, 0, 0, 0, '', 'Group 0: Spell \'Awaken Vault Warder\' (Effect 0) targets creature \'Vault Warder\''),
+	(13, 1, 10259, 0, 0, 1, 0, 10255, 0, 0, 0, 0, 0, '', 'Group 0: Spell \'Awaken Earthen Dwarf\' (Effect 0) targets creature with aura \'Stoned\''),
+	(13, 1, 10259, 0, 0, 31, 0, 3, 7077, 0, 0, 0, 0, '', 'Group 0: Spell \'Awaken Earthen Dwarf\' (Effect 0) targets creature \'Earthen Hallshaper\''),
+	(13, 1, 10259, 0, 1, 1, 0, 10255, 0, 0, 0, 0, 0, '', 'Group 1: Spell \'Awaken Earthen Dwarf\' (Effect 0) targets creature with aura \'Stoned\''),
+	(13, 1, 10259, 0, 1, 31, 0, 3, 7309, 0, 0, 0, 0, '', 'Group 1: Spell \'Awaken Earthen Dwarf\' (Effect 0) targets creature \'Earthen Custodian\''),
+	(13, 1, 10260, 0, 0, 31, 0, 3, 2748, 0, 0, 0, 0, '', 'Group 0: Spell \'Reconstruct\' (Effect 0) targets creature \'Archaedas\''),
 	(13, 1, 10345, 0, 0, 31, 0, 3, 25, 0, 0, 0, 0, '', NULL),
 	(13, 1, 10345, 0, 1, 31, 0, 3, 2678, 0, 0, 0, 0, '', NULL),
+	(13, 1, 10604, 0, 0, 31, 0, 3, 7076, 0, 0, 0, 0, '', 'Group 0: Spell \'Destroy Earthen Guards\' (Effect 0) targets creature \'Earthen Guardian\''),
+	(13, 1, 10604, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, '', 'Group 0: Spell \'Destroy Earthen Guards\' (Effect 0) targets only alive creature'),
+	(13, 1, 10604, 0, 1, 31, 0, 3, 7077, 0, 0, 0, 0, '', 'Group 1: Spell \'Destroy Earthen Guards\' (Effect 0) targets creature \'Earthen Hallshaper\''),
+	(13, 1, 10604, 0, 1, 36, 0, 0, 0, 0, 0, 0, 0, '', 'Group 1: Spell \'Destroy Earthen Guards\' (Effect 0) targets only alive creature'),
+	(13, 1, 10604, 0, 2, 31, 0, 3, 7309, 0, 0, 0, 0, '', 'Group 2: Spell \'Destroy Earthen Guards\' (Effect 0) targets creature \'Earthen Custodian\''),
+	(13, 1, 10604, 0, 2, 36, 0, 0, 0, 0, 0, 0, 0, '', 'Group 2: Spell \'Destroy Earthen Guards\' (Effect 0) targets only alive creature'),
+	(13, 1, 10604, 0, 3, 31, 0, 3, 10120, 0, 0, 0, 0, '', 'Group 3: Spell \'Destroy Earthen Guards\' (Effect 0) targets creature \'Vault Warder\''),
+	(13, 1, 10604, 0, 3, 36, 0, 0, 0, 0, 0, 0, 0, '', 'Group 3: Spell \'Destroy Earthen Guards\' (Effect 0) targets only alive creature'),
 	(13, 1, 11195, 0, 0, 31, 0, 5, 146084, 0, 0, 0, 0, '', 'Blow Zul\'Farrak Door - End Door'),
 	(13, 1, 11402, 0, 0, 31, 0, 3, 7774, 0, 0, 0, 0, '', 'Shays Bell targets Shay Leafrunner'),
 	(13, 1, 11637, 0, 0, 31, 0, 3, 6218, 0, 0, 0, 0, '', NULL),
@@ -5646,7 +5660,9 @@ INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry
 	(13, 1, 30460, 0, 0, 31, 0, 3, 17404, 0, 0, 0, 0, '', NULL),
 	(13, 1, 30462, 0, 0, 31, 0, 3, 17404, 0, 0, 0, 0, '', NULL),
 	(13, 1, 30541, 0, 0, 31, 0, 3, 17474, 0, 0, 0, 0, '', 'Effect_0 hits Target Trigger'),
+	(13, 1, 30735, 0, 0, 31, 0, 3, 17083, 0, 0, 0, 0, '', 'Group 0: Spell \'Shadow Sear\' (Effect 0) targets creature \'Fel Orc Convert\''),
 	(13, 1, 30738, 0, 0, 31, 0, 3, 20709, 0, 0, 0, 0, '', 'Group 0: Spell \'Blade Dance Targeting\' (Effect 0) targets creature \'Blade Dance Target\''),
+	(13, 1, 30745, 0, 0, 31, 0, 3, 17083, 0, 0, 0, 0, '', 'Group 0: Spell \'Target Fissures\' (Effect 0) targets creature \'Fel Orc Convert\''),
 	(13, 1, 30751, 0, 0, 31, 0, 3, 20709, 0, 0, 0, 0, '', 'Group 0: Spell \'Blade Dance Charge\' (Effect 0) targets creature \'Blade Dance Target\''),
 	(13, 1, 30834, 0, 0, 31, 0, 3, 17646, 0, 0, 0, 0, '', NULL),
 	(13, 1, 30875, 0, 0, 31, 0, 3, 17326, 0, 0, 0, 0, '', NULL),
@@ -5690,6 +5706,7 @@ INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry
 	(13, 1, 32146, 0, 0, 31, 0, 3, 18240, 0, 0, 0, 0, '', 'Spell Liquid Fire can only be cast at Sunspring Villager'),
 	(13, 1, 32163, 0, 0, 31, 0, 3, 18247, 0, 0, 0, 0, '', NULL),
 	(13, 1, 32164, 0, 0, 31, 0, 3, 18246, 0, 0, 0, 0, '', NULL),
+	(13, 1, 32251, 0, 0, 31, 0, 3, 17083, 0, 0, 0, 0, '', 'Group 0: Spell \'Consumption\' (Effect 0) targets creature \'Fel Orc Convert\''),
 	(13, 1, 32301, 0, 0, 31, 0, 3, 18371, 0, 0, 0, 0, '', 'Group 0: Spell \'Ping Shirrak\' (Effect 0) targets creature \'Shirrak the Dead Watcher\''),
 	(13, 1, 32373, 0, 0, 31, 0, 3, 18437, 0, 0, 0, 0, '', 'Group 0: Spell \'Moonfire\' (Effect 0) targets creature \'Viscious Teromoth\''),
 	(13, 1, 32396, 0, 0, 31, 0, 3, 18358, 0, 0, 0, 0, '', NULL),
@@ -6008,6 +6025,7 @@ INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry
 	(13, 1, 41499, 0, 2, 31, 0, 3, 22951, 0, 0, 0, 0, '', 'Effect_0 hits Lady Malande'),
 	(13, 1, 41499, 0, 3, 31, 0, 3, 22952, 0, 0, 0, 0, '', 'Effect_0 hits Veras Darkshadow'),
 	(13, 1, 41602, 0, 0, 31, 0, 3, 23191, 0, 0, 0, 0, '', 'Spell Threat targets Akama'),
+	(13, 1, 41910, 0, 0, 31, 0, 3, 19514, 0, 0, 0, 0, '', 'Group 0: Spell \'Ember Blast\' (Effect 0) targets creature \'Al\'ar\''),
 	(13, 1, 41962, 0, 0, 31, 0, 3, 23113, 0, 0, 0, 0, '', NULL),
 	(13, 1, 41975, 0, 0, 31, 0, 3, 23191, 0, 0, 0, 0, '', NULL),
 	(13, 1, 42166, 0, 0, 31, 0, 3, 24198, 0, 0, 0, 0, '', 'Spell \'Plagued Blood Explosion\' EFFECT_0 can only hit \'Plagued Dragonflayer Runecaster\' OR'),
@@ -6581,6 +6599,7 @@ INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry
 	(13, 1, 50382, 0, 0, 31, 0, 3, 28008, 0, 0, 0, 0, '', 'Awaken Ancients - Galakrond Spell Dummy'),
 	(13, 1, 50383, 0, 0, 31, 0, 3, 28008, 0, 0, 0, 0, '', 'Awaken Ancients - Galakrond Spell Dummy'),
 	(13, 1, 50430, 0, 0, 31, 0, 3, 28005, 0, 0, 0, 0, '', 'Devour Ghoul targets Wastes Scavenger'),
+	(13, 1, 50492, 0, 0, 31, 0, 3, 27989, 0, 0, 0, 0, '', 'Group 0: Spell \'Listening to Music CHECK\' (Effect 0) targets creature \'D.I.S.C.O.\''),
 	(13, 1, 50515, 0, 0, 31, 0, 3, 27829, 0, 0, 0, 0, '', NULL),
 	(13, 1, 50515, 0, 0, 33, 0, 1, 3, 0, 0, 0, 0, '', NULL),
 	(13, 1, 50524, 0, 0, 31, 0, 3, 27829, 0, 0, 0, 0, '', NULL),
@@ -7875,6 +7894,7 @@ INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry
 	(13, 3, 26521, 0, 1, 31, 0, 5, 180859, 0, 0, 0, 0, '', 'Lucky Lunar rocket Cluster target Cluster Launcher'),
 	(13, 3, 26521, 0, 2, 31, 0, 5, 180869, 0, 0, 0, 0, '', 'Lucky Lunar rocket Cluster target Cluster Launcher'),
 	(13, 3, 26521, 0, 3, 31, 0, 5, 180874, 0, 0, 0, 0, '', 'Lucky Lunar rocket Cluster target Cluster Launcher'),
+	(13, 3, 30741, 0, 0, 31, 0, 3, 17083, 0, 0, 0, 0, '', 'Group 0: Spell \'Death Coil\' (Effect 0, 1) targets creature \'Fel Orc Convert\''),
 	(13, 3, 31333, 0, 0, 31, 0, 3, 17664, 0, 0, 0, 0, '', NULL),
 	(13, 3, 31543, 0, 0, 31, 0, 3, 17798, 0, 0, 0, 0, '', NULL),
 	(13, 3, 32307, 0, 0, 31, 0, 3, 17146, 0, 0, 0, 0, 'conditition_nagrand_banner', 'Spell "Plant Warmaul Ogre Banner" (effects 0 & 1) will hit Kil\'sorrow Spellbinder.'),
@@ -10015,7 +10035,8 @@ INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry
 	(14, 65023, 65000, 0, 0, 15, 0, 256, 0, 0, 0, 0, 0, '', ' SHOW gossip TEXT IF player IS a Warlock'),
 	(14, 65023, 65001, 0, 0, 15, 0, 1279, 0, 0, 0, 0, 0, '', ' SHOW gossip TEXT IF player IS NOT a Warlock'),
 	(14, 65024, 65000, 0, 0, 15, 0, 1, 0, 0, 0, 0, 0, '', ' SHOW gossip TEXT IF player IS a Warrior'),
-	(14, 65024, 65001, 0, 0, 15, 0, 1534, 0, 0, 0, 0, 0, '', ' SHOW gossip TEXT IF player IS NOT a Warrior'),
+	(14, 65024, 65001, 0, 0, 15, 0, 1534, 0, 0, 0, 0, 0, '', ' SHOW gossip TEXT IF player IS NOT a Warrior');
+INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `SourceId`, `ElseGroup`, `ConditionTypeOrReference`, `ConditionTarget`, `ConditionValue1`, `ConditionValue2`, `ConditionValue3`, `NegativeCondition`, `ErrorType`, `ErrorTextId`, `ScriptName`, `Comment`) VALUES
 	(15, 21, 0, 0, 0, 8, 0, 858, 0, 0, 1, 0, 0, '', 'Show gossip option if Samophlange not rewarded'),
 	(15, 21, 1, 0, 0, 47, 0, 6981, 10, 0, 0, 0, 0, '', 'Gossip Option requires quest not complete'),
 	(15, 24, 0, 0, 0, 8, 0, 770, 0, 0, 1, 0, 0, '', 'Show gossip menu option if player has no quest \'The Demon Scarred Cloak\' rewarded'),
@@ -10035,8 +10056,7 @@ INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry
 	(15, 85, 4, 0, 0, 28, 0, 6681, 0, 0, 1, 0, 0, '', 'Show gossip option if player does not have quest 6681 complete'),
 	(15, 85, 4, 0, 0, 47, 0, 6681, 10, 0, 1, 0, 0, '', 'Show gossip option if player does not have quest 6681 taken'),
 	(15, 126, 0, 0, 0, 47, 0, 14420, 10, 0, 0, 0, 0, '', 'Show Gossip Option If quest The Deathstalkers(new) is Incomplete'),
-	(15, 141, 0, 0, 0, 15, 0, 8, 0, 0, 0, 0, 0, '', 'Show gossip option if player is a Rogue');
-INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry`, `SourceId`, `ElseGroup`, `ConditionTypeOrReference`, `ConditionTarget`, `ConditionValue1`, `ConditionValue2`, `ConditionValue3`, `NegativeCondition`, `ErrorType`, `ErrorTextId`, `ScriptName`, `Comment`) VALUES
+	(15, 141, 0, 0, 0, 15, 0, 8, 0, 0, 0, 0, 0, '', 'Show gossip option if player is a Rogue'),
 	(15, 141, 1, 0, 0, 15, 0, 8, 0, 0, 0, 0, 0, '', 'Show gossip option if player is a Rogue'),
 	(15, 141, 2, 0, 0, 15, 0, 8, 0, 0, 0, 0, 0, '', 'Show gossip option if player is a Rogue'),
 	(15, 141, 4, 0, 0, 2, 0, 17126, 1, 0, 1, 0, 0, '', 'Show gossip option if player does not have Elegant Letter'),
@@ -14216,6 +14236,7 @@ INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry
 	(17, 0, 40817, 0, 1, 23, 0, 3784, 0, 0, 0, 0, 0, '', 'Banishing Crystal requires Forge Camp: Terror'),
 	(17, 0, 40856, 0, 0, 31, 1, 3, 22181, 0, 0, 0, 0, '', 'Spell only hits Aether Rey'),
 	(17, 0, 40856, 0, 0, 38, 1, 40, 4, 0, 0, 0, 0, '', 'Spell only hits if at or below 40%'),
+	(17, 0, 40969, 0, 0, 31, 1, 3, 23689, 0, 0, 0, 0, '', 'Malister\'s Frost Wand only hits Proto-Drake'),
 	(17, 0, 41291, 0, 0, 31, 1, 3, 22357, 0, 0, 0, 0, '', NULL),
 	(17, 0, 41621, 0, 0, 31, 1, 3, 23487, 0, 0, 0, 0, '', 'Net can only hit Wolpertingers'),
 	(17, 0, 41985, 0, 1, 31, 1, 3, 23507, 0, 0, 173, 0, '', 'Elekk Dispersion Ray can be used on Elwynn Pink Elekk'),
@@ -16311,16 +16332,6 @@ INSERT INTO `conditions` (`SourceTypeOrReferenceId`, `SourceGroup`, `SourceEntry
 	(22, 3, 25284, 0, 0, 9, 0, 11611, 0, 0, 1, 0, 0, '', 'Group 0: Execute SAI (Action 2) if quest \'Taken by the Scourge\' is not taken by invoker'),
 	(22, 3, 25284, 0, 0, 32, 0, 16, 0, 0, 0, 0, 0, '', 'Group 0: Execute SAI (Action 2) if invoker is player'),
 	(22, 3, 25431, 0, 0, 30, 0, 191090, 30, 0, 0, 0, 0, '', 'Group 0: Execute SAI (Action 2) if object \'Elder Takret\' is within 30 yards'),
-	(22, 3, 25432, 0, 0, 1, 1, 45673, 0, 0, 0, 0, 0, '', 'SAI triggers only if it has aura"'),
-	(22, 3, 25432, 0, 1, 1, 1, 45672, 0, 0, 0, 0, 0, '', 'SAI triggers only if it has aura"'),
-	(22, 3, 25432, 0, 2, 1, 1, 45677, 0, 0, 0, 0, 0, '', 'SAI triggers only if it has aura"'),
-	(22, 3, 25432, 0, 3, 1, 1, 45681, 0, 0, 0, 0, 0, '', 'SAI triggers only if it has aura"'),
-	(22, 3, 25432, 0, 4, 1, 1, 45683, 0, 0, 0, 0, 0, '', 'SAI triggers only if it has aura"'),
-	(22, 3, 25434, 0, 0, 1, 1, 45673, 0, 0, 0, 0, 0, '', 'SAI triggers only if it has aura"'),
-	(22, 3, 25434, 0, 1, 1, 1, 45672, 0, 0, 0, 0, 0, '', 'SAI triggers only if it has aura"'),
-	(22, 3, 25434, 0, 2, 1, 1, 45677, 0, 0, 0, 0, 0, '', 'SAI triggers only if it has aura"'),
-	(22, 3, 25434, 0, 3, 1, 1, 45681, 0, 0, 0, 0, 0, '', 'SAI triggers only if it has aura"'),
-	(22, 3, 25434, 0, 4, 1, 1, 45683, 0, 0, 0, 0, 0, '', 'SAI triggers only if it has aura"'),
 	(22, 3, 25760, 0, 0, 1, 1, 43671, 1, 0, 1, 0, 0, '', 'Only Run script if the npc hasn\'t the aura 43671'),
 	(22, 3, 26785, 0, 0, 30, 1, 188471, 5, 0, 0, 0, 0, '', 'Execute SAI id 2 only if within 5 yards of Directional Rune 1'),
 	(22, 3, 27587, 0, 0, 1, 1, 49078, 0, 0, 0, 0, 0, '', 'event require aura 49078'),

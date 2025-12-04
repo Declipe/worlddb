@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.43-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.44-0ubuntu0.22.04.1 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -1194,7 +1194,23 @@ INSERT INTO `creature_summon_groups` (`summonerId`, `summonerType`, `groupId`, `
 	(23953, 0, 0, 23970, 153.913, 260.999, 42.9539, 5.77704, 8, 0, 'Prince Keleseth - Group 0 - Vrykul Skeleton'),
 	(23953, 0, 0, 23970, 148.906, 260.219, 42.9539, 5.89921, 8, 0, 'Prince Keleseth - Group 0 - Vrykul Skeleton'),
 	(23953, 0, 0, 23970, 147.773, 266.235, 42.9539, 5.75959, 8, 0, 'Prince Keleseth - Group 0 - Vrykul Skeleton'),
-	(23953, 0, 0, 23970, 153.472, 266.161, 42.9539, 5.61996, 8, 0, 'Prince Keleseth - Group 0 - Vrykul Skeleton');
+	(23953, 0, 0, 23970, 153.472, 266.161, 42.9539, 5.61996, 8, 0, 'Prince Keleseth - Group 0 - Vrykul Skeleton'),
+	(3678, 0, 0, 3636, -67.947, 206.721, -93.505, 1.89091, 6, 300000, 'Disciple of Naralex - Group 0 - Deviate Ravager'),
+	(3678, 0, 0, 3636, -69.2879, 211.943, -93.4499, 4.09511, 6, 300000, 'Disciple of Naralex - Group 0 - Deviate Ravager'),
+	(3678, 0, 1, 5048, -60.2539, 273.098, -92.7609, 0.401426, 6, 300000, 'Disciple of Naralex - Group 1 - Deviate Adder'),
+	(3678, 0, 1, 5048, -50.1238, 274.717, -92.7609, 3.03687, 6, 300000, 'Disciple of Naralex - Group 1 - Deviate Adder'),
+	(3678, 0, 1, 5048, -57.5453, 280.207, -92.7609, 5.07891, 6, 300000, 'Disciple of Naralex - Group 1 - Deviate Adder'),
+	(3678, 0, 2, 5762, 171.395, 213.766, -105.508, 5.044, 6, 300000, 'Disciple of Naralex - Group 2 - Deviate Moccasin'),
+	(3678, 0, 2, 5762, 171.69, 213.234, -105.42, 1.62316, 6, 300000, 'Disciple of Naralex - Group 2 - Deviate Moccasin'),
+	(3678, 0, 2, 5762, 178.669, 262.253, -106.153, 1.32645, 6, 300000, 'Disciple of Naralex - Group 2 - Deviate Moccasin'),
+	(3678, 0, 3, 5763, 125.646, 169.517, -106.153, 0.942478, 6, 300000, 'Disciple of Naralex - Group 3 - Nightmare Ectoplasm'),
+	(3678, 0, 3, 5763, 155.845, 186.688, -107.084, 0.0523599, 6, 300000, 'Disciple of Naralex - Group 3 - Nightmare Ectoplasm'),
+	(3678, 0, 3, 5763, 162.067, 218.715, -105.363, 1.98968, 6, 300000, 'Disciple of Naralex - Group 3 - Nightmare Ectoplasm'),
+	(3678, 0, 3, 5763, 96.7788, 283.762, -104.786, 3.82227, 6, 300000, 'Disciple of Naralex - Group 3 - Nightmare Ectoplasm'),
+	(3678, 0, 3, 5763, 126.322, 282.248, -103.798, 0.942478, 6, 300000, 'Disciple of Naralex - Group 3 - Nightmare Ectoplasm'),
+	(3678, 0, 3, 5763, 164.627, 274.123, -107.298, 4.66003, 6, 300000, 'Disciple of Naralex - Group 3 - Nightmare Ectoplasm'),
+	(3678, 0, 3, 5763, 144.843, 278.079, -104.575, 4.43314, 6, 300000, 'Disciple of Naralex - Group 3 - Nightmare Ectoplasm'),
+	(3678, 0, 4, 3654, 150.943, 262.797, -103.904, 3.7001, 6, 300000, 'Disciple of Naralex - Group 4 - Mutanus the Devourer');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

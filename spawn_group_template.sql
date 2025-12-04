@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.43-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.44-0ubuntu0.22.04.1 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS `spawn_group_template` (
   PRIMARY KEY (`groupId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.spawn_group_template: ~260 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.spawn_group_template: ~264 rows (приблизительно)
 INSERT INTO `spawn_group_template` (`groupId`, `groupName`, `groupFlags`) VALUES
 	(0, 'Default Group', 1),
 	(1, 'Legacy Group', 3),
@@ -285,7 +285,13 @@ INSERT INTO `spawn_group_template` (`groupId`, `groupName`, `groupFlags`) VALUES
 	(324, 'Naxxramas - Kel\'Thuzad', 4),
 	(325, 'Halls of Lightning - General Bjarngrim - Stormforged Lieutenants', 4),
 	(327, 'Stratholme - Timmy the Cruel', 4),
-	(328, 'Gundrak - Drakkari Colossus', 4);
+	(328, 'Gundrak - Drakkari Colossus', 4),
+	(329, 'Zul\'Aman - Nalorakk - Wave 1', 4),
+	(330, 'Zul\'Aman - Nalorakk - Wave 2', 4),
+	(331, 'Zul\'Aman - Nalorakk - Wave 3', 4),
+	(332, 'Zul\'Aman - Nalorakk - Wave 4', 4),
+	(333, 'Ruins of Ahn\'Qiraj - Lieutenant General Andorov', 4),
+	(334, 'Uldaman - Ironaya', 4);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

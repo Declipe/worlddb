@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.43-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.44-0ubuntu0.22.04.1 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `spell_linked_spell` (
   UNIQUE KEY `trigger_effect_type` (`spell_trigger`,`spell_effect`,`type`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Spell System';
 
--- Дамп данных таблицы world3.3.5_beta.spell_linked_spell: ~295 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.spell_linked_spell: ~290 rows (приблизительно)
 INSERT INTO `spell_linked_spell` (`spell_trigger`, `spell_effect`, `type`, `comment`) VALUES
 	(-75731, -75055, 0, 'Instant Statue'),
 	(-75731, -74890, 0, 'Instant Statue'),
@@ -47,8 +47,6 @@ INSERT INTO `spell_linked_spell` (`spell_trigger`, `spell_effect`, `type`, `comm
 	(-55012, -72914, 0, 'Lok\'lira\'s Bargain'),
 	(-53017, 48330, 0, 'On Indisposed Expiring - Cast Create Amberseeds'),
 	(-52610, -62071, 0, 'Savage Roar'),
-	(-50493, -50314, 0, 'Disco Ball(Listening to Music)'),
-	(-50314, -50493, 0, 'Disco Ball'),
 	(-49097, 49098, 0, 'When Out of Body Experience expires cast Arugal Teleport Back'),
 	(-48809, -48143, 0, 'Removing Binding Life removes Forgotten Aura'),
 	(-48417, -47406, 0, 'On Strip Detect Drakuru 04 fade - Remove Envision Drakuru'),
@@ -202,11 +200,8 @@ INSERT INTO `spell_linked_spell` (`spell_trigger`, `spell_effect`, `type`, `comm
 	(48778, 50772, 0, 'Acherus Deathcharger - Summon Unholy Mount Visual'),
 	(48810, 48809, 0, 'Cast Binding Life when cast Death\'s Door'),
 	(50141, 50001, 0, 'Blood Oath to Blood Oath Aura'),
-	(50317, 50314, 0, 'Disco Ball'),
-	(50317, 50487, 0, 'Disco Ball'),
 	(50334, 58923, 2, 'Berserk - modify target number aura'),
 	(50440, 50446, 1, 'On Envision Drakuru - Spellcast Summon Drakuru'),
-	(50493, 50314, 0, 'Disco Ball(Listening to Music)'),
 	(50517, -51926, 0, 'Corsair Costume - Remover'),
 	(50709, -50665, 1, 'Strip Aura Jonathan 01 remove aura Bleeding Out'),
 	(50710, -50666, 1, 'Strip Aura Jonathan remove aura Jonathan Dying from player'),

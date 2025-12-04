@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.43-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.44-0ubuntu0.22.04.1 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -74,7 +74,7 @@ INSERT INTO `gossip_menu_option` (`MenuID`, `OptionID`, `OptionIcon`, `OptionTex
 	(141, 2, 0, 'I wish to know about Dual Talent Specialization.', 33762, 20, 1, 10371, 0, 0, 0, '', 0, 0),
 	(141, 4, 0, 'May I have it, please.', 8548, 1, 1, 0, 0, 0, 0, '', 0, 0),
 	(161, 0, 0, 'I need another set of thieves\' tools.', 2643, 1, 1, 0, 0, 0, 0, NULL, 0, 0),
-	(201, 0, 0, 'Let the event begin!', 2662, 1, 1, 0, 0, 0, 0, '', 0, 0),
+	(202, 0, 0, 'Let the event begin!', 2662, 1, 1, 0, 0, 0, 0, '', 0, 0),
 	(230, 0, 0, 'Turn the key to start the machine.', 2703, 1, 1, 0, 0, 0, 0, '', 0, 0),
 	(231, 0, 0, 'Tell me the phrase to Tirth\'s lockbox.', 2707, 1, 1, 232, 0, 0, 0, '', 0, 0),
 	(262, 0, 0, 'Where is the key to this lock?', 2746, 1, 1, 261, 0, 0, 0, NULL, 0, 0),
@@ -1879,6 +1879,7 @@ INSERT INTO `gossip_menu_option` (`MenuID`, `OptionID`, `OptionIcon`, `OptionTex
 	(6628, 0, 3, 'I am interested in warlock training.', 2544, 5, 16, 0, 0, 0, 0, '', 0, 0),
 	(6628, 1, 0, 'I wish to unlearn my talents.', 8271, 16, 16, 4461, 0, 0, 0, '', 0, 0),
 	(6628, 2, 0, 'Learn about Dual Talent Specialization.', 33762, 20, 1, 10371, 0, 0, 0, '', 0, 0),
+	(6629, 0, 0, 'Let\'s find out.', 11026, 1, 1, 0, 0, 0, 0, '', 0, 0),
 	(6644, 0, 0, 'Teleport me to the lair of the Twin Emperors, please.', 12849, 1, 1, 0, 0, 0, 0, NULL, 0, 28153),
 	(6644, 1, 0, 'Please teleport me to the final chamber.', 12851, 1, 1, 0, 0, 0, 0, NULL, 0, 28153),
 	(6647, 0, 3, 'I would like to train further in the ways of the Light.', 5299, 5, 16, 7938, 0, 0, 0, '', 0, 0),
@@ -1937,6 +1938,7 @@ INSERT INTO `gossip_menu_option` (`MenuID`, `OptionID`, `OptionIcon`, `OptionTex
 	(6944, 0, 2, 'Show me where I can fly.', 12271, 4, 8192, 0, 0, 0, 0, '', 0, 0),
 	(7034, 0, 0, 'I would like to enter the secret code to receive my Murloc pet.', 11765, 1, 1, 0, 0, 1, 0, '', 0, 0),
 	(7046, 0, 1, 'Hey Vi\'el, show me your wares!', 11913, 3, 128, 0, 0, 0, 0, '', 0, 0),
+	(7047, 0, 1, 'Let\'s see what you have.', 11820, 3, 128, 0, 0, 0, 0, '', 0, 0),
 	(7058, 0, 0, 'I wish to unlearn my Gnomish Engineering specialization!', 36143, 1, 0, 0, 0, 0, 1500000, 'Do you really want to unlearn your Gnomish Engineering specialization and lose all associated recipes?', 36144, 0),
 	(7058, 1, 0, 'I wish to unlearn my Goblin Engineering specialization!', 36146, 1, 0, 0, 0, 0, 1500000, 'Do you really want to unlearn your Goblin Engineering specialization and lose all associated recipes?', 36145, 0),
 	(7058, 2, 0, 'I am 100% confident that I wish to learn in the ways of gnomish engineering.', 11878, 1, 0, 0, 0, 0, 0, '', 0, 0),

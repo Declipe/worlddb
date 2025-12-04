@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.43-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.44-0ubuntu0.22.04.1 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -690,7 +690,7 @@ INSERT INTO `graveyard_zone` (`ID`, `GhostZone`, `Faction`, `Comment`) VALUES
 	(1448, 139, 0, 'Eastern Plaguelands, Northdale - Eastern Plaguelands'),
 	(1449, 139, 0, 'Eastern Plaguelands, Stratholme - Eastern Plaguelands'),
 	(1450, 139, 0, 'Eastern Plaguelands, West GY - Eastern Plaguelands'),
-	(1451, 139, 0, 'Western Plaguelands, Hearthglen - Eastern Plaguelands'),
+	(1451, 28, 0, 'Western Plaguelands, Hearthglen - Western Plaguelands'),
 	(1452, 267, 0, 'Hillsbrad Foothills, Hillsbrad Fields GY - Hillsbrad Foothills'),
 	(1453, 47, 0, 'The Hinterlands, Seradane - The Hinterlands'),
 	(1454, 47, 0, 'The Hinterlands, Shadra\'Alor - The Hinterlands'),

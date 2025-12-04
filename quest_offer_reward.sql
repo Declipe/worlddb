@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.43-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.44-0ubuntu0.22.04.1 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -7085,7 +7085,7 @@ INSERT INTO `quest_offer_reward` (`ID`, `Emote1`, `Emote2`, `Emote3`, `Emote4`, 
 	(12470, 6, 4, 1, 1, 0, 0, 0, 0, 'You saw Nozdormu? That doesn\'t make any sense.$B$B<Chromie thinks a moment about what you\'ve said.>$B$BActually, that\'s great news! We had no idea of where or when the Lord of Time had gone to. We just knew that he had disappeared to deal with very important matters.$B$BSo, even though the leader of the Infinite Dragonflight wasn\'t revealed, you\'ve discovered that Nozdormu is alive and well, and fighting back against them!$B$BThank you, $N. I\'ll be seeing you soon!', 12340),
 	(12471, 1, 0, 0, 0, 0, 0, 0, 0, 'I thank you, $N.  You\'ve shown a great deal of goodwill towards my clan.', 12340),
 	(12472, 0, 0, 0, 0, 0, 0, 0, 0, 'When you\'re ready I\'ll place the phylactery out in front of the gateway and call forth Thel\'zan.', 12340),
-	(12473, 0, 0, 0, 0, 0, 0, 0, 0, 'Wintergarde is saved because of you, $N. To think that one woman could so swiftly turn the tides of battle is hard for most to comprehend; yet here we are - victorious! You have managed to restore the faith of these people and earned the respect of your commanding officers.$B$B<Halford salutes.>$B$BLord Fordragon has returned to Angrathar to prepare our forces for the destruction of the Wrathgate and has requested that you join him! I couldn\'t recommend a better soldier for the job, $N.', 12340),
+	(12473, 4, 1, 66, 1, 0, 0, 0, 0, 'Wintergarde is saved because of you, $N. To think that one $g man:woman; could so swiftly turn the tides of battle is hard for most to comprehend; yet here we are - victorious! You have managed to restore the faith of these people and earned the respect of your commanding officers.$B$B<Halford salutes.> $B$BLord Fordragon has returned to Angrathar to prepare our forces for the destruction of the Wrathgate and has requested that you join him! I couldn\'t recommend a better soldier for the job, $N.\n', 13623),
 	(12474, 1, 1, 6, 1, 0, 0, 0, 0, 'This commendation is only given to those that have gone above and beyond the call of duty in the name of the Alliance. I could count the number of times I\'ve handed this one out on one hand, $N, and never has anyone been more deserving than you! Congratulations!$B$BNow, let us look upon the Wrathgate. Does it look familiar? It should. That strange ore you found at the Wintergarde Mine is exactly what the Wrathgate is made from. We will find its weakness and expose it for all to see! First, though...', 12340),
 	(12475, 1, 6, 5, 0, 0, 0, 0, 0, 'A cave? Could it be? There can be no other correlation!', 12340),
 	(12476, 1, 1, 0, 0, 0, 0, 0, 0, 'Hopefully the message is now clear to the Onslaught. I hope it was enough of a beating to make them doubt their affiliations.\n', 12340),
