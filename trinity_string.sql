@@ -736,7 +736,7 @@ INSERT INTO `trinity_string` (`entry`, `content_default`, `content_enGB`, `conte
 	(1002, 'The account %s was NOT deleted (the SQL file format was probably updated).', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
 	(1003, 'The account %s was NOT deleted (unknown error).', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
 	(1004, 'Account created: %s', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-	(1005, 'An account name can NOT be longer than 16 characters (client limit). The account was NOT created.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+	(1005, 'An account name can NOT be longer than %u characters (client limit). The account was NOT created.', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
 	(1006, 'An account with this name already exists!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
 	(1007, 'The account %s was NOT created (the SQL file format was probably updated).', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
 	(1008, 'The account %s was NOT created (unknown error).', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),

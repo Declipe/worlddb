@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS `npc_vendor` (
   KEY `slot` (`slot`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Npc System';
 
--- Дамп данных таблицы world3.3.5_beta.npc_vendor: ~54 295 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.npc_vendor: ~54 297 rows (приблизительно)
 INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `VerifiedBuild`) VALUES
 	(54, 0, 2488, 0, 0, 2, 0),
 	(54, 0, 2489, 0, 0, 0, 0),
@@ -45806,6 +45806,7 @@ INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `Exte
 	(60806, 0, 54567, 0, 0, 0, 0),
 	(60806, 0, 54576, 0, 0, 0, 0),
 	(60806, 0, 54585, 0, 0, 0, 0),
+	(60807, 0, 975, 0, 0, 0, NULL),
 	(60807, 0, 1323, 0, 0, 0, NULL),
 	(60807, 0, 1492, 0, 0, 0, NULL),
 	(60807, 0, 1500, 0, 0, 0, NULL),
@@ -45824,6 +45825,7 @@ INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `Exte
 	(60807, 0, 8887, 0, 0, 0, NULL),
 	(60807, 0, 8888, 0, 0, 0, NULL),
 	(60807, 0, 8889, 0, 0, 0, NULL),
+	(60807, 0, 8896, 0, 0, 0, NULL),
 	(60807, 0, 8898, 0, 0, 0, NULL),
 	(60807, 0, 23388, 0, 0, 0, NULL),
 	(60807, 0, 33817, 0, 0, 0, NULL),
@@ -50030,10 +50032,10 @@ INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `Exte
 	(500060, 0, 3857, 0, 0, 0, 0),
 	(500060, 0, 3858, 0, 0, 0, 0),
 	(500060, 0, 3859, 0, 0, 0, 0),
-	(500060, 0, 3860, 0, 0, 0, 0),
-	(500060, 0, 6037, 0, 0, 0, 0),
-	(500060, 0, 7911, 0, 0, 0, 0);
+	(500060, 0, 3860, 0, 0, 0, 0);
 INSERT INTO `npc_vendor` (`entry`, `slot`, `item`, `maxcount`, `incrtime`, `ExtendedCost`, `VerifiedBuild`) VALUES
+	(500060, 0, 6037, 0, 0, 0, 0),
+	(500060, 0, 7911, 0, 0, 0, 0),
 	(500060, 0, 7912, 0, 0, 0, 0),
 	(500060, 0, 7966, 0, 0, 0, 0),
 	(500060, 0, 10620, 0, 0, 0, 0),

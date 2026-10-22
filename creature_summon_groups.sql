@@ -1191,10 +1191,6 @@ INSERT INTO `creature_summon_groups` (`summonerId`, `summonerType`, `groupId`, `
 	(4508, 0, 0, 4514, 2148.47, 1732.58, 51.8974, 3.22886, 4, 60000, 'Willix the Importer - Group 0 - Raging Agam\'ar'),
 	(4508, 0, 1, 4514, 1967.01, 1598.43, 81.0585, 3.27341, 4, 60000, 'Willix the Importer - Group 1 - Raging Agam\'ar'),
 	(4508, 0, 1, 4514, 1969.72, 1601.24, 80.4318, 3.29867, 4, 60000, 'Willix the Importer - Group 1 - Raging Agam\'ar'),
-	(23953, 0, 0, 23970, 153.913, 260.999, 42.9539, 5.77704, 8, 0, 'Prince Keleseth - Group 0 - Vrykul Skeleton'),
-	(23953, 0, 0, 23970, 148.906, 260.219, 42.9539, 5.89921, 8, 0, 'Prince Keleseth - Group 0 - Vrykul Skeleton'),
-	(23953, 0, 0, 23970, 147.773, 266.235, 42.9539, 5.75959, 8, 0, 'Prince Keleseth - Group 0 - Vrykul Skeleton'),
-	(23953, 0, 0, 23970, 153.472, 266.161, 42.9539, 5.61996, 8, 0, 'Prince Keleseth - Group 0 - Vrykul Skeleton'),
 	(3678, 0, 0, 3636, -67.947, 206.721, -93.505, 1.89091, 6, 300000, 'Disciple of Naralex - Group 0 - Deviate Ravager'),
 	(3678, 0, 0, 3636, -69.2879, 211.943, -93.4499, 4.09511, 6, 300000, 'Disciple of Naralex - Group 0 - Deviate Ravager'),
 	(3678, 0, 1, 5048, -60.2539, 273.098, -92.7609, 0.401426, 6, 300000, 'Disciple of Naralex - Group 1 - Deviate Adder'),
@@ -1210,7 +1206,11 @@ INSERT INTO `creature_summon_groups` (`summonerId`, `summonerType`, `groupId`, `
 	(3678, 0, 3, 5763, 126.322, 282.248, -103.798, 0.942478, 6, 300000, 'Disciple of Naralex - Group 3 - Nightmare Ectoplasm'),
 	(3678, 0, 3, 5763, 164.627, 274.123, -107.298, 4.66003, 6, 300000, 'Disciple of Naralex - Group 3 - Nightmare Ectoplasm'),
 	(3678, 0, 3, 5763, 144.843, 278.079, -104.575, 4.43314, 6, 300000, 'Disciple of Naralex - Group 3 - Nightmare Ectoplasm'),
-	(3678, 0, 4, 3654, 150.943, 262.797, -103.904, 3.7001, 6, 300000, 'Disciple of Naralex - Group 4 - Mutanus the Devourer');
+	(3678, 0, 4, 3654, 150.943, 262.797, -103.904, 3.7001, 6, 300000, 'Disciple of Naralex - Group 4 - Mutanus the Devourer'),
+	(23953, 0, 0, 23970, 153.913, 260.999, 42.9539, 5.77704, 8, 0, 'Prince Keleseth - Group 0 - Vrykul Skeleton'),
+	(23953, 0, 0, 23970, 148.906, 260.219, 42.9539, 5.89921, 8, 0, 'Prince Keleseth - Group 0 - Vrykul Skeleton'),
+	(23953, 0, 0, 23970, 147.773, 266.235, 42.9539, 5.75959, 8, 0, 'Prince Keleseth - Group 0 - Vrykul Skeleton'),
+	(23953, 0, 0, 23970, 153.472, 266.161, 42.9539, 5.61996, 8, 0, 'Prince Keleseth - Group 0 - Vrykul Skeleton');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

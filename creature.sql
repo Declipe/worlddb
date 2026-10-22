@@ -44,9 +44,9 @@ CREATE TABLE IF NOT EXISTS `creature` (
   PRIMARY KEY (`guid`),
   KEY `idx_map` (`map`),
   KEY `idx_id` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=15010490 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Creature System';
+) ENGINE=InnoDB AUTO_INCREMENT=15010494 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Creature System';
 
--- Дамп данных таблицы world3.3.5_beta.creature: ~151 177 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.creature: ~151 178 rows (приблизительно)
 INSERT INTO `creature` (`guid`, `id`, `map`, `zoneId`, `areaId`, `spawnMask`, `phaseMask`, `modelid`, `equipment_id`, `position_x`, `position_y`, `position_z`, `orientation`, `spawntimesecs`, `wander_distance`, `currentwaypoint`, `curhealth`, `curmana`, `MovementType`, `npcflag`, `unit_flags`, `dynamicflags`, `ScriptName`, `StringId`, `VerifiedBuild`) VALUES
 	(1, 2843, 0, 33, 35, 1, 1, 0, 1, -14467.8, 468.374, 15.1064, 0.139626, 300, 0, 0, 2059, 0, 0, 0, 0, 0, '', NULL, 0),
 	(2, 7853, 0, 33, 35, 1, 1, 0, 1, -14464.9, 459.585, 15.2488, 3.735, 300, 0, 0, 1003, 0, 0, 0, 0, 0, '', NULL, 0),
@@ -153274,7 +153274,8 @@ INSERT INTO `creature` (`guid`, `id`, `map`, `zoneId`, `areaId`, `spawnMask`, `p
 	(15010485, 90156, 0, 0, 0, 1, 1, 0, 0, 3632.85, -2708.38, 173.726, 4.44614, 300, 0, 0, 10080, 0, 0, 0, 0, 0, '', NULL, 0),
 	(15010486, 90156, 0, 0, 0, 1, 1, 0, 0, 3701.53, -2670.17, 131.407, 6.09548, 300, 0, 0, 10080, 0, 0, 0, 0, 0, '', NULL, 0),
 	(15010488, 90157, 0, 0, 0, 1, 1, 0, 0, 3650.56, -2784.16, 174.055, 2.9421, 300, 0, 0, 10080, 0, 0, 0, 0, 0, '', NULL, 0),
-	(15010489, 90158, 0, 0, 0, 1, 1, 0, 0, 3645.82, -2790.81, 174.608, 1.65483, 300, 0, 0, 10080, 0, 0, 0, 0, 0, '', NULL, 0);
+	(15010489, 90158, 0, 0, 0, 1, 1, 0, 0, 3645.82, -2790.81, 174.608, 1.65483, 300, 0, 0, 10080, 0, 0, 0, 0, 0, '', NULL, 0),
+	(15010493, 3444, 0, 0, 0, 1, 1, 0, 0, 3700.55, -2660.25, 131.408, 6.06249, 300, 0, 0, 5040, 0, 0, 0, 0, 0, '', NULL, 0);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

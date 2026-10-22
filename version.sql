@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS `version` (
 
 -- Дамп данных таблицы world3.3.5_beta.version: ~1 rows (приблизительно)
 INSERT INTO `version` (`core_version`, `core_revision`, `db_version`, `cache_id`) VALUES
-	('Ctulhunet.ru rev. 771666790124 2026-09-08 22:25:15 +0300 (3.3.5 branch) (Linux, x86_64, Release, Dynamic)', '771666790124', 'TDB 335.25101', 25101);
+	('Ctulhunet.ru rev. 56874c223ccf 2026-10-13 19:18:58 +0300 (3.3.5 branch) (Linux, x86_64, Release, Dynamic)', '56874c223ccf', 'TDB 335.26091', 26091);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
