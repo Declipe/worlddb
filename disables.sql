@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.44-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.46-0ubuntu0.22.04.4 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS `disables` (
   PRIMARY KEY (`sourceType`,`entry`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.disables: ~865 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.disables: ~867 rows (приблизительно)
 INSERT INTO `disables` (`sourceType`, `entry`, `flags`, `params_0`, `params_1`, `comment`) VALUES
 	(0, 128, 8, '', '', 'Spell for deprecated item'),
 	(0, 698, 17, '30,489', '', 'Disable of Ritual of Summoning on Alterac Valley and Warsong Gulch'),
@@ -82,6 +82,7 @@ INSERT INTO `disables` (`sourceType`, `entry`, `flags`, `params_0`, `params_1`, 
 	(0, 29443, 256, '0', '0', 'Clutch of Foresight'),
 	(0, 29916, 64, '', '', 'Ignore LOS on Feed Captured Animal'),
 	(0, 29917, 64, '', '', 'Ignore LOS on Feed Captured Animal'),
+	(0, 31515, 64, '', '', 'Disable LOS for spell \'Red Beam\''),
 	(0, 31696, 64, '', '', 'Ignore LOS on Thane'),
 	(0, 32182, 64, '', '', 'Ignore LOS for Bloodlust'),
 	(0, 32205, 64, '', '', 'Ignore LOS for Place Mag\'har Battle Standard'),
@@ -94,6 +95,7 @@ INSERT INTO `disables` (`sourceType`, `entry`, `flags`, `params_0`, `params_1`, 
 	(0, 45537, 64, '', '', 'Lightning Beam Channel - Ignore LOS'),
 	(0, 45724, 64, '0', '0', 'Disable LoS for spell Braziers Hit'),
 	(0, 46314, 64, '0', '0', 'Disable LOS for spell Ahune - Slippery Floor Ambient'),
+	(0, 46320, 64, '', '', 'Disable LOS for spell \'Slippery Floor Ambient Periodic\''),
 	(0, 46422, 64, '0', '0', 'Disable LOS for spell Shamans Look for Opening'),
 	(0, 46593, 64, '0', '0', 'Disable LOS for spell Whisp Flight Missile and Beam'),
 	(0, 46603, 64, '0', '0', 'Disable LOS for spell Force Whisp to Flight'),

@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.44-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.46-0ubuntu0.22.04.4 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -9389,7 +9389,7 @@ INSERT INTO `creature_template_locale` (`entry`, `locale`, `Name`, `Title`, `Ver
 	(1464, 'esMX', 'Tabernero Helbrek', 'Tabernero', 18019),
 	(1464, 'frFR', 'Helbrek l\'aubergiste', 'Aubergiste', 18019),
 	(1464, 'koKR', '여관주인 헬브렉', '여관주인', 18019),
-	(1464, 'ruRU', 'Трактирщик Хелбрек', 'Хозяин таверны', 18019),
+	(1464, 'ruRU', 'Хозяин таверны Хелбрек', 'Хозяин таверны', 12340),
 	(1464, 'zhCN', '旅店老板赫布瑞克', '旅店老板', 18019),
 	(1464, 'zhTW', '旅店老闆赫布瑞克', '旅店老闆', 18019),
 	(1465, 'deDE', 'Drac Grobschnitt', 'Handwerker', 18019),
@@ -11630,7 +11630,7 @@ INSERT INTO `creature_template_locale` (`entry`, `locale`, `Name`, `Title`, `Ver
 	(1766, 'esMX', 'Huargo rabioso', '', 18019),
 	(1766, 'frFR', 'Worg enragé', '', 18019),
 	(1766, 'koKR', '광포한 검은늑대', '', 18019),
-	(1766, 'ruRU', 'Бешеный ворг', '', 18019),
+	(1766, 'ruRU', 'Крапчатый ворг', '', 12340),
 	(1766, 'zhCN', '疯狂的座狼', '', 18019),
 	(1766, 'zhTW', '瘋狂的座狼', '', 18019),
 	(1767, 'deDE', 'Schredder der Finsterflossen', '', 18019),
@@ -15641,7 +15641,7 @@ INSERT INTO `creature_template_locale` (`entry`, `locale`, `Name`, `Title`, `Ver
 	(2352, 'esMX', 'Tabernero Anderson', 'Tabernero', 18019),
 	(2352, 'frFR', 'Anderson l\'aubergiste', 'Aubergiste', 18019),
 	(2352, 'koKR', '여관주인 앤더슨', '여관주인', 18019),
-	(2352, 'ruRU', 'Трактирщик Андерсон', 'Хозяин таверны', 18019),
+	(2352, 'ruRU', 'Хозяин таверны Андерсон', 'Хозяин таверны', 12340),
 	(2352, 'zhCN', '旅店老板安德森', '旅店老板', 18019),
 	(2352, 'zhTW', '旅店老闆安德森', '旅店老闆', 18019),
 	(2354, 'deDE', 'Heimtückischer Graubär', '', 18019),
@@ -23725,7 +23725,7 @@ INSERT INTO `creature_template_locale` (`entry`, `locale`, `Name`, `Title`, `Ver
 	(3429, 'esMX', 'Thork', '', 18019),
 	(3429, 'frFR', 'Thork', '', 18019),
 	(3429, 'koKR', '톨크', '', 18019),
-	(3429, 'ruRU', 'Тхорк', '', 18019),
+	(3429, 'ruRU', 'Торк', '', 12340),
 	(3429, 'zhCN', '索克', '', 18019),
 	(3429, 'zhTW', '索克', '', 18019),
 	(3430, 'deDE', 'Quetschzahn', '', 18019),
@@ -81712,7 +81712,7 @@ INSERT INTO `creature_template_locale` (`entry`, `locale`, `Name`, `Title`, `Ver
 	(16112, 'esMX', 'Comandante de Cruzada Korfax', 'Hermandad de la Luz', 18019),
 	(16112, 'frFR', 'Commandant de la croisade Korfax', 'Fraternité de la Lumière', 18019),
 	(16112, 'koKR', '십자군 사령관 코팩스', '빛의 결사단', 18019),
-	(16112, 'ruRU', 'Командир рыцарей Корфакс', 'Братство Света', 18019),
+	(16112, 'ruRU', 'Корфакс, Воитель Света', '', 12340),
 	(16112, 'zhCN', '十字军指挥官科尔法克斯', '圣光兄弟会', 18019),
 	(16112, 'zhTW', '十字軍指揮官柯菲斯', '聖光兄弟會', 18019),
 	(16113, 'deDE', 'Vater Inigo Montoy', 'Bruderschaft des Lichts', 18019),

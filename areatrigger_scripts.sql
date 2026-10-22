@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.44-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.46-0ubuntu0.22.04.4 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `areatrigger_scripts` (
   PRIMARY KEY (`entry`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.areatrigger_scripts: ~208 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.areatrigger_scripts: ~209 rows (приблизительно)
 INSERT INTO `areatrigger_scripts` (`entry`, `ScriptName`) VALUES
 	(171, 'SmartTrigger'),
 	(302, 'at_sentry_point'),
@@ -89,8 +89,9 @@ INSERT INTO `areatrigger_scripts` (`entry`, `ScriptName`) VALUES
 	(4113, 'at_thaddius_entrance'),
 	(4115, 'at_faerlina_entrance'),
 	(4119, 'at_anubrekhan_entrance'),
+	(4288, 'at_black_morass_medivh'),
 	(4339, 'SmartTrigger'),
-	(4347, 'at_the_sewer'),
+	(4347, 'at_shattered_halls_the_sewer'),
 	(4356, 'at_bring_your_orphan_to'),
 	(4368, 'SmartTrigger'),
 	(4369, 'SmartTrigger'),
@@ -147,6 +148,7 @@ INSERT INTO `areatrigger_scripts` (`entry`, `ScriptName`) VALUES
 	(4872, 'SmartTrigger'),
 	(4873, 'SmartTrigger'),
 	(4894, 'SmartTrigger'),
+	(4914, 'SmartTrigger'),
 	(4937, 'at_witchs_sanctum'),
 	(4946, 'SmartTrigger'),
 	(4947, 'SmartTrigger'),

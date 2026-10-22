@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.44-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.46-0ubuntu0.22.04.4 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -16,7 +16,7 @@
 
 -- Удаление временной таблицы и создание окончательной структуры представления
 DROP TABLE IF EXISTS `vw_disables_with_labels`;
-CREATE ALGORITHM=UNDEFINED SQL SECURITY INVOKER VIEW `vw_disables_with_labels` AS select (case when (`disables`.`sourceType` = 0) then 'DISABLE_TYPE_SPELL' when (`disables`.`sourceType` = 1) then 'DISABLE_TYPE_QUEST' when (`disables`.`sourceType` = 2) then 'DISABLE_TYPE_MAP' when (`disables`.`sourceType` = 3) then 'DISABLE_TYPE_BATTLEGROUND' when (`disables`.`sourceType` = 4) then 'DISABLE_TYPE_ACHIEVEMENT_CRITERIA' when (`disables`.`sourceType` = 5) then 'DISABLE_TYPE_OUTDOORPVP' when (`disables`.`sourceType` = 6) then 'DISABLE_TYPE_VMAP' when (`disables`.`sourceType` = 7) then 'DISABLE_TYPE_MMAP' when (`disables`.`sourceType` = 8) then 'DISABLE_TYPE_LFG_MAP' else `disables`.`sourceType` end) AS `sourceType`,`disables`.`entry` AS `entry`,`disables`.`flags` AS `flags`,`disables`.`params_0` AS `params_0`,`disables`.`params_1` AS `params_1`,`disables`.`comment` AS `comment` from `disables`
+CREATE ALGORITHM=UNDEFINED SQL SECURITY INVOKER VIEW `world3.3.5_beta`.`vw_disables_with_labels` AS select (case when (`world3.3.5_beta`.`disables`.`sourceType` = 0) then 'DISABLE_TYPE_SPELL' when (`world3.3.5_beta`.`disables`.`sourceType` = 1) then 'DISABLE_TYPE_QUEST' when (`world3.3.5_beta`.`disables`.`sourceType` = 2) then 'DISABLE_TYPE_MAP' when (`world3.3.5_beta`.`disables`.`sourceType` = 3) then 'DISABLE_TYPE_BATTLEGROUND' when (`world3.3.5_beta`.`disables`.`sourceType` = 4) then 'DISABLE_TYPE_ACHIEVEMENT_CRITERIA' when (`world3.3.5_beta`.`disables`.`sourceType` = 5) then 'DISABLE_TYPE_OUTDOORPVP' when (`world3.3.5_beta`.`disables`.`sourceType` = 6) then 'DISABLE_TYPE_VMAP' when (`world3.3.5_beta`.`disables`.`sourceType` = 7) then 'DISABLE_TYPE_MMAP' when (`world3.3.5_beta`.`disables`.`sourceType` = 8) then 'DISABLE_TYPE_LFG_MAP' else `world3.3.5_beta`.`disables`.`sourceType` end) AS `sourceType`,`world3.3.5_beta`.`disables`.`entry` AS `entry`,`world3.3.5_beta`.`disables`.`flags` AS `flags`,`world3.3.5_beta`.`disables`.`params_0` AS `params_0`,`world3.3.5_beta`.`disables`.`params_1` AS `params_1`,`world3.3.5_beta`.`disables`.`comment` AS `comment` from `world3.3.5_beta`.`disables`
 ;
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;

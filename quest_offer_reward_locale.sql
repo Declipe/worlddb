@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.44-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.46-0ubuntu0.22.04.4 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -7251,7 +7251,7 @@ INSERT INTO `quest_offer_reward_locale` (`ID`, `locale`, `RewardText`, `Verified
 	(1439, 'zhTW', '真是太可怕了!但我想這是有必要的。即使你不這麼做，我的同胞也會這麼做的。我應該謝謝你―如果我看起來不夠誠懇的話，還請你原諒，我沒有冒犯你的意思。$B$B既然已經知道哥哥的下落，那麼我似乎應該逃離這裏了。如果你願意的話，我可以在你的幫助下離開這個恐怖的地方。$B$B等你準備好了之後，我們就一起離開。', 0),
 	(1440, 'esES', 'Gracias, $n. Dalinda llegó sana y salva a Punta de Nijel y en mejores condiciones de lo que cabría haber esperado. El hecho de que llegara hasta aquí en pleno control de su poder y sus facultades es una buena señal. Espero que tú estés bien.$B$BMe duele pensar que Tyranis y Dalinda no han regresado juntos, pero sobre todo me pesa que ella tenga que soportar la vergüenza de las decisiones que tomó Tyranis. Es algo con lo que tendrá que enfrentarse cuando regrese a Darnassus.', 0),
 	(1440, 'esMX', 'Gracias, $n. Dalinda llegó sana y salva a Punta de Nijel y en mejores condiciones de lo que cabría haber esperado. El hecho de que llegara hasta aquí en pleno control de su poder y sus facultades es una buena señal. Espero que tú estés bien.$B$BMe duele pensar que Tyranis y Dalinda no han regresado juntos, pero sobre todo me pesa que ella tenga que soportar la vergüenza de las decisiones que tomó Tyranis. Es algo con lo que tendrá que enfrentarse cuando regrese a Darnassus.', 0),
-	(1440, 'ruRU', 'Благодарю тебя, $N. Далинда благополучно добралась до Высоты Найджела и чувствует себя гораздо лучше, чем я смел надеяться. Я даже не надеялся на столь благополучный исход! То, что ей удалось добраться сюда своими силами – добрый знак. Надеюсь, с тобой тоже все в порядке?..$B$BМне жаль, что Тиранис не вернулся; однако все, что с ним произошло, было плодом его собственных решений. Далинде придется с этим смириться – и, к тому же, разбираться с последствиями его действий, когда она вернется в Дарнасс.', 0),
+	(1440, 'ruRU', 'Благодарю тебя, $N. Далинда благополучно добралась до Высоты Найджела и чувствует себя гораздо лучше, чем я смел надеяться. Я даже не надеялся на столь благополучный исход! То, что ей удалось добраться сюда своими силами – добрый знак. Надеюсь, с тобой тоже все в порядке?..$B$BМне жаль, что Тиранис не вернулся; однако все, что с ним произошло, было плодом его собственных решений. Далинде придется с этим смириться – и, к тому же, разбираться с последствиями его действий, когда она вернется в Дарнас.', 0),
 	(1440, 'zhCN', '谢谢你，$N。黛琳达安全地返回了尼耶尔前哨站，情况比我想象的还要好一些。她能自己回到这里是件不错的事情，你一切都还好吧?$B$B可惜泰拉尼斯没有和黛琳达一起回来，这让我很痛心，不过我想黛琳达还是得承受泰拉尼斯的决定。她回到达纳苏斯以后还会有许多事情要做。', 0),
 	(1440, 'zhTW', '謝謝你，$N。黛琳達安全地返回了尼耶爾前哨站，情況比我想象的還要好一些。她能自己回到這裏是件不錯的事情，你一切都還好吧?$B$B可惜泰拉尼斯沒有和黛琳達一起回來，這讓我很痛心，不過我想黛琳達還是得承受泰拉尼斯的決定。她回到達納蘇斯以後還會有許多事情要做。', 0),
 	(1442, 'deDE', 'Das ist wahrhaftig der Edelstein, den Stilwell begehrt, doch ehe ich zulassen kann, dass Ihr ihn zu ihm bringt, muss er von Verderbnis geläutert werden - die Frauen der Naga stärken die Edelsteine mit Macht, das stimmt, aber mit ihrer eigenen bösen Macht.$B$BLasst Stilwell wissen, dass die Macht unversehrt ist und bei jedem Ritual, das er durchführen möchte, funktionieren sollte.$B$BIch hoffe nur, Ihr wisst, was Ihr tut, $C, es ist kein einfacher Gegenstand, den Ihr da besitzt.', 0),
@@ -14909,7 +14909,7 @@ INSERT INTO `quest_offer_reward_locale` (`ID`, `locale`, `RewardText`, `Verified
 	(5730, 'zhTW', '灰谷?嗯，我沒有聽說過灰谷有議會或者燃刃氏族的勢力存在。我的探子會去調查的，$N。你乾得很出色。$B$B至於現在，去好好休息吧，然後繼續執行其它的任務。不久之後我會再次召喚你。$B$B爲了部落的榮耀!', 0),
 	(5741, 'esES', '¡El elusivo Cetro de la Luz! Al hacerte con él has eliminado una gran amenaza para el mundo. Bien hecho, $c, bien hecho.', 0),
 	(5741, 'esMX', '¡El elusivo Cetro de la Luz! Al hacerte con él has eliminado una gran amenaza para el mundo. Bien hecho, $c, bien hecho.', 0),
-	(5741, 'ruRU', 'Неуловимый Скипетр Света!.. Добыв его, ты избавил мир от великой угрозы. Прекрасно, |3-6($C), просто прекрасно!..', 0),
+	(5741, 'ruRU', 'Неуловимый Скипетр Света!.. Добыв его, ты $gизбавил:избавила; мир от великой угрозы. Прекрасно, |3-6($C), просто прекрасно!..', 0),
 	(5741, 'zhCN', '强大的圣光权杖!你终于拿到它了，这个世界上又少了一个巨大的威胁。干得好，$C，干得非常好。', 0),
 	(5741, 'zhTW', '強大的聖光權杖!你終於拿到它了，這個世界上又少了一個巨大的威脅。幹得好，$C，幹得非常好。', 0),
 	(5742, 'deDE', 'Fordring zu erlösen wird sehr schwierig sein. Seid Ihr bereit?', 0),
@@ -15591,7 +15591,7 @@ INSERT INTO `quest_offer_reward_locale` (`ID`, `locale`, `RewardText`, `Verified
 	(6133, 'zhTW', '我相信你沒有讀過這份文件。即使是你這樣的蠢貨也不會蠢到那個地步……', 0),
 	(6134, 'esES', '¡Ahí está! Y parece que también llevas un poco encima. Es pegajosillo, ¿eh?$B$BBueno, gracias por todo, $n. Esta cosa me hará ganar una fortuna... ¡si consigo convencer a los centauros de que la vale!', 0),
 	(6134, 'esMX', '¡Ahí está! Y parece que también llevas un poco encima. Es pegajosillo, ¿eh?$B$BBueno, gracias por todo, $n. Esta cosa me hará ganar una fortuna... ¡si consigo convencer a los centauros de que la vale!', 0),
-	(6134, 'ruRU', 'А вот и она!.. Похоже, ты и сам в эктоплазме перемазался. Склизкая штука, верно?\n\nЧто ж, $N, прими мою благодарность. Эта дрянь стоит целого состояния... Конечно, если удастся убедить кентавров ее купить!', 0),
+	(6134, 'ruRU', 'А вот и она!.. Похоже, ты и $gсам:сама; в эктоплазме $gперемазался:перемазалась;. Склизкая штука, верно? $B$BЧто ж, $N, прими мою благодарность. Эта дрянь стоит целого состояния... Конечно, если удастся убедить кентавров ее купить!', 0),
 	(6134, 'zhCN', '它在那儿!看起来你身上还沾了一点。有点黏，是吗?$B$B哦，给你添了那么多麻烦，真的很谢谢你，$N。这东西值一大笔钱……如果我能让半人马们相信这是什么!', 0),
 	(6134, 'zhTW', '它在那兒!看起來你身上還沾了一點。有點黏，是嗎?$B$B哦，給你添了那麼多麻煩，真的很謝謝你，$N。這東西值一大筆錢……如果我能讓半人馬們相信這是什麼!', 0),
 	(6135, 'deDE', 'Gut gemacht, Schwachkopf. Ich fertige aus diesem Fell etwas an, das Ihr brauchen könnt.', 0),

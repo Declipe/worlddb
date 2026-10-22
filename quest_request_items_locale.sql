@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.44-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.46-0ubuntu0.22.04.4 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -5447,7 +5447,7 @@ INSERT INTO `quest_request_items_locale` (`ID`, `locale`, `CompletionText`, `Ver
 	(1369, 'zhTW', '如果你是我的朋友，就按照我的要求去做!', 0),
 	(1370, 'esES', '¡Vuelve cuando hayas demostrado a los Gelkis tu valía!', 0),
 	(1370, 'esMX', '¡Vuelve cuando hayas demostrado a los Gelkis tu valía!', 0),
-	(1370, 'ruRU', 'Когда докажешь, что верен клану Гелкис, возвращайся. Будем говорить.', 0),
+	(1370, 'ruRU', 'Когда докажешь, что $gверен:верна; клану Гелкис, возвращайся. Будем говорить.', 0),
 	(1370, 'zhCN', '向吉尔吉斯半人马证明了你的价值以后再回来!', 0),
 	(1370, 'zhTW', '向吉爾吉斯半人馬證明了你的價值以後再回來!', 0),
 	(1371, 'esES', 'Si no eres nuestro enemigo, ¡harás lo que te pido!', 0),
@@ -10955,7 +10955,7 @@ INSERT INTO `quest_request_items_locale` (`ID`, `locale`, `CompletionText`, `Ver
 	(5545, 'zhTW', '期限馬上就要到了，$C。請馬上幫我收集一些木材。', 0),
 	(5561, 'esES', 'La caravana llegará dentro de nada. ¿Tienes los kodos domados que necesito?', 0),
 	(5561, 'esMX', 'La caravana llegará dentro de nada. ¿Tienes los kodos domados que necesito?', 0),
-	(5561, 'ruRU', 'Караван скоро будет здесь. Надеюсь, ты привел новых прирученных кодо? Да? Да?', 0),
+	(5561, 'ruRU', 'Караван скоро будет здесь. Надеюсь, ты $gпривел:привела; новых прирученных кодо? Да? Да?', 0),
 	(5561, 'zhCN', '商队就要来了，我要的5头科多兽呢?', 0),
 	(5561, 'zhTW', '商隊就要來了，我要的5頭科多獸呢?', 0),
 	(5581, 'deDE', 'Habt Ihr die Dämonenportale in Mannorocs Koven verbannt?', 0),
@@ -11043,7 +11043,7 @@ INSERT INTO `quest_request_items_locale` (`ID`, `locale`, `CompletionText`, `Ver
 	(5730, 'ruRU', 'Ну что, удалось тебе убить эту тварь? Наверняка он является предводителем Пламенеющего Клинка в Огненной пропасти!', 0),
 	(5741, 'esES', '¿Tienes el Cetro de Luz?', 0),
 	(5741, 'esMX', '¿Tienes el Cetro de Luz?', 0),
-	(5741, 'ruRU', 'Ты нашел Скипетр Света? Он у тебя?', 0),
+	(5741, 'ruRU', 'Ты $gнашел:нашла; Скипетр Света? Он у тебя?', 0),
 	(5741, 'zhCN', '你拿到圣光权杖了吗?', 0),
 	(5741, 'zhTW', '你拿到聖光權杖了嗎?', 0),
 	(5742, 'deDE', 'Bitte setzt Euch und hört meine Geschichte.', 0),

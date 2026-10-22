@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.44-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.46-0ubuntu0.22.04.4 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `spell_linked_spell` (
   UNIQUE KEY `trigger_effect_type` (`spell_trigger`,`spell_effect`,`type`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Spell System';
 
--- Дамп данных таблицы world3.3.5_beta.spell_linked_spell: ~290 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.spell_linked_spell: ~287 rows (приблизительно)
 INSERT INTO `spell_linked_spell` (`spell_trigger`, `spell_effect`, `type`, `comment`) VALUES
 	(-75731, -75055, 0, 'Instant Statue'),
 	(-75731, -74890, 0, 'Instant Statue'),
@@ -55,7 +55,6 @@ INSERT INTO `spell_linked_spell` (`spell_trigger`, `spell_effect`, `type`, `comm
 	(-47403, -47317, 0, 'On Strip Detect Drakuru 03 fade - Remove Envision Drakuru'),
 	(-47308, -47150, 0, 'On Strip Detect Drakuru 02 fade - Remove Envision Drakuru'),
 	(-47122, -47118, 0, 'On Strip Detect Drakuru fade - Remove Envision Drakuru'),
-	(-45964, -46333, 0, ''),
 	(-43883, -43332, 0, 'Rental racing ram removed removes Exhausted'),
 	(-43883, -43310, 0, 'Remove Ram level Neutral when Rental racing ram removed'),
 	(-43883, -43052, 0, 'Rental racing ram removed removes Ram Fatigue'),
@@ -79,8 +78,6 @@ INSERT INTO `spell_linked_spell` (`spell_trigger`, `spell_effect`, `type`, `comm
 	(-42091, -42079, 0, 'Removal of spell Headless Horseman - Fire Size also removes Headless Horseman - Spread Fire'),
 	(-42091, -42074, 0, 'Removal of spell Headless Horseman - Fire Size also removes Headless Horseman - Fire'),
 	(-41909, 45254, 0, 'On spellfade Hex of Air Knockback - Spellcast Suicide'),
-	(-39091, -39092, 0, 'Negative Charge'),
-	(-39088, -29659, 0, 'Positive Charge'),
 	(-38704, -36032, 0, 'Arcane Missiles Rank 11'),
 	(-38699, -36032, 0, 'Arcane Missiles Rank 10'),
 	(-33896, -33897, 0, 'Desperate Defense'),
@@ -134,7 +131,6 @@ INSERT INTO `spell_linked_spell` (`spell_trigger`, `spell_effect`, `type`, `comm
 	(28084, -28059, 1, 'Negative Charge - Positive Charge'),
 	(28273, -28274, 0, 'Bloodthistle'),
 	(28732, -28798, 1, 'Widow\'s Embrace - Frenzy'),
-	(30658, 30571, 0, 'Quake Trigger Quake Knockback'),
 	(32386, 60448, 2, 'Shadow Embrace Rank1'),
 	(32388, 60465, 2, 'Shadow Embrace Rank2'),
 	(32389, 60466, 2, 'Shadow Embrace Rank3'),
@@ -146,8 +142,6 @@ INSERT INTO `spell_linked_spell` (`spell_trigger`, `spell_effect`, `type`, `comm
 	(36574, 36650, 0, 'Apply Phase Slip Vulnerability'),
 	(37639, 36326, 0, 'Nether Whelp'),
 	(37908, 36801, 0, 'Aura Visual Teleport - teleport'),
-	(39088, -39091, 1, 'Positive Charge - Negative Charge'),
-	(39091, -39088, 1, 'Negative Charge - Positive Charge'),
 	(39371, 39322, 0, 'Heal Barada'),
 	(39908, 40017, 1, 'Eye Blast'),
 	(40214, 40216, 2, 'Dragonmaw Illusion'),
@@ -177,13 +171,10 @@ INSERT INTO `spell_linked_spell` (`spell_trigger`, `spell_effect`, `type`, `comm
 	(43568, 34872, 1, 'Frost Strike'),
 	(43569, 34872, 1, 'Frost trigger '),
 	(43770, 43892, 1, 'Steel Gate Drop Off Check'),
-	(44007, -43657, 2, 'Storm Eye Safe Zone Immune'),
-	(44008, 45265, 1, 'Static Disruption Visual'),
 	(44608, 44626, 0, 'Rocket Jump'),
 	(44867, -46019, 2, 'Spectral Exhaustion - Teleport: Spectral Realm'),
 	(44877, 44944, 0, 'Flare Aura'),
 	(45524, 55095, 0, 'Chains of Ice - Frost Fever'),
-	(45964, 46333, 0, ''),
 	(46020, 44867, 1, 'Spectral Exhaustion'),
 	(47897, 47960, 1, 'Shadowflame Rank 1'),
 	(47987, 54501, 2, 'Consume Shadows - Rank 8'),
@@ -261,14 +252,8 @@ INSERT INTO `spell_linked_spell` (`spell_trigger`, `spell_effect`, `type`, `comm
 	(61734, 61719, 2, 'Noblegarden Bunny: Lay Egg periodic'),
 	(61846, 61848, 2, 'Aspect of the dragonhawk'),
 	(61847, 61848, 2, 'Aspect of the dragonhawk'),
-	(61969, 7940, 2, 'Hodir - Flash Freeze immunity'),
-	(61990, -65370, 2, 'Hodir - Ice Shards Immunity'),
-	(61990, -62457, 2, 'Hodir - Ice Shards Immunity'),
-	(61990, 7940, 2, 'Hodir - Flash Freeze immunity'),
 	(62061, 25860, 0, 'Festive Holiday Mount'),
 	(62427, 62340, 2, 'Load into Catapult - Passenger Loaded'),
-	(62821, -62469, 2, 'Toasty fire - Freeze imunity'),
-	(62821, -62039, 2, 'Toasty fire - Biting cold imunity'),
 	(63277, 65269, 2, 'General Vezax - Shadow Crash - Haste and reduced mana cost'),
 	(64382, 64380, 0, 'Shattering Throw'),
 	(64567, 64563, 1, 'Summon Flames Initial - Cast SPELL_SUMMON_FLAMES_INITIAL on hit targets'),

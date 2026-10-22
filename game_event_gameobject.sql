@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.44-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.46-0ubuntu0.22.04.4 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `game_event_gameobject` (
   PRIMARY KEY (`guid`,`eventEntry`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.game_event_gameobject: ~32 640 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.game_event_gameobject: ~32 641 rows (приблизительно)
 INSERT INTO `game_event_gameobject` (`eventEntry`, `guid`) VALUES
 	(1, 1),
 	(1, 3),
@@ -19538,26 +19538,6 @@ INSERT INTO `game_event_gameobject` (`eventEntry`, `guid`) VALUES
 	(51, 78732),
 	(51, 78733),
 	(51, 78734),
-	(1, 78735),
-	(1, 78736),
-	(1, 78737),
-	(1, 78738),
-	(1, 78739),
-	(1, 78740),
-	(1, 78741),
-	(1, 78742),
-	(1, 78743),
-	(1, 78744),
-	(1, 78745),
-	(1, 78746),
-	(1, 78747),
-	(1, 78748),
-	(1, 78749),
-	(1, 78750),
-	(1, 78751),
-	(1, 78752),
-	(1, 78753),
-	(1, 78754),
 	(51, 78758),
 	(51, 78759),
 	(51, 78760),
@@ -20023,8 +20003,7 @@ INSERT INTO `game_event_gameobject` (`eventEntry`, `guid`) VALUES
 	(2, 79220),
 	(2, 79221),
 	(2, 79222),
-	(2, 79223);
-INSERT INTO `game_event_gameobject` (`eventEntry`, `guid`) VALUES
+	(2, 79223),
 	(2, 79224),
 	(2, 79225),
 	(2, 79226),
@@ -20044,7 +20023,8 @@ INSERT INTO `game_event_gameobject` (`eventEntry`, `guid`) VALUES
 	(2, 79240),
 	(2, 79241),
 	(2, 79242),
-	(2, 79243),
+	(2, 79243);
+INSERT INTO `game_event_gameobject` (`eventEntry`, `guid`) VALUES
 	(2, 79244),
 	(2, 79245),
 	(2, 79246),
@@ -30024,8 +30004,7 @@ INSERT INTO `game_event_gameobject` (`eventEntry`, `guid`) VALUES
 	(6, 91971),
 	(72, 91971),
 	(6, 91972),
-	(72, 91972);
-INSERT INTO `game_event_gameobject` (`eventEntry`, `guid`) VALUES
+	(72, 91972),
 	(6, 91973),
 	(72, 91973),
 	(6, 91974),
@@ -30045,7 +30024,8 @@ INSERT INTO `game_event_gameobject` (`eventEntry`, `guid`) VALUES
 	(6, 91981),
 	(72, 91981),
 	(6, 91982),
-	(72, 91982),
+	(72, 91982);
+INSERT INTO `game_event_gameobject` (`eventEntry`, `guid`) VALUES
 	(6, 91983),
 	(72, 91983),
 	(6, 91984),
@@ -31688,6 +31668,27 @@ INSERT INTO `game_event_gameobject` (`eventEntry`, `guid`) VALUES
 	(2, 94135),
 	(2, 94136),
 	(2, 94137),
+	(1, 94151),
+	(1, 94152),
+	(1, 94153),
+	(1, 94154),
+	(1, 94155),
+	(1, 94156),
+	(1, 94157),
+	(1, 94158),
+	(1, 94159),
+	(1, 94160),
+	(1, 94161),
+	(1, 94162),
+	(1, 94163),
+	(1, 94164),
+	(1, 94165),
+	(1, 94166),
+	(1, 94167),
+	(1, 94168),
+	(1, 94169),
+	(1, 94170),
+	(1, 94171),
 	(24, 100000),
 	(24, 100001),
 	(24, 100002),

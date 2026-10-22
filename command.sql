@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.44-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.46-0ubuntu0.22.04.4 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -530,7 +530,6 @@ INSERT INTO `command` (`name`, `help`) VALUES
 	('reload spell_pet_auras', 'Syntax: .reload spell_pet_auras\nReload spell_pet_auras table.'),
 	('reload spell_proc', 'Syntax: .reload spell_proc\nReload spell_proc table.'),
 	('reload spell_required', 'Syntax: .reload spell_required\nReload spell_required table.'),
-	('reload spell_scripts', 'Syntax: .reload spell_scripts\nReload spell_scripts table.'),
 	('reload spell_target_position', 'Syntax: .reload spell_target_position\nReload spell_target_position table.'),
 	('reload spell_threats', 'Syntax: .reload spell_threats\nReload spell_threats table.'),
 	('reload trainer', 'Syntax: .reload trainer\nReloads trainer,trainer_locale,trainer_spell and creature_default_trainer tables.'),

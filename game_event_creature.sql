@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.44-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.46-0ubuntu0.22.04.4 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `game_event_creature` (
   PRIMARY KEY (`guid`,`eventEntry`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.game_event_creature: ~10 066 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.game_event_creature: ~10 071 rows (приблизительно)
 INSERT INTO `game_event_creature` (`eventEntry`, `guid`) VALUES
 	(22, 38),
 	(-72, 76),
@@ -8047,6 +8047,11 @@ INSERT INTO `game_event_creature` (`eventEntry`, `guid`) VALUES
 	(8, 146622),
 	(8, 146623),
 	(8, 146624),
+	(1, 147511),
+	(1, 147512),
+	(1, 147513),
+	(1, 147514),
+	(1, 147515),
 	(50, 150156),
 	(50, 150157),
 	(50, 150158),
@@ -10017,13 +10022,13 @@ INSERT INTO `game_event_creature` (`eventEntry`, `guid`) VALUES
 	(61, 213929),
 	(61, 213930),
 	(61, 213931),
-	(61, 213932),
+	(61, 213932);
+INSERT INTO `game_event_creature` (`eventEntry`, `guid`) VALUES
 	(61, 213933),
 	(61, 213934),
 	(61, 213935),
 	(61, 213936),
-	(61, 213937);
-INSERT INTO `game_event_creature` (`eventEntry`, `guid`) VALUES
+	(61, 213937),
 	(61, 213938),
 	(61, 213939),
 	(61, 213940),

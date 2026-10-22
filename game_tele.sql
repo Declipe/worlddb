@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.44-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.46-0ubuntu0.22.04.4 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS `game_tele` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Tele Command';
 
--- Дамп данных таблицы world3.3.5_beta.game_tele: ~1 493 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.game_tele: ~1 494 rows (приблизительно)
 INSERT INTO `game_tele` (`id`, `position_x`, `position_y`, `position_z`, `orientation`, `map`, `name`) VALUES
 	(1, 1054.94, 1055.23, -48.2358, 0.313367, 529, 'AB'),
 	(2, -2068.19, 7463.77, -18.9908, 5.21755, 530, 'AbandonedArmory'),
@@ -1524,7 +1524,8 @@ INSERT INTO `game_tele` (`id`, `position_x`, `position_y`, `position_z`, `orient
 	(1517, -8066.69, 1629.35, 24.3454, 4.68668, 1, 'spam'),
 	(1518, 4799.97, -1598.95, 1305.04, 3.71329, 1, 'spd'),
 	(1519, 2854.99, -4003.44, 101.876, 0.522244, 329, 'буба'),
-	(1520, -12033.1, -2574.18, -28.5609, 0.541911, 309, 'буба2');
+	(1520, -12033.1, -2574.18, -28.5609, 0.541911, 309, 'буба2'),
+	(1521, 1036.87, 295.787, 335.106, 3.58144, 37, '1');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

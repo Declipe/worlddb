@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.44-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.46-0ubuntu0.22.04.4 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS `gossip_menu_option` (
   PRIMARY KEY (`MenuID`,`OptionID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.gossip_menu_option: ~4 506 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.gossip_menu_option: ~4 510 rows (приблизительно)
 INSERT INTO `gossip_menu_option` (`MenuID`, `OptionID`, `OptionIcon`, `OptionText`, `OptionBroadcastTextID`, `OptionType`, `OptionNpcFlag`, `ActionMenuID`, `ActionPoiID`, `BoxCoded`, `BoxMoney`, `BoxText`, `BoxBroadcastTextID`, `VerifiedBuild`) VALUES
 	(0, 0, 0, 'GOSSIP_OPTION_QUESTGIVER', 0, 2, 2, 0, 0, 0, 0, '', 0, 0),
 	(0, 1, 1, 'I want to browse your goods', 3370, 3, 128, 0, 0, 0, 0, '', 0, 0),
@@ -367,6 +367,7 @@ INSERT INTO `gossip_menu_option` (`MenuID`, `OptionID`, `OptionIcon`, `OptionTex
 	(1522, 1, 0, 'I wish to unlearn my talents.', 8271, 16, 16, 4461, 0, 0, 0, '', 0, 0),
 	(1522, 2, 0, 'Learn about Dual Talent Specialization.', 33762, 20, 1, 10371, 0, 0, 0, '', 0, 0),
 	(1541, 0, 0, 'I wish to face the Defiler.', 4592, 1, 1, 0, 0, 0, 0, '', 0, 0),
+	(1541, 1, 0, 'We wish to face the Defiler.', 11869, 1, 1, 0, 0, 0, 0, '', 0, 0),
 	(1561, 0, 0, 'I am ready, Historian Archesonus.', 4603, 1, 1, 1565, 0, 0, 0, NULL, 0, 0),
 	(1562, 0, 0, 'Unbelievable! How dare they??', 4609, 1, 1, 1563, 0, 0, 0, NULL, 0, 0),
 	(1563, 0, 0, 'Of course I will help!', 4611, 1, 1, 0, 0, 0, 0, NULL, 0, 0),
@@ -974,7 +975,7 @@ INSERT INTO `gossip_menu_option` (`MenuID`, `OptionID`, `OptionIcon`, `OptionTex
 	(4092, 0, 3, 'I would like training.', 2603, 5, 16, 0, 0, 0, 0, '', 0, 0),
 	(4092, 1, 0, 'I wish to unlearn my talents.', 8271, 16, 16, 4461, 0, 0, 0, '', 0, 0),
 	(4092, 2, 0, 'I wish to know about Dual Talent Specialization.', 33762, 20, 1, 10371, 0, 0, 0, '', 0, 0),
-	(4093, 0, 0, 'Tell me more.', 7675, 1, 1, 4109, 0, 0, 0, '', 0, 0),
+	(4093, 0, 0, 'Tell me more.', 7646, 1, 1, 4109, 0, 0, 0, '', 0, 0),
 	(4101, 0, 3, 'I seek training in the ways of the Hunter.', 7643, 5, 16, 0, 0, 0, 0, '', 0, 0),
 	(4101, 1, 0, 'I wish to unlearn my talents.', 8271, 16, 16, 4461, 0, 0, 0, '', 0, 0),
 	(4101, 2, 0, 'I wish to know about Dual Talent Specialization.', 33762, 20, 1, 10371, 0, 0, 0, '', 0, 0),
@@ -986,7 +987,7 @@ INSERT INTO `gossip_menu_option` (`MenuID`, `OptionID`, `OptionIcon`, `OptionTex
 	(4104, 2, 0, 'I wish to know about Dual Talent Specialization.', 33762, 20, 1, 10371, 0, 0, 0, '', 0, 0),
 	(4106, 0, 2, 'I need a ride.', 3409, 4, 8192, 0, 0, 0, 0, '', 0, 0),
 	(4107, 0, 1, 'I would like to buy from you.', 14967, 3, 128, 0, 0, 0, 0, '', 0, 0),
-	(4108, 0, 0, 'You challenged us and we have come. Where is this master you speak of?\n', 7646, 1, 1, 0, 0, 0, 0, '', 0, 0),
+	(4108, 0, 0, 'You challenged us and we have come. Where is this master you speak of?\n', 7675, 1, 1, 0, 0, 0, 0, '', 0, 0),
 	(4109, 0, 0, 'What else do you have to say?', 7673, 1, 1, 4108, 0, 0, 0, '', 0, 0),
 	(4115, 0, 3, 'Train me.', 3266, 5, 16, 0, 0, 0, 0, '', 0, 0),
 	(4122, 0, 3, 'Train me.', 3266, 5, 16, 0, 0, 0, 0, '', 0, 0),
@@ -2085,6 +2086,9 @@ INSERT INTO `gossip_menu_option` (`MenuID`, `OptionID`, `OptionIcon`, `OptionTex
 	(7413, 0, 0, 'Control Human Footman', 14008, 1, 1, 0, 0, 0, 0, NULL, 0, 0),
 	(7415, 0, 0, 'I am ready to be flown down to the Exodar.', 14010, 1, 1, 0, 0, 0, 0, '', 0, 0),
 	(7421, 0, 0, 'I\'m not an actor.', 14052, 0, 0, 0, 0, 0, 0, NULL, 0, 0),
+	(7421, 1, 0, 'The wolf\'s going down.', 14074, 1, 1, 0, 0, 0, 0, '', 0, 0),
+	(7421, 2, 0, 'I\'ll nail it!', 14120, 1, 1, 0, 0, 0, 0, '', 0, 24742),
+	(7421, 3, 0, 'I\'ve never been more ready.', 14121, 1, 1, 0, 0, 0, 0, '', 0, 0),
 	(7422, 0, 0, 'Ok, I\'ll give it a try, then.', 14054, 0, 0, 0, 0, 0, 0, NULL, 0, 0),
 	(7426, 0, 0, 'It\'s over, Spark. The admiral knows it was you who betrayed the Alliance. Now you\'re either going to cooperate with me and tell me everything that you know or we\'re going to engage in some fisticuff.', 14093, 1, 1, 0, 0, 0, 0, '', 0, 0),
 	(7428, 0, 1, 'I wish to browse your wares, Ergh.', 14155, 3, 128, 0, 0, 0, 0, '', 0, 0),
@@ -3068,10 +3072,10 @@ INSERT INTO `gossip_menu_option` (`MenuID`, `OptionID`, `OptionIcon`, `OptionTex
 	(9212, 0, 0, 'I am ready to leave, Durkot.', 25265, 1, 1, 0, 0, 0, 0, NULL, 25265, 0),
 	(9212, 1, 0, 'I\'d like to stable my pet here.', 30181, 14, 4194304, 0, 0, 0, 0, '', 0, 0),
 	(9213, 0, 0, 'Lay your hand on the Ice Stone.', 25218, 1, 1, 0, 0, 0, 0, '', 0, 0),
-	(9217, 0, 0, 'What do you know about the Cult of the Damned?', 25237, 0, 0, 0, 0, 0, 0, NULL, 0, 26365),
-	(9218, 0, 0, 'I have reason to believe you\'re involved in cultist activity.', 25239, 0, 0, 0, 0, 0, 0, NULL, 0, 26365),
+	(9217, 0, 0, 'What do you know about the Cult of the Damned?', 25237, 1, 1, 0, 0, 0, 0, NULL, 0, 26365),
+	(9218, 0, 0, 'I have reason to believe you\'re involved in cultist activity.', 25239, 1, 1, 0, 0, 0, 0, NULL, 0, 26365),
 	(9218, 1, 1, 'Let me browse your goods.', 8097, 3, 128, 0, 0, 0, 0, '', 0, 0),
-	(9219, 0, 0, 'How long have you worked for the Cult of the Damned?', 25242, 0, 0, 0, 0, 0, 0, NULL, 0, 26365),
+	(9219, 0, 0, 'How long have you worked for the Cult of the Damned?', 25242, 1, 1, 0, 0, 0, 0, NULL, 0, 26365),
 	(9245, 1, 5, 'Make this inn your home.', 2822, 8, 65536, 0, 0, 0, 0, '', 0, 0),
 	(9245, 2, 1, 'Let me browse your goods.', 8097, 3, 128, 0, 0, 0, 0, '', 0, 0),
 	(9253, 0, 0, 'What is the cause of this conflict?', 25371, 1, 1, 9283, 0, 0, 0, '', 0, 0),

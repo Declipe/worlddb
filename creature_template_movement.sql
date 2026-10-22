@@ -1,6 +1,6 @@
 -- --------------------------------------------------------
 -- Хост:                         62.109.15.172
--- Версия сервера:               8.0.44-0ubuntu0.22.04.1 - (Ubuntu)
+-- Версия сервера:               8.0.46-0ubuntu0.22.04.4 - (Ubuntu)
 -- Операционная система:         Linux
 -- HeidiSQL Версия:              12.10.0.7000
 -- --------------------------------------------------------
@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS `creature_template_movement` (
   PRIMARY KEY (`CreatureId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- Дамп данных таблицы world3.3.5_beta.creature_template_movement: ~4 370 rows (приблизительно)
+-- Дамп данных таблицы world3.3.5_beta.creature_template_movement: ~4 372 rows (приблизительно)
 INSERT INTO `creature_template_movement` (`CreatureId`, `Ground`, `Swim`, `Flight`, `Rooted`, `Chase`, `Random`, `InteractionPauseTimer`) VALUES
 	(1, 0, 0, 1, 0, 0, 0, NULL),
 	(30, 1, 0, 0, 0, 0, 0, NULL),
@@ -1664,6 +1664,7 @@ INSERT INTO `creature_template_movement` (`CreatureId`, `Ground`, `Swim`, `Fligh
 	(11495, 1, 0, 0, 0, 0, 0, NULL),
 	(11499, 1, 1, 0, 0, 0, 0, NULL),
 	(11500, 1, 1, 0, 0, 0, 0, NULL),
+	(11502, 1, 1, 0, 1, 0, 0, NULL),
 	(11516, 1, 1, 0, 0, 0, 0, NULL),
 	(11546, 1, 1, 0, 0, 0, 0, NULL),
 	(11556, 1, 1, 0, 0, 0, 0, NULL),
@@ -2375,6 +2376,7 @@ INSERT INTO `creature_template_movement` (`CreatureId`, `Ground`, `Swim`, `Fligh
 	(20926, 0, 0, 1, 0, 0, 0, NULL),
 	(20933, 0, 0, 1, 0, 0, 0, NULL),
 	(20998, 1, 1, 0, 0, 0, 0, NULL),
+	(21002, 1, 0, 1, 0, 0, 0, NULL),
 	(21004, 1, 1, 0, 0, 0, 0, NULL),
 	(21022, 1, 1, 0, 0, 0, 0, NULL),
 	(21025, 0, 0, 1, 0, 0, 0, NULL),
@@ -2501,6 +2503,7 @@ INSERT INTO `creature_template_movement` (`CreatureId`, `Ground`, `Swim`, `Fligh
 	(22003, 0, 0, 1, 0, 0, 0, NULL),
 	(22005, 1, 0, 0, 0, 0, 0, NULL),
 	(22006, 1, 1, 1, 0, 0, 0, NULL),
+	(22009, 1, 1, 0, 1, 0, 0, NULL),
 	(22023, 0, 0, 1, 0, 0, 0, NULL),
 	(22027, 1, 0, 0, 0, 0, 0, NULL),
 	(22039, 0, 1, 1, 0, 0, 0, NULL),
@@ -2644,6 +2647,7 @@ INSERT INTO `creature_template_movement` (`CreatureId`, `Ground`, `Swim`, `Fligh
 	(23116, 1, 1, 1, 0, 0, 0, NULL),
 	(23123, 0, 0, 1, 0, 0, 0, NULL),
 	(23126, 1, 1, 0, 0, 0, 0, NULL),
+	(23132, 1, 0, 1, 0, 0, 0, NULL),
 	(23188, 0, 1, 1, 0, 0, 0, NULL),
 	(23210, 0, 0, 1, 0, 0, 0, NULL),
 	(23225, 0, 0, 1, 0, 0, 0, NULL),
@@ -2843,6 +2847,7 @@ INSERT INTO `creature_template_movement` (`CreatureId`, `Ground`, `Swim`, `Fligh
 	(24854, 1, 0, 0, 0, 0, 0, NULL),
 	(24855, 1, 0, 0, 0, 0, 0, NULL),
 	(24857, 1, 1, 0, 0, 0, 0, NULL),
+	(24858, 1, 1, 1, 0, 0, 0, NULL),
 	(24866, 1, 1, 0, 0, 0, 0, NULL),
 	(24867, 1, 0, 0, 0, 0, 0, NULL),
 	(24875, 0, 0, 1, 0, 0, 0, NULL),
@@ -3169,12 +3174,12 @@ INSERT INTO `creature_template_movement` (`CreatureId`, `Ground`, `Swim`, `Fligh
 	(25732, 0, 0, 1, 0, 0, 0, NULL),
 	(25733, 0, 0, 1, 0, 0, 0, NULL),
 	(25735, 1, 0, 0, 0, 0, 0, NULL),
-	(25740, 1, 0, 0, 0, 0, 0, NULL),
+	(25740, 1, 0, 0, 1, 0, 0, NULL),
 	(25741, 1, 0, 0, 1, 0, 0, NULL),
 	(25744, 1, 0, 0, 0, 0, 0, NULL),
 	(25745, 1, 0, 0, 0, 0, 0, NULL),
 	(25746, 1, 0, 0, 0, 0, 0, NULL),
-	(25754, 1, 0, 0, 0, 0, 0, NULL),
+	(25754, 1, 0, 0, 0, 0, 0, 0),
 	(25755, 1, 0, 0, 0, 0, 0, NULL),
 	(25756, 1, 0, 0, 0, 0, 0, NULL),
 	(25757, 1, 0, 0, 0, 0, 0, NULL),
@@ -3314,6 +3319,7 @@ INSERT INTO `creature_template_movement` (`CreatureId`, `Ground`, `Swim`, `Fligh
 	(25977, 1, 0, 0, 0, 0, 0, NULL),
 	(25980, 1, 1, 0, 0, 0, 0, NULL),
 	(25985, 1, 0, 0, 0, 0, 0, NULL),
+	(25987, 1, 1, 1, 1, 0, 0, NULL),
 	(25991, 1, 1, 0, 0, 0, 0, NULL),
 	(25992, 1, 1, 0, 0, 0, 0, NULL),
 	(25994, 1, 0, 0, 0, 0, 0, NULL),
@@ -3379,6 +3385,7 @@ INSERT INTO `creature_template_movement` (`CreatureId`, `Ground`, `Swim`, `Fligh
 	(26223, 1, 1, 0, 0, 0, 0, NULL),
 	(26227, 0, 0, 1, 0, 0, 0, NULL),
 	(26230, 1, 0, 0, 0, 0, 0, NULL),
+	(26231, 1, 1, 1, 0, NULL, NULL, NULL),
 	(26237, 1, 0, 1, 0, 0, 0, NULL),
 	(26238, 1, 0, 0, 0, 0, 0, NULL),
 	(26239, 1, 0, 0, 0, 0, 0, NULL),
@@ -4441,6 +4448,8 @@ INSERT INTO `creature_template_movement` (`CreatureId`, `Ground`, `Swim`, `Fligh
 	(60761, 1, 0, 0, 0, 0, 0, NULL),
 	(60762, 1, 0, 0, 0, 0, 0, NULL),
 	(90097, 1, 1, 0, 1, 0, 0, NULL),
+	(90144, 2, 1, 1, 0, 0, 0, NULL),
+	(90148, 0, 1, 1, 0, 0, 0, NULL),
 	(246640, 1, 0, 0, 0, 0, 0, NULL);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
